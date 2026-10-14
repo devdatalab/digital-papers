@@ -78,7 +78,6 @@ also covers accepted manuscripts or publisher PDFs. Do not add a paper-wide open
 in anticipation of a later copyright transfer: prior valid grants generally cannot be
 withdrawn by deleting their notice. Flag existing open licenses for the author's review.
 
-
 Submission pages may use real journal names as labels. Fill the placeholder letters,
 reports or responses only after explicit permission to publish the specific material.
 Check content JSON, images, downloads and source snapshots as well as original documents.
