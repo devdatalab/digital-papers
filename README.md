@@ -33,8 +33,7 @@ That's all you need. Everything else below is written by agents and for agents. 
 
 ## What's in this repo
 
-This starter includes a small fictional paper, a curated Nobel teaching example,
-and a new-paper template. Clone it, make it your own, and keep the examples nearby as long as they are useful.
+This starter includes a curated Nobel teaching example. Clone it, make it your own, and keep the example nearby as long as it is useful.
 
 ### Requirements
 
@@ -42,24 +41,18 @@ We used Node.js 22.12 and Python 3.11.
 
 ```sh
 npm ci
-npm run dev                 # small fictional example
-npm run dev:nobel           # Nobel feature showcase
-npm run dev:paper           # your starting template
+npm run dev                 # Nobel feature showcase
 ```
 
 Stop the current dev server before switching papers. Each command selects the
 paper at startup. The terminal prints the local address. Ask your agent to change
-files in the active paper folder; both examples remain available for reference.
+files in the active paper folder; the Nobel example remains available for reference.
 
 ```sh
-npm run build               # minimal → build/
-npm run build:nobel         # Nobel → build/
-npm run build:paper         # your paper → build/
+npm run build               # Nobel → build/
 npm run preview             # preview the last build; select the same paper if needed
 npm run check
-npm run check:nobel
-npm run reproduce           # fictional exhibits: standard-library Python
-npm run reproduce:nobel     # Nobel: install its reproduction requirements first
+npm run reproduce           # Nobel: install its reproduction requirements first
 npm run verify              # source fidelity, registrations, public-file audit
 ```
 
@@ -72,10 +65,10 @@ when switching papers; generated assets and archives are ignored by Git.
 Open this repo in Codex or another local coding agent and use:
 
 > Read AGENTS.md and docs/adapt-a-paper.md. My manuscript, bibliography and figure
-> code are at [project path]. Build my digital paper in papers/my-paper. Preserve
+> code are at [project path]. Copy `examples/nobel` into `papers/<paper-name>` and adapt it for my paper. Preserve
 > text, equations, citations, captions, notes and results exactly unless I request
 > an edit. Reuse the analysis code or rebuild it in Python. Every displayed scientific
-> exhibit must be reproducible. Refer to the examples for presentation ideas, and
+> exhibit must be reproducible. Refer to the Nobel example for presentation ideas, and
 > report source conflicts or anything you cannot reproduce faithfully.
 
 See [the adaptation guide](docs/adapt-a-paper.md) and
@@ -85,9 +78,8 @@ add interactive treatments as the author requests them.
 ## Structure
 
 - `src/routes/` and `src/lib/reading/`: one shared static Svelte application.
-- `examples/minimal/`: short fictional paper and synthetic data.
 - `examples/nobel/`: selected original content, full chart inputs, and explorer examples.
-- `papers/my-paper/`: editable starting template.
+- `papers/`: your adapted papers, copied from the Nobel example.
 - Each paper: `paper.config.ts`, `content/`, `exhibits/`, `assets/`, `reproduction/`.
 - `scripts/`: local paper selection, asset preparation and verification.
 
@@ -109,11 +101,10 @@ The official site demonstrates additional ideas; this starter never fetches its 
 ## Publish and reuse
 
 Run locally first. [Hosting instructions](docs/hosting.md) cover GitHub Pages and
-Netlify, plus an optional manual deployment of the minimal example. No deployment
+Netlify, plus an optional manual deployment of the Nobel example. No deployment
 runs automatically on push.
 
-Framework software is MIT; the supplied starter design, instructions and fictional
-examples are CC0. **Real paper text, figures, tables, captions, notes and paper-specific
+Framework software is MIT; the supplied starter design and instructions are CC0. **Real paper text, figures, tables, captions, notes and paper-specific
 explanations are excluded from both grants**, including papers you add to this repo.
 Research data, imported analysis code and third-party material retain separate terms.
 Before posting a paper, check the journal agreement and sharing policy for that version;

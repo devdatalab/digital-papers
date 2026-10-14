@@ -1,5 +1,5 @@
-# Optional manual deployment of the minimal example; depends on Node, Python and GitHub Pages.
-name: Publish minimal example manually
+# Optional manual deployment of the Nobel example; depends on Node, Python and GitHub Pages.
+name: Publish Nobel example manually
 on:
   workflow_dispatch:
 permissions:
@@ -22,10 +22,11 @@ jobs:
         with:
           python-version: '3.11'
       - run: npm ci
+      - run: python -m pip install -r examples/nobel/reproduction/requirements.txt
       - run: npm run check
       - run: npm run reproduce
       - run: npm run verify
-      - name: Build minimal example for project Pages
+      - name: Build Nobel example for project Pages
         env:
           BASE_PATH: /${{ github.event.repository.name }}
         run: npm run build

@@ -16,8 +16,7 @@ retains its own terms; adapting a paper does not automatically license that code
 ## Starter design and instructional examples
 
 Development Data Lab dedicates its original starter site design, repository setup and
-adaptation instructions, and the supplied fictional minimal paper, starting-template
-prose and fictional observations to the public domain under
+adaptation instructions to the public domain under
 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 This also covers original introductions explicitly labeled as instructional material
 in the supplied examples. It does not cover real research content or new paper-specific
@@ -26,7 +25,7 @@ writing added when adapting the starter, including editorial asides and explanat
 You may reuse and modify this starter material without attribution. The default visible
 design credit is optional. This dedication covers only rights Development Data Lab can
 grant; dependency code, fonts, logos and other third-party material retain their own terms.
-Replacing fictional content with a real manuscript does not apply CC0 to that manuscript.
+Adapting the starter for a real manuscript does not apply CC0 to that manuscript.
 
 ## Research content: no license granted by this starter
 
@@ -56,7 +55,9 @@ New research inputs and outputs require their own explicit rights review and not
 
 `@devdatalab/ddl-charts` and other dependencies retain their supplied licenses. The Nobel
 portrait catalogue links external Wikimedia images and includes their individual credits
-and licensing metadata; those images are not redistributed in this repository. Logos and
+and licensing metadata; six A4 walkthrough portraits are also bundled under `examples/nobel/assets/portraits/`,
+with individual source URLs, credits and license terms in `credits.json`. The other
+catalogue images are linked externally. Logos and
 trademarks are not granted by the CC0 design dedication.
 
 ## Adapting and publishing a paper

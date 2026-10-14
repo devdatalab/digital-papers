@@ -29,7 +29,7 @@
 	<header class="explorer-head">
 		<p class="kicker ui">Explore further</p>
 		<h1>Extended Results</h1>
-		<p class="lede ui">Instructional example: use coordinated controls to expose results across measures and subgroups without filling the main paper with every permutation. Changing a selection updates the related charts together.</p>
+		<p class="lede ui">We used this section to give the readers total flexibility over a set of parameter and subset choices for the main exhibits in the paper. This lets you show way more than you would put into an appendix and eliminates any concern about data mining.</p>
 	</header>
 
 	<ExtendedResultsExplorer />

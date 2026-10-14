@@ -35,7 +35,7 @@
 		<h1>Raw Data Explorer</h1>
 	</header>
 
-	<p class="intro ui">{explorerContent.introduction}</p>
+	<p class="intro ui">{explorerContent.introduction} <a href={explorerContent.fullDatasetUrl}>nobel-prizes.devdatalab.org</a>.</p>
 
 	<NobelistsDataTable rows={nobelRows.slice(0, 5)} metrics={nobelMetrics} />
 

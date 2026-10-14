@@ -66,7 +66,7 @@ for folder in ('src', 'examples', 'papers', 'scripts', 'docs', '.github'):
             errors.append(f'Potential private reference in {path.relative_to(ROOT)}')
 
 # Every figure label and annotation module must have an active registration.
-for paper in (ROOT / 'examples/minimal', nobel, ROOT / 'papers/my-paper'):
+for paper in (nobel,):
     registration = (paper / 'exhibits/index.ts').read_text()
     if paper == nobel:
         registration += (paper / 'exhibits/appendixRegistry.ts').read_text()

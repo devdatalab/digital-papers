@@ -2,7 +2,7 @@
 import { spawnSync } from 'node:child_process';
 const [command = 'dev', ...args] = process.argv.slice(2);
 const flag = args.indexOf('--paper');
-const paper = flag < 0 ? (process.env.PAPER || 'examples/minimal') : args.splice(flag, 2)[1];
+const paper = flag < 0 ? (process.env.PAPER || 'examples/nobel') : args.splice(flag, 2)[1];
 if (!['dev', 'build', 'preview', 'check'].includes(command)) throw new Error('Expected dev, build, preview or check');
 const bin = command === 'check' ? 'svelte-check' : 'vite';
 const options = command === 'check' ? ['--tsconfig', './tsconfig.json', ...args] : [command, ...args];

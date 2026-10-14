@@ -134,7 +134,7 @@
 <header class="ui site-header">
 	<a class="brand" href="{base}/" aria-label="{meta.title} — home">
 		{#if config.logo}<img src="{base}/{config.logo}" alt="Publication logo" height="28" />{/if}
-		<span class="brand-title">{meta.title}</span>
+		<span class="brand-title">{config.headerTitle ?? meta.title}</span>
 	</a>
 	<div class="header-links">
 		<!-- Site search stays on the section and explorer pages. -->

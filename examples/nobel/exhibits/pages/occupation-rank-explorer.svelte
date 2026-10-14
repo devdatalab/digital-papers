@@ -38,7 +38,7 @@
 	<header class="explorer-head">
 		<p class="kicker ui">Explore further</p>
 		<h1>Occupation Explorer</h1>
-		<p class="lede ui">Instructional example: show intermediate data-building steps here. Let readers trace how raw occupations become classifications and percentile ranks, then inspect the resulting crosswalks and comparison tables.</p>
+		<p class="lede ui">These were intermediate exhibits that we created to better understand our occupational data. It's great to share these with readers so that they can understand how your measures were created as well.</p>
 	</header>
 
 	<section class="chart-section" aria-label="Rank over time">

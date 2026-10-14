@@ -16,8 +16,8 @@ for the author; never silently resolve them or invent missing scientific content
 
 ## Where to work
 
-Build the author's paper in `papers/my-paper/` or another folder under `papers/`.
-Keep examples available for reference throughout development. The official Nobel
+Copy `examples/nobel/` into `papers/<paper-name>/` and adapt it for the author's paper.
+Keep the Nobel example available for reference throughout development. The official Nobel
 publication is independent; links to it are examples, not dependencies.
 Read only the research inputs designated by the user, and edit external research
 repositories only with explicit authorization. Keep local paths and credentials
@@ -41,5 +41,5 @@ Every new code file starts with a comment explaining purpose and dependencies.
 
 After edits run the applicable Svelte check, static build and reproduction check.
 Ask before adding unit tests. Run browser automation only when explicitly requested;
-the author runs the dev server for visual review. Keep existing examples functional.
+the author runs the dev server for visual review. Keep the Nobel example functional.
 Commit, push, publish, or modify remote repositories only when authorized by the user.

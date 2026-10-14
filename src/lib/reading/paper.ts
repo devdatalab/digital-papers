@@ -3,6 +3,8 @@ export interface PaperConfig {
   siteUrl: string;
   credit: string;
   logo?: string;
+  headerTitle?: string;
+  replicationIntro?: string;
   exampleNotice?: string;
   extras: { id: string; number: string; title: string }[];
   tour: boolean;

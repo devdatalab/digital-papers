@@ -13,9 +13,12 @@ inputs are listed explicitly. A PDF can be a reference, but never invent omitted
 
 ## 2. Create the paper
 
-Use `papers/my-paper/` or copy `examples/minimal/` into another `papers/` folder.
-Set metadata and navigation, then replace the fictional content. Keep both examples
-as references. There is no importer; the agent performs the conversion and verifies it.
+Copy `examples/nobel/` into `papers/<paper-name>/`. Replace its content and exhibits
+with the author's sources and remove features the new paper does not need. Keep the
+Nobel example as a reference. There is no importer; the agent performs the conversion
+and verifies it. Before calling the adaptation complete, remove all inherited Nobel
+content, data, downloads and branding from the new paper. Change copied `$nobel`
+imports to `$paper` so the new paper uses its own files.
 
 Preserve original prose, equations, citation identity, captions and notes exactly.
 The inline model includes text, emphasis, citations, internal routes, cross-references,
@@ -63,8 +66,8 @@ of this repo and of the original private research checkout.
 
 Read the root COPYRIGHT.md. Its MIT and CC0 grants cover reusable starter material;
 they do not cover the real manuscript, figures, tables, captions, notes or new
-paper-specific explanations. Preserve that exclusion when replacing fictional content.
-Do not carry a fictional example's CC0 notice over to real research inputs or writing.
+paper-specific explanations. Preserve that exclusion when adapting the Nobel example.
+Do not apply the starter's CC0 notice to real research inputs or writing.
 
 Record the manuscript version and rights holder in the paper's COPYRIGHT.md, and carry
 relevant rights notices into `reproduction/` so downloaded bundles remain clear on scope.

@@ -7,7 +7,7 @@ import fs from 'node:fs';
 import { preparePaper } from './scripts/prepare-paper.mjs';
 
 const root = process.cwd();
-const selected = preparePaper(root, process.env.PAPER || 'examples/minimal');
+const selected = preparePaper(root, process.env.PAPER || 'examples/nobel');
 const base = (process.env.BASE_PATH ?? '') as '' | `/${string}`;
 
 export default defineConfig({

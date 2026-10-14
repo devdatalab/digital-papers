@@ -1,3 +1,4 @@
 {
-  "introduction": "Instructional example: use this space to let readers inspect the observations behind your analysis, including source evidence and coding decisions. This teaching subset contains five rows; the figures use the complete analysis sample."
+  "introduction": "Share your raw data! Give some thought to what data structure here will make the data easiest to explore and make sense of it. Sharing data helps other researchers do great work and makes readers more confident that your work is correct because you don't need to hide anything. This is an example subset; you can explore our full dataset at",
+  "fullDatasetUrl": "https://nobel-prizes.devdatalab.org/"
 }

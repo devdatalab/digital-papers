@@ -132,7 +132,7 @@
 
 	// Client-side pagination. 1-indexed page; page size is reader-selectable.
 	const pageSizes = [2, 5, 25, 50];
-	let pageSize = $state(2);
+	let pageSize = $state(5);
 	let page = $state(1);
 
 	const total = $derived(sortedRows.length);

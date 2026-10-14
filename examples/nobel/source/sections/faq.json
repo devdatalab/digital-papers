@@ -97,6 +97,57 @@
               ]
             }
           ]
+        },
+        {
+          "id": "faq-q2",
+          "question": "You use the U.S. occupational wage distribution for the full analysis, but won’t this distribution be different in other countries?",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "nodes": [
+                {
+                  "t": "text",
+                  "text": "This is undoubtedly a source of error, but is less concerning when you consider that 576 out of 714 of the laureates in our sample come from USA or Western Europe, which we expect to have broadly similar occupational distributions. When laureates come from countries that were much poorer, we use the occupational distribution from older U.S. years that were more likely to be comparable to those countries. The transition of occupational structure with economic growth is a consistent and predictable pattern across countries."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "nodes": [
+                {
+                  "t": "text",
+                  "text": "Nevertheless, we acknowledge that this is a source of measurement error, as is the use of father’s occupation as a predictor of SES. We would of course prefer to use different occupational distributions for all countries if we had them. "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "nodes": [
+                {
+                  "t": "text",
+                  "text": "We also post several results just by occupation, which show a similar story. "
+                },
+                {
+                  "t": "route",
+                  "route": "paper/nobel_prizes.pdf#page=33",
+                  "text": "Table A2"
+                },
+                {
+                  "t": "text",
+                  "text": " shows that children of technical professionals are over-represented by a factor of 12, while laborers and farm workers are similarly under-represented. "
+                },
+                {
+                  "t": "route",
+                  "route": "paper/nobel_prizes.pdf#page=35",
+                  "text": "Table A4"
+                },
+                {
+                  "t": "text",
+                  "text": " shows how these over-representation ratios have changed over time."
+                }
+              ]
+            }
+          ]
         }
       ]
     }

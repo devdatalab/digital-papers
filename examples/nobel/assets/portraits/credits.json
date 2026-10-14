@@ -1,0 +1,54 @@
+{
+  "feynman": {
+    "wiki": "https://en.wikipedia.org/wiki/Richard_Feynman",
+    "img": "portraits/feynman.jpg",
+    "credit": "Copyright Tamiko Thiel 1984",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RichardFeynman-PaineMansionWoods1984_copyrightTamikoThiel_bw.jpg",
+    "originalImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RichardFeynman-PaineMansionWoods1984_copyrightTamikoThiel_bw.jpg/250px-RichardFeynman-PaineMansionWoods1984_copyrightTamikoThiel_bw.jpg"
+  },
+  "sharpless": {
+    "wiki": "https://en.wikipedia.org/wiki/Karl_Barry_Sharpless",
+    "img": "portraits/sharpless.jpg",
+    "credit": "Bengt Oberger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Barry_Sharpless_02.jpg",
+    "originalImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Barry_Sharpless_02.jpg/250px-Barry_Sharpless_02.jpg"
+  },
+  "banerjee": {
+    "wiki": "https://en.wikipedia.org/wiki/Abhijit_Banerjee",
+    "img": "portraits/banerjee.jpg",
+    "credit": "Financial Times",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Abhijit_Banerjee_FT_Goldman_Sachs_Business_Book_of_the_Year_Award_2011_(cropped).jpg",
+    "originalImage": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Abhijit_Banerjee_FT_Goldman_Sachs_Business_Book_of_the_Year_Award_2011_%28cropped%29.jpg"
+  },
+  "tsui": {
+    "wiki": "https://en.wikipedia.org/wiki/Daniel_C._Tsui",
+    "img": "portraits/tsui.jpg",
+    "credit": "Istvan Hargittai",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Daniel_C._Tsui,_1999,_Princeton_(cropped).jpg",
+    "originalImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Daniel_C._Tsui%2C_1999%2C_Princeton_%28cropped%29.jpg/250px-Daniel_C._Tsui%2C_1999%2C_Princeton_%28cropped%29.jpg"
+  },
+  "rutherford": {
+    "wiki": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
+    "img": "portraits/rutherford.jpg",
+    "credit": "George Grantham Bain Collection (Library of Congress)",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Ernest_Rutherford_LOC.jpg",
+    "originalImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ernest_Rutherford_LOC.jpg/250px-Ernest_Rutherford_LOC.jpg"
+  },
+  "curie": {
+    "wiki": "https://en.wikipedia.org/wiki/Marie_Curie",
+    "img": "portraits/curie.jpg",
+    "credit": "Unknown author Unknown author",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Marie_Curie_(1900)_(cropped).jpg",
+    "originalImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Marie_Curie_%281900%29_%28cropped%29.jpg/250px-Marie_Curie_%281900%29_%28cropped%29.jpg"
+  }
+}

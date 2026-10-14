@@ -15,15 +15,14 @@
 	static 0–100 SVG track showing the national → global shift.
 
 	Upstream dependencies:
-	  - $nobel/data (rankWalkthroughData, RankWalkthroughLaureate, loadLaureateLinks)
-	  - laureate_links.json (existing Commons portraits, credits and licences)
+	  - $nobel/data (rankWalkthroughData, RankWalkthroughLaureate)
+	  - assets/portraits/credits.json and local Commons portraits, credits and licences
 -->
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
+	import portraits from '$nobel/assets/portraits/credits.json';
 	import {
 		rankWalkthroughData,
-		loadLaureateLinks,
-		type LaureateLink,
 		type RankWalkthroughLaureate
 	} from '$nobel/data';
 
@@ -33,33 +32,8 @@
 		laureates.find((l) => l.id === selectedId) ?? laureates[0]
 	);
 
-	// Walkthrough IDs are mnemonic; the shared portrait catalogue uses NobelRow IDs.
-	const portraitIds: Record<string, string> = {
-		feynman: '243',
-		sharpless: '722',
-		banerjee: '684',
-		tsui: '488',
-		rutherford: '25',
-		curie: '8'
-	};
-	let portraitLinks = $state<Record<string, LaureateLink>>({});
-	const portrait = $derived(portraitLinks[portraitIds[L.id]]);
-
-	// Reuse the cached lazy loader; the frame reserves space before it resolves.
-	onMount(() => {
-		let mounted = true;
-		loadLaureateLinks()
-			.then((links) => {
-				if (mounted) portraitLinks = links;
-			})
-			.catch(() => {
-
-				// Keep the reserved frame and readable card if the catalogue fails to load.
-			});
-		return () => {
-			mounted = false;
-		};
-	});
+	// Local portraits keep the walkthrough independent of external image hosts.
+	const portrait = $derived(portraits[L.id as keyof typeof portraits]);
 
 	// National = blue, global = cranberry — the same hues OccupationRankChart uses
 	// for its two rank series, kept explicit so they read the same across themes.
@@ -97,7 +71,7 @@
 		<div class="portrait">
 			{#if portrait?.img}
 				<img
-					src={portrait.img}
+					src={`${base}/${portrait.img}`}
 					alt={`Portrait of ${L.name}. Photo: ${portrait.credit ?? 'Wikimedia Commons'}. ${portrait.license ?? ''}. Source: ${portrait.source ?? ''}`}
 					width="250"
 					height="250"
@@ -106,6 +80,7 @@
 				/>
 			{/if}
 		</div>
+		{#if portrait}<p class="photo-credit"><a href={portrait.source}>Photo: {portrait.credit}</a> · {#if 'licenseUrl' in portrait}<a href={portrait.licenseUrl}>{portrait.license}</a>{:else}{portrait.license}{/if}</p>{/if}
 	</div>
 
 	<ol class="steps">
@@ -238,6 +213,12 @@
 		overflow: hidden;
 		border-radius: var(--ddl-border-radius, 4px);
 		background: var(--rule, #e7e7e4);
+	}
+	.photo-credit {
+		margin: 0.35rem 0 0;
+		font-size: 0.65rem;
+		line-height: 1.4;
+		color: var(--muted);
 	}
 	.portrait img {
 		display: block;
