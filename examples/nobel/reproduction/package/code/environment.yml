@@ -1,0 +1,16 @@
+# Conda environment for the replication package.
+#
+# Usage (from the package root):
+#   conda env create -f code/environment.yml
+#   conda activate nobel-prizes
+#   python code/run_all.py --check
+name: nobel-prizes
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - pandas>=2.2
+  - numpy>=1.26
+  - matplotlib>=3.8
+  - statsmodels>=0.14
+  - scipy>=1.12

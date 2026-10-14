@@ -1,0 +1,705 @@
+{
+  "meta": {
+    "script": "parent_field_perm_test",
+    "generated": "2026-10-08T11:09:17.914781+00:00",
+    "B": 10000,
+    "seed_numpy": 20260515,
+    "seed_stata_original": 20260515,
+    "note": "Random draws differ from Stata; p-values agree within Monte Carlo SE (<0.005)",
+    "prize_probs_nonecon": {
+      "chemistry": 0.299,
+      "physics": 0.3408,
+      "medicine": 0.3602,
+      "economics": 0.0
+    },
+    "prize_probs_econ": {
+      "chemistry": 0.2434,
+      "physics": 0.2763,
+      "medicine": 0.2785,
+      "economics": 0.2018
+    },
+    "source_dofile": "a/same_parent_field_rand_test.do"
+  },
+  "data": {
+    "prof_match_econ_sample": {
+      "n": 40,
+      "parent_counts": {
+        "chemistry": 10,
+        "physics": 11,
+        "medicine": 10,
+        "economics": 9
+      },
+      "n_observed": 13,
+      "observed_share": 0.325,
+      "observed_pct": 32.5,
+      "expected_count": 10.05,
+      "expected_pct": 25.1,
+      "excess_rate": 29.3,
+      "p_value": 0.107,
+      "p_value_display": "0.11",
+      "sim_histogram": [
+        {
+          "bin_center": 0.02,
+          "fraction": 0.0001
+        },
+        {
+          "bin_center": 0.06,
+          "fraction": 0.0054
+        },
+        {
+          "bin_center": 0.1,
+          "fraction": 0.0096
+        },
+        {
+          "bin_center": 0.14,
+          "fraction": 0.077
+        },
+        {
+          "bin_center": 0.18,
+          "fraction": 0.0817
+        },
+        {
+          "bin_center": 0.22,
+          "fraction": 0.2565
+        },
+        {
+          "bin_center": 0.26,
+          "fraction": 0.2807
+        },
+        {
+          "bin_center": 0.3,
+          "fraction": 0.1035
+        },
+        {
+          "bin_center": 0.34,
+          "fraction": 0.1294
+        },
+        {
+          "bin_center": 0.38,
+          "fraction": 0.0294
+        },
+        {
+          "bin_center": 0.42,
+          "fraction": 0.0221
+        },
+        {
+          "bin_center": 0.46,
+          "fraction": 0.0039
+        },
+        {
+          "bin_center": 0.5,
+          "fraction": 0.0004
+        },
+        {
+          "bin_center": 0.54,
+          "fraction": 0.0003
+        },
+        {
+          "bin_center": 0.58,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.62,
+          "fraction": 0.0
+        }
+      ],
+      "sim_mean": 0.2514,
+      "sim_std": 0.0685
+    },
+    "prof_match_nonecon_sample": {
+      "n": 50,
+      "parent_counts": {
+        "chemistry": 11,
+        "physics": 17,
+        "medicine": 22,
+        "economics": 0
+      },
+      "n_observed": 21,
+      "observed_share": 0.42,
+      "observed_pct": 42.0,
+      "expected_count": 17.06,
+      "expected_pct": 34.1,
+      "excess_rate": 23.1,
+      "p_value": 0.0929,
+      "p_value_display": "0.09",
+      "sim_histogram": [
+        {
+          "bin_center": 0.02,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.06,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.1,
+          "fraction": 0.0002
+        },
+        {
+          "bin_center": 0.14,
+          "fraction": 0.0008
+        },
+        {
+          "bin_center": 0.18,
+          "fraction": 0.0092
+        },
+        {
+          "bin_center": 0.22,
+          "fraction": 0.0331
+        },
+        {
+          "bin_center": 0.26,
+          "fraction": 0.095
+        },
+        {
+          "bin_center": 0.3,
+          "fraction": 0.1917
+        },
+        {
+          "bin_center": 0.34,
+          "fraction": 0.2304
+        },
+        {
+          "bin_center": 0.38,
+          "fraction": 0.2116
+        },
+        {
+          "bin_center": 0.42,
+          "fraction": 0.1351
+        },
+        {
+          "bin_center": 0.46,
+          "fraction": 0.0631
+        },
+        {
+          "bin_center": 0.5,
+          "fraction": 0.0215
+        },
+        {
+          "bin_center": 0.54,
+          "fraction": 0.0073
+        },
+        {
+          "bin_center": 0.58,
+          "fraction": 0.001
+        },
+        {
+          "bin_center": 0.62,
+          "fraction": 0.0
+        }
+      ],
+      "sim_mean": 0.3412,
+      "sim_std": 0.0669
+    },
+    "nonprof_match_econ_sample": {
+      "n": 98,
+      "parent_counts": {
+        "chemistry": 9,
+        "physics": 47,
+        "medicine": 42,
+        "economics": 0
+      },
+      "n_observed": 33,
+      "observed_share": 0.3367,
+      "observed_pct": 33.7,
+      "expected_count": 26.92,
+      "expected_pct": 27.5,
+      "excess_rate": 22.6,
+      "p_value": 0.0684,
+      "p_value_display": "0.07",
+      "sim_histogram": [
+        {
+          "bin_center": 0.02,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.06,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.1,
+          "fraction": 0.0001
+        },
+        {
+          "bin_center": 0.14,
+          "fraction": 0.0031
+        },
+        {
+          "bin_center": 0.18,
+          "fraction": 0.0379
+        },
+        {
+          "bin_center": 0.22,
+          "fraction": 0.1793
+        },
+        {
+          "bin_center": 0.26,
+          "fraction": 0.3385
+        },
+        {
+          "bin_center": 0.3,
+          "fraction": 0.2921
+        },
+        {
+          "bin_center": 0.34,
+          "fraction": 0.1195
+        },
+        {
+          "bin_center": 0.38,
+          "fraction": 0.0256
+        },
+        {
+          "bin_center": 0.42,
+          "fraction": 0.0035
+        },
+        {
+          "bin_center": 0.46,
+          "fraction": 0.0004
+        },
+        {
+          "bin_center": 0.5,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.54,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.58,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.62,
+          "fraction": 0.0
+        }
+      ],
+      "sim_mean": 0.2747,
+      "sim_std": 0.045
+    },
+    "nonprof_match_nonecon_sample": {
+      "n": 118,
+      "parent_counts": {
+        "chemistry": 8,
+        "physics": 50,
+        "medicine": 60,
+        "economics": 0
+      },
+      "n_observed": 54,
+      "observed_share": 0.4576,
+      "observed_pct": 45.8,
+      "expected_count": 41.06,
+      "expected_pct": 34.8,
+      "excess_rate": 31.5,
+      "p_value": 0.0059,
+      "p_value_display": "<0.01",
+      "sim_histogram": [
+        {
+          "bin_center": 0.02,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.06,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.1,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.14,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.18,
+          "fraction": 0.0001
+        },
+        {
+          "bin_center": 0.22,
+          "fraction": 0.0064
+        },
+        {
+          "bin_center": 0.26,
+          "fraction": 0.0624
+        },
+        {
+          "bin_center": 0.3,
+          "fraction": 0.1765
+        },
+        {
+          "bin_center": 0.34,
+          "fraction": 0.3686
+        },
+        {
+          "bin_center": 0.38,
+          "fraction": 0.2813
+        },
+        {
+          "bin_center": 0.42,
+          "fraction": 0.0812
+        },
+        {
+          "bin_center": 0.46,
+          "fraction": 0.0221
+        },
+        {
+          "bin_center": 0.5,
+          "fraction": 0.0014
+        },
+        {
+          "bin_center": 0.54,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.58,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.62,
+          "fraction": 0.0
+        }
+      ],
+      "sim_mean": 0.348,
+      "sim_std": 0.0437
+    },
+    "weak_match_econ_sample": {
+      "n": 153,
+      "parent_counts": {
+        "chemistry": 0,
+        "physics": 6,
+        "medicine": 4,
+        "economics": 143
+      },
+      "n_observed": 36,
+      "observed_share": 0.2353,
+      "observed_pct": 23.5,
+      "expected_count": 31.66,
+      "expected_pct": 20.7,
+      "excess_rate": 13.7,
+      "p_value": 0.1691,
+      "p_value_display": "0.17",
+      "sim_histogram": [
+        {
+          "bin_center": 0.02,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.06,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.1,
+          "fraction": 0.0028
+        },
+        {
+          "bin_center": 0.14,
+          "fraction": 0.072
+        },
+        {
+          "bin_center": 0.18,
+          "fraction": 0.3427
+        },
+        {
+          "bin_center": 0.22,
+          "fraction": 0.4134
+        },
+        {
+          "bin_center": 0.26,
+          "fraction": 0.1509
+        },
+        {
+          "bin_center": 0.3,
+          "fraction": 0.0174
+        },
+        {
+          "bin_center": 0.34,
+          "fraction": 0.0008
+        },
+        {
+          "bin_center": 0.38,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.42,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.46,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.5,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.54,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.58,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.62,
+          "fraction": 0.0
+        }
+      ],
+      "sim_mean": 0.2069,
+      "sim_std": 0.033
+    },
+    "weak_match_nonecon_sample": {
+      "n": 17,
+      "parent_counts": {
+        "chemistry": 1,
+        "physics": 8,
+        "medicine": 8,
+        "economics": 0
+      },
+      "n_observed": 7,
+      "observed_share": 0.4118,
+      "observed_pct": 41.2,
+      "expected_count": 5.93,
+      "expected_pct": 34.9,
+      "excess_rate": 18.0,
+      "p_value": 0.2094,
+      "p_value_display": "0.21",
+      "sim_histogram": [
+        {
+          "bin_center": 0.02,
+          "fraction": 0.0006
+        },
+        {
+          "bin_center": 0.06,
+          "fraction": 0.0062
+        },
+        {
+          "bin_center": 0.1,
+          "fraction": 0.026
+        },
+        {
+          "bin_center": 0.14,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.18,
+          "fraction": 0.07
+        },
+        {
+          "bin_center": 0.22,
+          "fraction": 0.1323
+        },
+        {
+          "bin_center": 0.26,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.3,
+          "fraction": 0.1884
+        },
+        {
+          "bin_center": 0.34,
+          "fraction": 0.2015
+        },
+        {
+          "bin_center": 0.38,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.42,
+          "fraction": 0.1656
+        },
+        {
+          "bin_center": 0.46,
+          "fraction": 0.1094
+        },
+        {
+          "bin_center": 0.5,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.54,
+          "fraction": 0.0623
+        },
+        {
+          "bin_center": 0.58,
+          "fraction": 0.0275
+        },
+        {
+          "bin_center": 0.62,
+          "fraction": 0.0
+        }
+      ],
+      "sim_mean": 0.349,
+      "sim_std": 0.115
+    },
+    "good_econ_sample": {
+      "n": 138,
+      "parent_counts": {
+        "chemistry": 19,
+        "physics": 58,
+        "medicine": 52,
+        "economics": 9
+      },
+      "n_observed": 46,
+      "observed_share": 0.3333,
+      "observed_pct": 33.3,
+      "expected_count": 36.91,
+      "expected_pct": 26.7,
+      "excess_rate": 24.6,
+      "p_value": 0.0357,
+      "p_value_display": "0.04",
+      "sim_histogram": [
+        {
+          "bin_center": 0.02,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.06,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.1,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.14,
+          "fraction": 0.0018
+        },
+        {
+          "bin_center": 0.18,
+          "fraction": 0.0326
+        },
+        {
+          "bin_center": 0.22,
+          "fraction": 0.2241
+        },
+        {
+          "bin_center": 0.26,
+          "fraction": 0.3671
+        },
+        {
+          "bin_center": 0.3,
+          "fraction": 0.2986
+        },
+        {
+          "bin_center": 0.34,
+          "fraction": 0.066
+        },
+        {
+          "bin_center": 0.38,
+          "fraction": 0.0097
+        },
+        {
+          "bin_center": 0.42,
+          "fraction": 0.0001
+        },
+        {
+          "bin_center": 0.46,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.5,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.54,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.58,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.62,
+          "fraction": 0.0
+        }
+      ],
+      "sim_mean": 0.2675,
+      "sim_std": 0.0378
+    },
+    "good_nonecon_sample": {
+      "n": 168,
+      "parent_counts": {
+        "chemistry": 19,
+        "physics": 67,
+        "medicine": 82,
+        "economics": 0
+      },
+      "n_observed": 75,
+      "observed_share": 0.4464,
+      "observed_pct": 44.6,
+      "expected_count": 58.11,
+      "expected_pct": 34.6,
+      "excess_rate": 29.1,
+      "p_value": 0.0025,
+      "p_value_display": "<0.01",
+      "sim_histogram": [
+        {
+          "bin_center": 0.02,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.06,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.1,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.14,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.18,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.22,
+          "fraction": 0.0014
+        },
+        {
+          "bin_center": 0.26,
+          "fraction": 0.0374
+        },
+        {
+          "bin_center": 0.3,
+          "fraction": 0.1926
+        },
+        {
+          "bin_center": 0.34,
+          "fraction": 0.4199
+        },
+        {
+          "bin_center": 0.38,
+          "fraction": 0.2827
+        },
+        {
+          "bin_center": 0.42,
+          "fraction": 0.0588
+        },
+        {
+          "bin_center": 0.46,
+          "fraction": 0.0069
+        },
+        {
+          "bin_center": 0.5,
+          "fraction": 0.0003
+        },
+        {
+          "bin_center": 0.54,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.58,
+          "fraction": 0.0
+        },
+        {
+          "bin_center": 0.62,
+          "fraction": 0.0
+        }
+      ],
+      "sim_mean": 0.3459,
+      "sim_std": 0.0366
+    }
+  }
+}

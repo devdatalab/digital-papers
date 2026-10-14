@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "script": "main_spec",
+    "generated": "2026-10-07T17:27:20.886895+00:00",
+    "n": 735,
+    "rhs_variable": "prize_year_rescaled",
+    "rhs_note": "prize_year - 1901; coefficient = change per year since 1901",
+    "se_type": "HC1",
+    "source_dofile": "a/table_main_spec.do"
+  },
+  "data": {
+    "med_inctot_rank": {
+      "label": "Father's national income rank",
+      "column": "med_inctot_rank",
+      "coef": -0.073508,
+      "se": 0.019926,
+      "intercept": 92.6523,
+      "intercept_se": 1.5053,
+      "n": 713,
+      "r2": 0.017
+    },
+    "educ_rank": {
+      "label": "Father's national education rank",
+      "column": "educ_rank",
+      "coef": -0.069428,
+      "se": 0.018077,
+      "intercept": 94.3806,
+      "intercept_se": 1.2825,
+      "n": 713,
+      "r2": 0.0166
+    },
+    "global_med_inctot_rank": {
+      "label": "Father's global income rank",
+      "column": "global_med_inctot_rank",
+      "coef": -0.022498,
+      "se": 0.009652,
+      "intercept": 96.047,
+      "intercept_se": 0.715,
+      "n": 713,
+      "r2": 0.0069
+    },
+    "global_med_inctot_pregdp_rank": {
+      "label": "Father's global income rank (pre-GDP)",
+      "column": "global_med_inctot_pregdp_rank",
+      "coef": -0.028374,
+      "se": 0.010531,
+      "intercept": 95.8733,
+      "intercept_se": 0.7638,
+      "n": 713,
+      "r2": 0.0086
+    },
+    "low90_inc": {
+      "label": "Share from bottom 90% (national income)",
+      "column": "low90_winner_inc",
+      "coef": 0.001933,
+      "se": 0.000497,
+      "intercept": 0.1634,
+      "intercept_se": 0.039,
+      "n": 713,
+      "r2": 0.0194
+    },
+    "low90_educ": {
+      "label": "Share from bottom 90% (education)",
+      "column": "low90_winner_educ",
+      "coef": 0.001574,
+      "se": 0.000469,
+      "intercept": 0.1763,
+      "intercept_se": 0.0368,
+      "n": 713,
+      "r2": 0.0132
+    },
+    "low90_glo": {
+      "label": "Share from bottom 90% (global income)",
+      "column": "low90_glo",
+      "coef": 0.00066,
+      "se": 0.000417,
+      "intercept": 0.1187,
+      "intercept_se": 0.0329,
+      "n": 713,
+      "r2": 0.0034
+    },
+    "low80_inc": {
+      "label": "Share from bottom 80% (national income)",
+      "column": "low80_winner_inc",
+      "coef": 0.001646,
+      "se": 0.000411,
+      "intercept": 0.0643,
+      "intercept_se": 0.0307,
+      "n": 713,
+      "r2": 0.0196
+    },
+    "low80_educ": {
+      "label": "Share from bottom 80% (education)",
+      "column": "low80_winner_educ",
+      "coef": 0.001761,
+      "se": 0.000352,
+      "intercept": 0.0206,
+      "intercept_se": 0.0245,
+      "n": 713,
+      "r2": 0.0265
+    },
+    "low80_glo": {
+      "label": "Share from bottom 80% (global income)",
+      "column": "low80_glo",
+      "coef": 0.000428,
+      "se": 0.000259,
+      "intercept": 0.0197,
+      "intercept_se": 0.0192,
+      "n": 713,
+      "r2": 0.0041
+    }
+  }
+}

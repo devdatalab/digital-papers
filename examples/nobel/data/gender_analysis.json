@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "script": "gender_analysis",
+    "generated": "2026-10-07T18:53:15.321835+00:00",
+    "n_total": 735,
+    "n_female": 28,
+    "source_dofiles": [
+      "a/table_gender_spec.do",
+      "a/stat_test_gender_distributions.do"
+    ]
+  },
+  "data": {
+    "gender_spec": {
+      "med_inctot_rank": {
+        "male": {
+          "Intercept": {
+            "coef": 92.625409,
+            "se": 1.543502
+          },
+          "prize_year_rescaled": {
+            "coef": -0.075283,
+            "se": 0.020728
+          },
+          "n": 685,
+          "r2": 0.017469
+        },
+        "female": {
+          "Intercept": {
+            "coef": 100.601529,
+            "se": 4.827684
+          },
+          "prize_year_rescaled": {
+            "coef": -0.115736,
+            "se": 0.061867
+          },
+          "n": 28,
+          "r2": 0.051837
+        }
+      },
+      "educ_rank": {
+        "male": {
+          "Intercept": {
+            "coef": 94.469426,
+            "se": 1.316742
+          },
+          "prize_year_rescaled": {
+            "coef": -0.073878,
+            "se": 0.018894
+          },
+          "n": 685,
+          "r2": 0.018244
+        },
+        "female": {
+          "Intercept": {
+            "coef": 101.455928,
+            "se": 3.062869
+          },
+          "prize_year_rescaled": {
+            "coef": -0.08156,
+            "se": 0.048099
+          },
+          "n": 28,
+          "r2": 0.042034
+        }
+      },
+      "global_med_inctot_rank": {
+        "male": {
+          "Intercept": {
+            "coef": 96.075991,
+            "se": 0.72128
+          },
+          "prize_year_rescaled": {
+            "coef": -0.022738,
+            "se": 0.009813
+          },
+          "n": 685,
+          "r2": 0.007079
+        },
+        "female": {
+          "Intercept": {
+            "coef": 94.440254,
+            "se": 4.874831
+          },
+          "prize_year_rescaled": {
+            "coef": -0.008642,
+            "se": 0.055805
+          },
+          "n": 28,
+          "r2": 0.000715
+        }
+      }
+    },
+    "slope_tests": {
+      "med_inctot_rank": {
+        "p_equal_slopes": 0.522892,
+        "difference_female_minus_male": {
+          "coef": -0.040452,
+          "se": 0.063285
+        },
+        "n": 713
+      },
+      "educ_rank": {
+        "p_equal_slopes": 0.878378,
+        "difference_female_minus_male": {
+          "coef": -0.007682,
+          "se": 0.050183
+        },
+        "n": 713
+      },
+      "global_med_inctot_rank": {
+        "p_equal_slopes": 0.797128,
+        "difference_female_minus_male": {
+          "coef": 0.014096,
+          "se": 0.054815
+        },
+        "n": 713
+      }
+    },
+    "dist_tests": {
+      "med_inctot": {
+        "n_male": 685,
+        "n_female": 28,
+        "p_wilcoxon": 0.542191,
+        "mean_male": 87.0362,
+        "mean_female": 89.4578
+      },
+      "educ": {
+        "n_male": 685,
+        "n_female": 28,
+        "p_wilcoxon": 0.155949,
+        "mean_male": 88.9846,
+        "mean_female": 93.6029
+      },
+      "global_med_inctot": {
+        "n_male": 685,
+        "n_female": 28,
+        "p_wilcoxon": 0.969385,
+        "mean_male": 94.3878,
+        "mean_female": 93.6082
+      }
+    }
+  }
+}

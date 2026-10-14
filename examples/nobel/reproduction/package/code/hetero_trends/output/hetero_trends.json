@@ -1,0 +1,589 @@
+{
+  "meta": {
+    "script": "hetero_trends",
+    "generated": "2026-10-08T11:09:20.364105+00:00",
+    "n_total": 735,
+    "source_dofile": "a/table_hetero_trends.do",
+    "outcome_keys": [
+      "med_inctot_rank",
+      "educ_rank",
+      "global_med_inctot_rank",
+      "top_decile_med_inctot",
+      "top_decile_educ",
+      "top_decile_global_med_inctot",
+      "top_20pct_med_inctot",
+      "top_20pct_educ",
+      "top_20pct_global_med_inctot"
+    ],
+    "note": "top_decile_* and top_20pct_* outcomes multiplied by 100 before regression so slopes are in percentage points (matching Stata pct_ transform)."
+  },
+  "data": {
+    "med_inctot_rank": {
+      "full_sample": {
+        "coef": -0.073508,
+        "se": 0.019926,
+        "n": 713
+      },
+      "gender": {
+        "male": {
+          "coef": -0.075283,
+          "se": 0.020756
+        },
+        "female": {
+          "coef": -0.115736,
+          "se": 0.059784
+        },
+        "p_equal": 0.522892,
+        "n": 713
+      },
+      "category": {
+        "chemistry": {
+          "coef": -0.138103,
+          "se": 0.032221
+        },
+        "economics": {
+          "coef": -0.056057,
+          "se": 0.116973
+        },
+        "medicine": {
+          "coef": -0.101723,
+          "se": 0.038311
+        },
+        "physics": {
+          "coef": -0.002333,
+          "se": 0.038267
+        },
+        "p_equal": 0.055227,
+        "n": 713
+      },
+      "region": {
+        "usa": {
+          "coef": -0.025747,
+          "se": 0.044352
+        },
+        "western_europe": {
+          "coef": -0.079264,
+          "se": 0.028218
+        },
+        "eastern_europe": {
+          "coef": 0.027141,
+          "se": 0.042171
+        },
+        "global_south": {
+          "coef": -0.123434,
+          "se": 0.086407
+        },
+        "other": {
+          "coef": -0.003587,
+          "se": 0.134284
+        },
+        "p_equal": 0.240223,
+        "n": 713
+      }
+    },
+    "educ_rank": {
+      "full_sample": {
+        "coef": -0.069428,
+        "se": 0.018077,
+        "n": 713
+      },
+      "gender": {
+        "male": {
+          "coef": -0.073878,
+          "se": 0.018919
+        },
+        "female": {
+          "coef": -0.08156,
+          "se": 0.04648
+        },
+        "p_equal": 0.878378,
+        "n": 713
+      },
+      "category": {
+        "chemistry": {
+          "coef": -0.113209,
+          "se": 0.033736
+        },
+        "economics": {
+          "coef": 0.021797,
+          "se": 0.11467
+        },
+        "medicine": {
+          "coef": -0.109167,
+          "se": 0.03286
+        },
+        "physics": {
+          "coef": -0.010929,
+          "se": 0.033906
+        },
+        "p_equal": 0.085075,
+        "n": 713
+      },
+      "region": {
+        "usa": {
+          "coef": -0.027223,
+          "se": 0.038227
+        },
+        "western_europe": {
+          "coef": -0.06166,
+          "se": 0.026414
+        },
+        "eastern_europe": {
+          "coef": -0.012269,
+          "se": 0.036276
+        },
+        "global_south": {
+          "coef": -0.149283,
+          "se": 0.117344
+        },
+        "other": {
+          "coef": -0.056919,
+          "se": 0.126472
+        },
+        "p_equal": 0.69561,
+        "n": 713
+      }
+    },
+    "global_med_inctot_rank": {
+      "full_sample": {
+        "coef": -0.022498,
+        "se": 0.009652,
+        "n": 713
+      },
+      "gender": {
+        "male": {
+          "coef": -0.022738,
+          "se": 0.009826
+        },
+        "female": {
+          "coef": -0.008642,
+          "se": 0.053927
+        },
+        "p_equal": 0.797128,
+        "n": 713
+      },
+      "category": {
+        "chemistry": {
+          "coef": -0.057476,
+          "se": 0.017517
+        },
+        "economics": {
+          "coef": 0.021834,
+          "se": 0.06136
+        },
+        "medicine": {
+          "coef": -0.021686,
+          "se": 0.018437
+        },
+        "physics": {
+          "coef": -0.010297,
+          "se": 0.017247
+        },
+        "p_equal": 0.199505,
+        "n": 713
+      },
+      "region": {
+        "usa": {
+          "coef": 0.00222,
+          "se": 0.004464
+        },
+        "western_europe": {
+          "coef": -0.036124,
+          "se": 0.007016
+        },
+        "eastern_europe": {
+          "coef": -0.036577,
+          "se": 0.034541
+        },
+        "global_south": {
+          "coef": -0.227346,
+          "se": 0.133374
+        },
+        "other": {
+          "coef": -0.076209,
+          "se": 0.050748
+        },
+        "p_equal": 3.4e-05,
+        "n": 713
+      }
+    },
+    "top_decile_med_inctot": {
+      "full_sample": {
+        "coef": -0.193293,
+        "se": 0.049716,
+        "n": 713
+      },
+      "gender": {
+        "male": {
+          "coef": -0.191442,
+          "se": 0.051228
+        },
+        "female": {
+          "coef": -0.492264,
+          "se": 0.17954
+        },
+        "p_equal": 0.107578,
+        "n": 713
+      },
+      "category": {
+        "chemistry": {
+          "coef": -0.311599,
+          "se": 0.09172
+        },
+        "economics": {
+          "coef": -0.489882,
+          "se": 0.321476
+        },
+        "medicine": {
+          "coef": -0.216638,
+          "se": 0.089548
+        },
+        "physics": {
+          "coef": -0.03584,
+          "se": 0.090422
+        },
+        "p_equal": 0.133016,
+        "n": 713
+      },
+      "region": {
+        "usa": {
+          "coef": -0.103832,
+          "se": 0.124236
+        },
+        "western_europe": {
+          "coef": -0.213848,
+          "se": 0.06891
+        },
+        "eastern_europe": {
+          "coef": -0.121024,
+          "se": 0.161997
+        },
+        "global_south": {
+          "coef": -0.304415,
+          "se": 0.332013
+        },
+        "other": {
+          "coef": 0.18488,
+          "se": 0.251032
+        },
+        "p_equal": 0.568736,
+        "n": 713
+      }
+    },
+    "top_decile_educ": {
+      "full_sample": {
+        "coef": -0.157439,
+        "se": 0.04686,
+        "n": 713
+      },
+      "gender": {
+        "male": {
+          "coef": -0.165595,
+          "se": 0.048414
+        },
+        "female": {
+          "coef": -0.28016,
+          "se": 0.17261
+        },
+        "p_equal": 0.522992,
+        "n": 713
+      },
+      "category": {
+        "chemistry": {
+          "coef": -0.197571,
+          "se": 0.098626
+        },
+        "economics": {
+          "coef": 0.3952,
+          "se": 0.308704
+        },
+        "medicine": {
+          "coef": -0.259258,
+          "se": 0.081004
+        },
+        "physics": {
+          "coef": -0.084897,
+          "se": 0.078856
+        },
+        "p_equal": 0.12357,
+        "n": 713
+      },
+      "region": {
+        "usa": {
+          "coef": 0.101755,
+          "se": 0.122153
+        },
+        "western_europe": {
+          "coef": -0.183,
+          "se": 0.06463
+        },
+        "eastern_europe": {
+          "coef": -0.033009,
+          "se": 0.154738
+        },
+        "global_south": {
+          "coef": -0.326489,
+          "se": 0.209261
+        },
+        "other": {
+          "coef": 0.098297,
+          "se": 0.256825
+        },
+        "p_equal": 0.182698,
+        "n": 713
+      }
+    },
+    "top_decile_global_med_inctot": {
+      "full_sample": {
+        "coef": -0.066031,
+        "se": 0.041655,
+        "n": 713
+      },
+      "gender": {
+        "male": {
+          "coef": -0.067176,
+          "se": 0.04192
+        },
+        "female": {
+          "coef": 0.046504,
+          "se": 0.323375
+        },
+        "p_equal": 0.727473,
+        "n": 713
+      },
+      "category": {
+        "chemistry": {
+          "coef": -0.195395,
+          "se": 0.081135
+        },
+        "economics": {
+          "coef": 0.340968,
+          "se": 0.258452
+        },
+        "medicine": {
+          "coef": -0.060156,
+          "se": 0.077435
+        },
+        "physics": {
+          "coef": -0.043312,
+          "se": 0.07683
+        },
+        "p_equal": 0.175506,
+        "n": 713
+      },
+      "region": {
+        "usa": {
+          "coef": -0.00797,
+          "se": 0.008053
+        },
+        "western_europe": {
+          "coef": -0.127686,
+          "se": 0.04622
+        },
+        "eastern_europe": {
+          "coef": -0.076101,
+          "se": 0.175843
+        },
+        "global_south": {
+          "coef": -0.270534,
+          "se": 0.239324
+        },
+        "other": {
+          "coef": -0.337082,
+          "se": 0.231247
+        },
+        "p_equal": 0.045117,
+        "n": 713
+      }
+    },
+    "top_20pct_med_inctot": {
+      "full_sample": {
+        "coef": -0.164562,
+        "se": 0.041139,
+        "n": 713
+      },
+      "gender": {
+        "male": {
+          "coef": -0.16352,
+          "se": 0.042435
+        },
+        "female": {
+          "coef": -0.303979,
+          "se": 0.139973
+        },
+        "p_equal": 0.337225,
+        "n": 713
+      },
+      "category": {
+        "chemistry": {
+          "coef": -0.295676,
+          "se": 0.062952
+        },
+        "economics": {
+          "coef": -0.142967,
+          "se": 0.257933
+        },
+        "medicine": {
+          "coef": -0.178659,
+          "se": 0.080654
+        },
+        "physics": {
+          "coef": -0.058377,
+          "se": 0.078501
+        },
+        "p_equal": 0.129954,
+        "n": 713
+      },
+      "region": {
+        "usa": {
+          "coef": -0.103493,
+          "se": 0.103089
+        },
+        "western_europe": {
+          "coef": -0.151946,
+          "se": 0.055542
+        },
+        "eastern_europe": {
+          "coef": -0.028631,
+          "se": 0.158203
+        },
+        "global_south": {
+          "coef": -0.411704,
+          "se": 0.232481
+        },
+        "other": {
+          "coef": -0.062493,
+          "se": 0.222401
+        },
+        "p_equal": 0.707509,
+        "n": 713
+      }
+    },
+    "top_20pct_educ": {
+      "full_sample": {
+        "coef": -0.176057,
+        "se": 0.035165,
+        "n": 713
+      },
+      "gender": {
+        "male": {
+          "coef": -0.186073,
+          "se": 0.03661
+        },
+        "female": {
+          "coef": -0.168436,
+          "se": 0.118604
+        },
+        "p_equal": 0.887052,
+        "n": 713
+      },
+      "category": {
+        "chemistry": {
+          "coef": -0.278453,
+          "se": 0.062989
+        },
+        "economics": {
+          "coef": -0.162885,
+          "se": 0.242298
+        },
+        "medicine": {
+          "coef": -0.248975,
+          "se": 0.063915
+        },
+        "physics": {
+          "coef": -0.026719,
+          "se": 0.06513
+        },
+        "p_equal": 0.028474,
+        "n": 713
+      },
+      "region": {
+        "usa": {
+          "coef": -0.154516,
+          "se": 0.089937
+        },
+        "western_europe": {
+          "coef": -0.126228,
+          "se": 0.049456
+        },
+        "eastern_europe": {
+          "coef": -0.098231,
+          "se": 0.084793
+        },
+        "global_south": {
+          "coef": -0.326489,
+          "se": 0.209261
+        },
+        "other": {
+          "coef": -0.072622,
+          "se": 0.199254
+        },
+        "p_equal": 0.880439,
+        "n": 713
+      }
+    },
+    "top_20pct_global_med_inctot": {
+      "full_sample": {
+        "coef": -0.042835,
+        "se": 0.025904,
+        "n": 713
+      },
+      "gender": {
+        "male": {
+          "coef": -0.037628,
+          "se": 0.026281
+        },
+        "female": {
+          "coef": -0.172406,
+          "se": 0.120764
+        },
+        "p_equal": 0.275856,
+        "n": 713
+      },
+      "category": {
+        "chemistry": {
+          "coef": -0.106933,
+          "se": 0.039565
+        },
+        "economics": {
+          "coef": 0.027706,
+          "se": 0.139905
+        },
+        "medicine": {
+          "coef": -0.033266,
+          "se": 0.056464
+        },
+        "physics": {
+          "coef": -0.031193,
+          "se": 0.049321
+        },
+        "p_equal": 0.50423,
+        "n": 713
+      },
+      "region": {
+        "usa": {
+          "coef": -0.0,
+          "se": 0.0
+        },
+        "western_europe": {
+          "coef": -0.00062,
+          "se": 0.018768
+        },
+        "eastern_europe": {
+          "coef": -0.126861,
+          "se": 0.164859
+        },
+        "global_south": {
+          "coef": -0.48614,
+          "se": 0.310621
+        },
+        "other": {
+          "coef": -0.109087,
+          "se": 0.14692
+        },
+        "p_equal": 0.464344,
+        "n": 713
+      }
+    }
+  }
+}

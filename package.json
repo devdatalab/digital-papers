@@ -1,0 +1,39 @@
+{
+  "name": "digital-papers",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/run-paper.mjs dev",
+    "dev:nobel": "node scripts/run-paper.mjs dev --paper examples/nobel",
+    "dev:paper": "node scripts/run-paper.mjs dev --paper papers/my-paper",
+    "build": "node scripts/run-paper.mjs build",
+    "build:nobel": "node scripts/run-paper.mjs build --paper examples/nobel",
+    "build:paper": "node scripts/run-paper.mjs build --paper papers/my-paper",
+    "preview": "node scripts/run-paper.mjs preview",
+    "check": "node scripts/run-paper.mjs check",
+    "check:nobel": "node scripts/run-paper.mjs check --paper examples/nobel",
+    "prepare": "svelte-kit sync",
+    "reproduce": "python3 examples/minimal/reproduction/make_all.py --check",
+    "reproduce:nobel": "python3 examples/nobel/reproduction/make_all.py --check",
+    "verify": "python3 scripts/verify_publication.py"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/kit": "^2.63.0",
+    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "@types/d3": "^7.4.3",
+    "@types/node": "^25.9.3",
+    "svelte": "^5.56.1",
+    "svelte-check": "^4.6.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16"
+  },
+  "dependencies": {
+    "@chenglou/pretext": "^0.0.8",
+    "@devdatalab/ddl-charts": "^0.1.2",
+    "d3": "^7.9.0",
+    "minisearch": "^7.2.0"
+  },
+  "license": "MIT"
+}

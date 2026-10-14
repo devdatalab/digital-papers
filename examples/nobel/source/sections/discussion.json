@@ -1,0 +1,250 @@
+{
+  "id": "discussion",
+  "number": "4",
+  "title": "Discussion: Misallocation and Social Costs",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Nobel laureates in the sciences overwhelmingly originate from the top tiers of national income and education distributions, and are even more elite in the global income distribution. This is most concerning if it implies a misallocation of talent, where people who could be making valuable scientific discoveries are instead employed in lower-value occupations, due to a lack of access career pathways in the sciences. Unfortunately, determining the extent of misallocation is difficult from the results presented here alone. In this section, we discuss several factors that influence our priors on the extent of misallocation implied by our results."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Could 'missing' scientists be producing equally valuable outcomes in non-scientific domains, such as business or medical practice? There are three reasons to think their social contributions in other fields are smaller than they would be in the sciences. First, the social benefits of research in the basic sciences are plausibly among the highest out of all activities, because the externalities of research are so large "
+        },
+        {
+          "t": "cite",
+          "cmd": "citep",
+          "keys": [
+            "jones1998",
+            "bloom2013",
+            "gross2023"
+          ],
+          "refIds": [
+            "jones1998",
+            "bloom2013",
+            "gross2023"
+          ],
+          "text": "(Jones and Williams, 1998; Bloom et al., 2013; Gross and Sampat, 2023)"
+        },
+        {
+          "t": "text",
+          "text": ". Second, talent is multidimensional; individuals with the strongest relative aptitude for science may not be equally well-matched to alternative careers "
+        },
+        {
+          "t": "cite",
+          "cmd": "citep",
+          "keys": [
+            "murphy1991"
+          ],
+          "refIds": [
+            "murphy1991"
+          ],
+          "text": "(Murphy et al., 1991)"
+        },
+        {
+          "t": "text",
+          "text": ". Third, the unequal barriers that prevent advancement in the sciences also exist in other domains. Authors of highly cited patents are ten times more likely to come from the top 5% of the father income distribution than from the bottom 50% "
+        },
+        {
+          "t": "cite",
+          "cmd": "citep",
+          "keys": [
+            "bell2019"
+          ],
+          "refIds": [
+            "bell2019"
+          ],
+          "text": "(Bell et al., 2019)"
+        },
+        {
+          "t": "text",
+          "text": "; nationality and gender play roles here as well. Results are similar for doctors, CEOs of large companies, and politicians "
+        },
+        {
+          "t": "cite",
+          "cmd": "citep",
+          "keys": [
+            "dalbo2017",
+            "thompson2019",
+            "bell2019"
+          ],
+          "refIds": [
+            "dalb2017",
+            "thompson2019",
+            "bell2019"
+          ],
+          "text": "(Dal Bó et al., 2017; Thompson et al., 2019; Bell et al., 2019)"
+        },
+        {
+          "t": "text",
+          "text": ". Talented individuals who face social barriers to success in the sciences are likely to find barriers in other domains as well."
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "id": "fn1",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "The investment advantage can be extreme: Irène Joliot-Curie was famously tutored by elite scientists instead of attending a conventional middle school."
+        }
+      ]
+    },
+    {
+      "id": "fn2",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Even on the most fundamental parameter to this discussion—the heritability of cognitive skills—reasonable priors remain very wide."
+        }
+      ]
+    },
+    {
+      "id": "fn3",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Relatedly, "
+        },
+        {
+          "t": "cite",
+          "cmd": "citet",
+          "keys": [
+            "bell2019"
+          ],
+          "refIds": [
+            "bell2019"
+          ],
+          "text": "Bell et al. (2019)"
+        },
+        {
+          "t": "text",
+          "text": " find that primary school test scores (a partial proxy for genetic talent) can explain less than a third of the SES inequality in patent authorship. "
+        },
+        {
+          "t": "cite",
+          "cmd": "citet",
+          "keys": [
+            "aghion2023parental"
+          ],
+          "refIds": [
+            "aghion2023"
+          ],
+          "text": "Aghion et al. (2023)"
+        },
+        {
+          "t": "text",
+          "text": " find that schooling improvements in Finland in the 1970s substantially lowered the causal effects of parent education on child invention, suggesting the nurture channel was important."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "jones1998",
+      "key": "jones1998",
+      "text": "Jones, C., Williams, J. (1998). Measuring the Social Return to R&D. The Quarterly Journal of Economics.",
+      "url": "https://doi.org/10.1162/003355398555856"
+    },
+    {
+      "id": "bloom2013",
+      "key": "bloom2013",
+      "text": "Bloom, N., Schankerman, M., Van Reenen, J. (2013). Identifying Technology Spillovers and Product Market Rivalry. Econometrica.",
+      "url": "https://doi.org/10.3982/ECTA9466"
+    },
+    {
+      "id": "gross2023",
+      "key": "gross2023",
+      "text": "Gross, D., Sampat, B. (2023). America, Jump-Started: World War II R&D and the Takeoff of the US Innovation System. American Economic Review.",
+      "url": "https://doi.org/10.1257/aer.20221365"
+    },
+    {
+      "id": "murphy1991",
+      "key": "murphy1991",
+      "text": "Murphy, K., Shleifer, A., Vishny, R. (1991). The Allocation of Talent: Implications for Growth. The Quarterly Journal of Economics.",
+      "url": "https://doi.org/10.2307/2937945"
+    },
+    {
+      "id": "bell2019",
+      "key": "bell2019",
+      "text": "Bell, A., Chetty, R., Jaravel, X., Petkova, N., Van Reenen, J. (2019). Who Becomes an Inventor in America? The Importance of Exposure to Innovation. The Quarterly Journal of Economics.",
+      "url": "https://doi.org/10.1093/qje/qjy028"
+    },
+    {
+      "id": "dalb2017",
+      "key": "dalbo2017",
+      "text": "Dal Bó, E., Finan, F., Folke, O., Persson, T., Rickne, J. (2017). Who Becomes a Politician?. Quarterly Journal of Economics.",
+      "url": "https://doi.org/10.1093/qje/qjx016"
+    },
+    {
+      "id": "thompson2019",
+      "key": "thompson2019",
+      "text": "Thompson, D., Feigenbaum, J., Hall, A., Yoder, J. (2019). Who becomes a member of Congress? Evidence from de-anonymized census data. NBER Working Paper No. 26156.",
+      "url": "https://www.nber.org/papers/w26156"
+    },
+    {
+      "id": "merton1968",
+      "key": "merton1968",
+      "text": "Merton, R. (1968). The Matthew Effect in Science. Science.",
+      "url": "https://doi.org/10.1126/science.159.3810.56"
+    },
+    {
+      "id": "stephan2012",
+      "key": "stephan2012",
+      "text": "Stephan, P. (2012). How economics shapes science.",
+      "url": "https://www.hup.harvard.edu/books/9780674088160"
+    },
+    {
+      "id": "agarwal2023",
+      "key": "agarwal2023",
+      "text": "Agarwal, R., Ganguli, I., Gaulé, P., Smith, G. (2023). Why U.S. immigration matters for the global advancement of science. Research Policy.",
+      "url": "https://doi.org/10.1016/j.respol.2022.104659"
+    },
+    {
+      "id": "mindruta2025",
+      "key": "mindruta2025stars",
+      "text": "Mindruta, D., Bercovitz, J., Mares, V., Feldman, M. (2025). Stars in their constellations: Great person or great team?. Management Science.",
+      "url": "https://doi.org/10.1287/mnsc.2021.01969"
+    },
+    {
+      "id": "azoulay2010",
+      "key": "azoulay2010superstar",
+      "text": "Azoulay, P., Graff Zivin, J., Wang, J. (2010). Superstar extinction. The Quarterly Journal of Economics.",
+      "url": "https://doi.org/10.1162/qjec.2010.125.2.549"
+    },
+    {
+      "id": "hill2025",
+      "key": "hill2025race",
+      "text": "Hill, R., Stein, C. (2025). Race to the bottom: Competition and quality in science. The Quarterly Journal of Economics.",
+      "url": "https://doi.org/10.1093/qje/qjaf010"
+    },
+    {
+      "id": "hill2025scooped",
+      "key": "hill2025scooped",
+      "text": "Hill, R., Stein, C. (2025). Scooped! Estimating Rewards for Priority in Science. Journal of Political Economy.",
+      "url": "https://doi.org/10.1086/733398"
+    },
+    {
+      "id": "azoulay2019",
+      "key": "azoulay2019funerals",
+      "text": "Azoulay, P., Fons-Rosen, C., Zivin, J. (2019). Does Science Advance One Funeral at a Time?. American Economic Review.",
+      "url": "https://doi.org/10.1257/aer.20161574"
+    },
+    {
+      "id": "aghion2023",
+      "key": "aghion2023parental",
+      "text": "Aghion, P., Akcigit, U., Hyytinen, A., Toivanen, O. (2023). Parental Education and Invention: The Finnish Enigma. NBER Working Paper 30964.",
+      "url": "https://www.nber.org/papers/w30964"
+    }
+  ]
+}

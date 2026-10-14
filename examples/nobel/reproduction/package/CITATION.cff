@@ -1,0 +1,33 @@
+# Citation metadata for this replication package (Citation File Format 1.2.0).
+cff-version: 1.2.0
+message: "If you use this package, please cite the paper below."
+title: "Access to Opportunity in the Sciences: Evidence from the Nobel Laureates — Replication Package"
+license: [MIT, CC-BY-4.0]
+authors:
+  - family-names: Novosad
+    given-names: Paul
+    affiliation: Dartmouth College
+  - family-names: Asher
+    given-names: Sam
+    affiliation: Imperial College London
+  - family-names: Farquharson
+    given-names: Catriona
+    affiliation: Harvard University
+  - family-names: Iljazi
+    given-names: Eni
+    affiliation: UPenn Wharton
+preferred-citation:
+  type: article
+  title: "Access to Opportunity in the Sciences: Evidence from the Nobel Laureates"
+  authors:
+    - family-names: Novosad
+      given-names: Paul
+    - family-names: Asher
+      given-names: Sam
+    - family-names: Farquharson
+      given-names: Catriona
+    - family-names: Iljazi
+      given-names: Eni
+  year: 2026
+  month: 9
+  status: preprint

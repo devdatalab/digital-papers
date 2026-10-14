@@ -1,0 +1,4273 @@
+{
+  "meta": {
+    "script": "occ_prize_shares",
+    "fields": [
+      "Chemistry",
+      "Economics",
+      "Medicine",
+      "Physics"
+    ],
+    "generated": "2026-10-08T12:26:03.609845+00:00",
+    "n_total": 735,
+    "n_matched": 704
+  },
+  "levels": {
+    "group_10": {
+      "label": "10 broad groups",
+      "groups": [
+        {
+          "id": "Technical professional",
+          "label": "Technical professional",
+          "sort_order": 0,
+          "laureate_n": 363,
+          "census_pct": 4.302233,
+          "shares": {
+            "all": 51.5625,
+            "Chemistry": 44.3243,
+            "Economics": 50.0,
+            "Medicine": 56.8182,
+            "Physics": 53.1401
+          }
+        },
+        {
+          "id": "Managers, officials, and proprietors",
+          "label": "Managers, officials, and proprietors",
+          "sort_order": 1,
+          "laureate_n": 191,
+          "census_pct": 6.998087,
+          "shares": {
+            "all": 27.1307,
+            "Chemistry": 29.7297,
+            "Economics": 28.2609,
+            "Medicine": 25.4545,
+            "Physics": 26.087
+          }
+        },
+        {
+          "id": "Sales workers",
+          "label": "Sales workers",
+          "sort_order": 2,
+          "laureate_n": 33,
+          "census_pct": 4.04382,
+          "shares": {
+            "all": 4.6875,
+            "Chemistry": 4.3243,
+            "Economics": 7.6087,
+            "Medicine": 3.1818,
+            "Physics": 5.314
+          }
+        },
+        {
+          "id": "Clerical and kindred",
+          "label": "Clerical and kindred",
+          "sort_order": 3,
+          "laureate_n": 14,
+          "census_pct": 3.210551,
+          "shares": {
+            "all": 1.9886,
+            "Chemistry": 3.2432,
+            "Economics": 2.1739,
+            "Medicine": 0.9091,
+            "Physics": 1.9324
+          }
+        },
+        {
+          "id": "Craftsmen",
+          "label": "Craftsmen",
+          "sort_order": 4,
+          "laureate_n": 54,
+          "census_pct": 16.912249,
+          "shares": {
+            "all": 7.6705,
+            "Chemistry": 12.4324,
+            "Economics": 3.2609,
+            "Medicine": 7.2727,
+            "Physics": 5.7971
+          }
+        },
+        {
+          "id": "Operatives",
+          "label": "Operatives",
+          "sort_order": 5,
+          "laureate_n": 16,
+          "census_pct": 13.492507,
+          "shares": {
+            "all": 2.2727,
+            "Chemistry": 1.0811,
+            "Economics": 3.2609,
+            "Medicine": 2.2727,
+            "Physics": 2.8986
+          }
+        },
+        {
+          "id": "Service workers",
+          "label": "Service workers",
+          "sort_order": 6,
+          "laureate_n": 3,
+          "census_pct": 3.199021,
+          "shares": {
+            "all": 0.4261,
+            "Chemistry": 0.5405,
+            "Economics": 1.087,
+            "Medicine": 0.4545,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "Farm owners, tenants, and managers",
+          "label": "Farm owners, tenants, and managers",
+          "sort_order": 7,
+          "laureate_n": 23,
+          "census_pct": 26.773046,
+          "shares": {
+            "all": 3.267,
+            "Chemistry": 3.2432,
+            "Economics": 4.3478,
+            "Medicine": 3.1818,
+            "Physics": 2.8986
+          }
+        },
+        {
+          "id": "Laborers",
+          "label": "Laborers",
+          "sort_order": 8,
+          "laureate_n": 6,
+          "census_pct": 12.864603,
+          "shares": {
+            "all": 0.8523,
+            "Chemistry": 1.0811,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 1.4493
+          }
+        },
+        {
+          "id": "Farm laborers",
+          "label": "Farm laborers",
+          "sort_order": 9,
+          "laureate_n": 1,
+          "census_pct": 8.669734,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        }
+      ]
+    },
+    "group_25": {
+      "label": "24-group classification",
+      "groups": [
+        {
+          "id": "Professional specialty",
+          "label": "Professional specialty",
+          "sort_order": 0,
+          "laureate_n": 343,
+          "census_pct": 3.7541,
+          "shares": {
+            "all": 48.7216,
+            "Chemistry": 41.6216,
+            "Economics": 47.8261,
+            "Medicine": 52.2727,
+            "Physics": 51.6908
+          }
+        },
+        {
+          "id": "Management-related",
+          "label": "Management-related",
+          "sort_order": 1,
+          "laureate_n": 21,
+          "census_pct": 0.524177,
+          "shares": {
+            "all": 2.983,
+            "Chemistry": 2.7027,
+            "Economics": 2.1739,
+            "Medicine": 4.0909,
+            "Physics": 2.4155
+          }
+        },
+        {
+          "id": "Financial sales and related",
+          "label": "Financial sales and related",
+          "sort_order": 2,
+          "laureate_n": 8,
+          "census_pct": 0.262786,
+          "shares": {
+            "all": 1.1364,
+            "Chemistry": 1.0811,
+            "Economics": 2.1739,
+            "Medicine": 0.4545,
+            "Physics": 1.4493
+          }
+        },
+        {
+          "id": "Exec/admin/managerial",
+          "label": "Exec/admin/managerial",
+          "sort_order": 3,
+          "laureate_n": 184,
+          "census_pct": 6.482501,
+          "shares": {
+            "all": 26.1364,
+            "Chemistry": 28.6486,
+            "Economics": 27.1739,
+            "Medicine": 24.5455,
+            "Physics": 25.1208
+          }
+        },
+        {
+          "id": "Technicians and related support",
+          "label": "Technicians and related support",
+          "sort_order": 4,
+          "laureate_n": 4,
+          "census_pct": 0.252713,
+          "shares": {
+            "all": 0.5682,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 1.3636,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "Administrative support",
+          "label": "Administrative support",
+          "sort_order": 5,
+          "laureate_n": 26,
+          "census_pct": 3.449757,
+          "shares": {
+            "all": 3.6932,
+            "Chemistry": 4.8649,
+            "Economics": 6.5217,
+            "Medicine": 1.8182,
+            "Physics": 3.3816
+          }
+        },
+        {
+          "id": "Housekeeping/cleaning/laundry",
+          "label": "Housekeeping/cleaning/laundry",
+          "sort_order": 6,
+          "laureate_n": 2,
+          "census_pct": 0.284702,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "Mechanics and repairers",
+          "label": "Mechanics and repairers",
+          "sort_order": 7,
+          "laureate_n": 11,
+          "census_pct": 1.817294,
+          "shares": {
+            "all": 1.5625,
+            "Chemistry": 0.5405,
+            "Economics": 1.087,
+            "Medicine": 1.3636,
+            "Physics": 2.8986
+          }
+        },
+        {
+          "id": "Precision production and craft",
+          "label": "Precision production and craft",
+          "sort_order": 8,
+          "laureate_n": 27,
+          "census_pct": 5.646265,
+          "shares": {
+            "all": 3.8352,
+            "Chemistry": 7.027,
+            "Economics": 3.2609,
+            "Medicine": 4.5455,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "Retail sales",
+          "label": "Retail sales",
+          "sort_order": 9,
+          "laureate_n": 14,
+          "census_pct": 3.677744,
+          "shares": {
+            "all": 1.9886,
+            "Chemistry": 2.1622,
+            "Economics": 1.087,
+            "Medicine": 1.8182,
+            "Physics": 2.4155
+          }
+        },
+        {
+          "id": "Building and grounds cleaning/maintenance",
+          "label": "Building and grounds cleaning/maintenance",
+          "sort_order": 10,
+          "laureate_n": 2,
+          "census_pct": 0.544478,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "Construction trades",
+          "label": "Construction trades",
+          "sort_order": 11,
+          "laureate_n": 13,
+          "census_pct": 5.750776,
+          "shares": {
+            "all": 1.8466,
+            "Chemistry": 2.7027,
+            "Economics": 0.0,
+            "Medicine": 1.8182,
+            "Physics": 1.9324
+          }
+        },
+        {
+          "id": "Machine operators/assemblers/inspectors",
+          "label": "Machine operators/assemblers/inspectors",
+          "sort_order": 12,
+          "laureate_n": 14,
+          "census_pct": 10.127847,
+          "shares": {
+            "all": 1.9886,
+            "Chemistry": 2.7027,
+            "Economics": 1.087,
+            "Medicine": 1.3636,
+            "Physics": 2.4155
+          }
+        },
+        {
+          "id": "Food preparation and service",
+          "label": "Food preparation and service",
+          "sort_order": 13,
+          "laureate_n": 1,
+          "census_pct": 0.785884,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "Fire fighting/police/corrections",
+          "label": "Fire fighting/police/corrections",
+          "sort_order": 14,
+          "laureate_n": 1,
+          "census_pct": 0.983957,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 1.087,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "Farm operators and managers",
+          "label": "Farm operators and managers",
+          "sort_order": 15,
+          "laureate_n": 23,
+          "census_pct": 26.773046,
+          "shares": {
+            "all": 3.267,
+            "Chemistry": 3.2432,
+            "Economics": 4.3478,
+            "Medicine": 3.1818,
+            "Physics": 2.8986
+          }
+        },
+        {
+          "id": "Extractive/mining",
+          "label": "Extractive/mining",
+          "sort_order": 16,
+          "laureate_n": 1,
+          "census_pct": 2.130015,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "Transportation and material moving",
+          "label": "Transportation and material moving",
+          "sort_order": 17,
+          "laureate_n": 7,
+          "census_pct": 16.34611,
+          "shares": {
+            "all": 0.9943,
+            "Chemistry": 0.5405,
+            "Economics": 2.1739,
+            "Medicine": 0.9091,
+            "Physics": 0.9662
+          }
+        },
+        {
+          "id": "Other agricultural and related",
+          "label": "Other agricultural and related",
+          "sort_order": 18,
+          "laureate_n": 2,
+          "census_pct": 9.270341,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "Guards and guard supervisors",
+          "label": "Guards and guard supervisors",
+          "sort_order": 19,
+          "laureate_n": 0,
+          "census_pct": 0.278609,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "Health service support",
+          "label": "Health service support",
+          "sort_order": 20,
+          "laureate_n": 0,
+          "census_pct": 0.055886,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "Misc. personal care and services",
+          "label": "Misc. personal care and services",
+          "sort_order": 21,
+          "laureate_n": 0,
+          "census_pct": 0.497567,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "Personal appearance",
+          "label": "Personal appearance",
+          "sort_order": 22,
+          "laureate_n": 0,
+          "census_pct": 0.407523,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "Recreation and hospitality",
+          "label": "Recreation and hospitality",
+          "sort_order": 23,
+          "laureate_n": 0,
+          "census_pct": 0.36177,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        }
+      ]
+    },
+    "occ1950": {
+      "label": "Detailed occupations (occ1950)",
+      "groups": [
+        {
+          "id": "0",
+          "label": "0 accountants and auditors",
+          "sort_order": 0,
+          "laureate_n": 16,
+          "census_pct": 0.233116,
+          "shares": {
+            "all": 2.2727,
+            "Chemistry": 2.1622,
+            "Economics": 2.1739,
+            "Medicine": 3.1818,
+            "Physics": 1.4493
+          }
+        },
+        {
+          "id": "1",
+          "label": "1 actors and actresses",
+          "sort_order": 1,
+          "laureate_n": 0,
+          "census_pct": 0.027575,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "2",
+          "label": "2 airplane pilots and navigators",
+          "sort_order": 2,
+          "laureate_n": 1,
+          "census_pct": 0.008313,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "3",
+          "label": "3 architects",
+          "sort_order": 3,
+          "laureate_n": 4,
+          "census_pct": 0.036175,
+          "shares": {
+            "all": 0.5682,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 1.3636,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "4",
+          "label": "4 artists and art teachers",
+          "sort_order": 4,
+          "laureate_n": 3,
+          "census_pct": 0.068077,
+          "shares": {
+            "all": 0.4261,
+            "Chemistry": 1.0811,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "5",
+          "label": "5 athletes",
+          "sort_order": 5,
+          "laureate_n": 0,
+          "census_pct": 0.011704,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "6",
+          "label": "6 authors",
+          "sort_order": 6,
+          "laureate_n": 0,
+          "census_pct": 0.010293,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "7",
+          "label": "7 chemists",
+          "sort_order": 7,
+          "laureate_n": 7,
+          "census_pct": 0.063594,
+          "shares": {
+            "all": 0.9943,
+            "Chemistry": 0.5405,
+            "Economics": 3.2609,
+            "Medicine": 1.3636,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "8",
+          "label": "8 chiropractors",
+          "sort_order": 8,
+          "laureate_n": 0,
+          "census_pct": 0.008282,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "9",
+          "label": "9 clergymen",
+          "sort_order": 9,
+          "laureate_n": 17,
+          "census_pct": 0.455075,
+          "shares": {
+            "all": 2.4148,
+            "Chemistry": 2.1622,
+            "Economics": 0.0,
+            "Medicine": 3.6364,
+            "Physics": 2.4155
+          }
+        },
+        {
+          "id": "10",
+          "label": "10 college presidents and deans",
+          "sort_order": 10,
+          "laureate_n": 0,
+          "census_pct": 0.00397,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "12",
+          "label": "12 agricultural sciences-professors and instructors",
+          "sort_order": 11,
+          "laureate_n": 1,
+          "census_pct": 0.001807,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "13",
+          "label": "13 biological sciences-professors and instructors",
+          "sort_order": 12,
+          "laureate_n": 12,
+          "census_pct": 0.002172,
+          "shares": {
+            "all": 1.7045,
+            "Chemistry": 1.0811,
+            "Economics": 1.087,
+            "Medicine": 1.8182,
+            "Physics": 2.4155
+          }
+        },
+        {
+          "id": "14",
+          "label": "14 chemistry-professors and instructors",
+          "sort_order": 13,
+          "laureate_n": 10,
+          "census_pct": 0.002874,
+          "shares": {
+            "all": 1.4205,
+            "Chemistry": 1.6216,
+            "Economics": 1.087,
+            "Medicine": 0.9091,
+            "Physics": 1.9324
+          }
+        },
+        {
+          "id": "15",
+          "label": "15 economics-professors and instructors",
+          "sort_order": 14,
+          "laureate_n": 4,
+          "census_pct": 0.00132,
+          "shares": {
+            "all": 0.5682,
+            "Chemistry": 0.5405,
+            "Economics": 2.1739,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "16",
+          "label": "16 engineering-professors and instructors",
+          "sort_order": 15,
+          "laureate_n": 8,
+          "census_pct": 0.003458,
+          "shares": {
+            "all": 1.1364,
+            "Chemistry": 0.0,
+            "Economics": 1.087,
+            "Medicine": 0.9091,
+            "Physics": 2.4155
+          }
+        },
+        {
+          "id": "17",
+          "label": "17 geology and geophysics-professors and instructors",
+          "sort_order": 16,
+          "laureate_n": 1,
+          "census_pct": 0.000816,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "18",
+          "label": "18 mathematics-professors and instructors",
+          "sort_order": 17,
+          "laureate_n": 7,
+          "census_pct": 0.002837,
+          "shares": {
+            "all": 0.9943,
+            "Chemistry": 1.0811,
+            "Economics": 1.087,
+            "Medicine": 0.0,
+            "Physics": 1.9324
+          }
+        },
+        {
+          "id": "19",
+          "label": "19 medical sciences-professors and instructors",
+          "sort_order": 18,
+          "laureate_n": 8,
+          "census_pct": 0.001524,
+          "shares": {
+            "all": 1.1364,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 1.8182,
+            "Physics": 1.4493
+          }
+        },
+        {
+          "id": "23",
+          "label": "23 physics-professors and instructors",
+          "sort_order": 19,
+          "laureate_n": 11,
+          "census_pct": 0.00149,
+          "shares": {
+            "all": 1.5625,
+            "Chemistry": 1.6216,
+            "Economics": 0.0,
+            "Medicine": 0.9091,
+            "Physics": 2.8986
+          }
+        },
+        {
+          "id": "24",
+          "label": "24 psychology-professors and instructors",
+          "sort_order": 20,
+          "laureate_n": 0,
+          "census_pct": 0.001031,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "25",
+          "label": "25 statistics-professors and instructors",
+          "sort_order": 21,
+          "laureate_n": 0,
+          "census_pct": 0.001249,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "26",
+          "label": "26 natural science (nec)-professors and instructors",
+          "sort_order": 22,
+          "laureate_n": 1,
+          "census_pct": 0.000824,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "27",
+          "label": "27 social sciences (nec)-professors and instructors",
+          "sort_order": 23,
+          "laureate_n": 6,
+          "census_pct": 0.006435,
+          "shares": {
+            "all": 0.8523,
+            "Chemistry": 0.5405,
+            "Economics": 1.087,
+            "Medicine": 1.3636,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "28",
+          "label": "28 non-scientific subjects-professors and instructors",
+          "sort_order": 24,
+          "laureate_n": 10,
+          "census_pct": 0.008691,
+          "shares": {
+            "all": 1.4205,
+            "Chemistry": 1.6216,
+            "Economics": 1.087,
+            "Medicine": 1.3636,
+            "Physics": 1.4493
+          }
+        },
+        {
+          "id": "29",
+          "label": "29 subject not specified-professors and instructors",
+          "sort_order": 25,
+          "laureate_n": 6,
+          "census_pct": 0.04619,
+          "shares": {
+            "all": 0.8523,
+            "Chemistry": 1.0811,
+            "Economics": 0.0,
+            "Medicine": 0.9091,
+            "Physics": 0.9662
+          }
+        },
+        {
+          "id": "31",
+          "label": "31 dancers and dancing teachers",
+          "sort_order": 26,
+          "laureate_n": 0,
+          "census_pct": 0.003637,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "32",
+          "label": "32 dentists",
+          "sort_order": 27,
+          "laureate_n": 6,
+          "census_pct": 0.118573,
+          "shares": {
+            "all": 0.8523,
+            "Chemistry": 1.0811,
+            "Economics": 1.087,
+            "Medicine": 1.3636,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "33",
+          "label": "33 designers",
+          "sort_order": 28,
+          "laureate_n": 0,
+          "census_pct": 0.025944,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "34",
+          "label": "34 dietitians and nutritionists",
+          "sort_order": 29,
+          "laureate_n": 0,
+          "census_pct": 0.000832,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "35",
+          "label": "35 draftsmen",
+          "sort_order": 30,
+          "laureate_n": 1,
+          "census_pct": 0.105309,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "36",
+          "label": "36 editors and reporters",
+          "sort_order": 31,
+          "laureate_n": 7,
+          "census_pct": 0.095674,
+          "shares": {
+            "all": 0.9943,
+            "Chemistry": 0.0,
+            "Economics": 2.1739,
+            "Medicine": 1.3636,
+            "Physics": 0.9662
+          }
+        },
+        {
+          "id": "41",
+          "label": "41 aeronautical-engineers",
+          "sort_order": 32,
+          "laureate_n": 2,
+          "census_pct": 0.009327,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "42",
+          "label": "42 chemical-engineers",
+          "sort_order": 33,
+          "laureate_n": 4,
+          "census_pct": 0.012325,
+          "shares": {
+            "all": 0.5682,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.9091,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "43",
+          "label": "43 civil-engineers",
+          "sort_order": 34,
+          "laureate_n": 6,
+          "census_pct": 0.130191,
+          "shares": {
+            "all": 0.8523,
+            "Chemistry": 1.6216,
+            "Economics": 1.087,
+            "Medicine": 0.4545,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "44",
+          "label": "44 electrical-engineers",
+          "sort_order": 35,
+          "laureate_n": 14,
+          "census_pct": 0.085373,
+          "shares": {
+            "all": 1.9886,
+            "Chemistry": 1.0811,
+            "Economics": 2.1739,
+            "Medicine": 1.3636,
+            "Physics": 3.3816
+          }
+        },
+        {
+          "id": "45",
+          "label": "45 industrial-engineers",
+          "sort_order": 36,
+          "laureate_n": 2,
+          "census_pct": 0.021101,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.0,
+            "Economics": 1.087,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "46",
+          "label": "46 mechanical-engineers",
+          "sort_order": 37,
+          "laureate_n": 6,
+          "census_pct": 0.078729,
+          "shares": {
+            "all": 0.8523,
+            "Chemistry": 1.0811,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 1.4493
+          }
+        },
+        {
+          "id": "47",
+          "label": "47 metallurgical, metallurgists-engineers",
+          "sort_order": 38,
+          "laureate_n": 0,
+          "census_pct": 0.006928,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "48",
+          "label": "48 mining-engineers",
+          "sort_order": 39,
+          "laureate_n": 3,
+          "census_pct": 0.011701,
+          "shares": {
+            "all": 0.4261,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.9091,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "49",
+          "label": "49 engineers (nec)",
+          "sort_order": 40,
+          "laureate_n": 22,
+          "census_pct": 0.039884,
+          "shares": {
+            "all": 3.125,
+            "Chemistry": 3.2432,
+            "Economics": 2.1739,
+            "Medicine": 3.1818,
+            "Physics": 3.3816
+          }
+        },
+        {
+          "id": "51",
+          "label": "51 entertainers (nec)",
+          "sort_order": 41,
+          "laureate_n": 1,
+          "census_pct": 0.011261,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "52",
+          "label": "52 farm and home management advisors",
+          "sort_order": 42,
+          "laureate_n": 0,
+          "census_pct": 0.007421,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "53",
+          "label": "53 foresters and conservationists",
+          "sort_order": 43,
+          "laureate_n": 4,
+          "census_pct": 0.018721,
+          "shares": {
+            "all": 0.5682,
+            "Chemistry": 0.0,
+            "Economics": 1.087,
+            "Medicine": 0.4545,
+            "Physics": 0.9662
+          }
+        },
+        {
+          "id": "54",
+          "label": "54 funeral directors and embalmers",
+          "sort_order": 44,
+          "laureate_n": 0,
+          "census_pct": 0.049578,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "55",
+          "label": "55 lawyers and judges",
+          "sort_order": 45,
+          "laureate_n": 31,
+          "census_pct": 0.45092,
+          "shares": {
+            "all": 4.4034,
+            "Chemistry": 4.3243,
+            "Economics": 6.5217,
+            "Medicine": 5.4545,
+            "Physics": 2.4155
+          }
+        },
+        {
+          "id": "56",
+          "label": "56 librarians",
+          "sort_order": 46,
+          "laureate_n": 0,
+          "census_pct": 0.005624,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "57",
+          "label": "57 musicians and music teachers",
+          "sort_order": 47,
+          "laureate_n": 2,
+          "census_pct": 0.148671,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.5405,
+            "Economics": 1.087,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "58",
+          "label": "58 nurses, professional",
+          "sort_order": 48,
+          "laureate_n": 0,
+          "census_pct": 0.011216,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "59",
+          "label": "59 nurses, student professional",
+          "sort_order": 49,
+          "laureate_n": 0,
+          "census_pct": 0.00114,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "61",
+          "label": "61 agricultural scientists",
+          "sort_order": 50,
+          "laureate_n": 0,
+          "census_pct": 0.002836,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "62",
+          "label": "62 biological scientists",
+          "sort_order": 51,
+          "laureate_n": 4,
+          "census_pct": 0.00439,
+          "shares": {
+            "all": 0.5682,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.9662
+          }
+        },
+        {
+          "id": "63",
+          "label": "63 geologists and geophysicists",
+          "sort_order": 52,
+          "laureate_n": 1,
+          "census_pct": 0.006846,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "67",
+          "label": "67 mathematicians",
+          "sort_order": 53,
+          "laureate_n": 0,
+          "census_pct": 0.001073,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "68",
+          "label": "68 physicists",
+          "sort_order": 54,
+          "laureate_n": 1,
+          "census_pct": 0.003174,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "69",
+          "label": "69 misc. natural scientists",
+          "sort_order": 55,
+          "laureate_n": 4,
+          "census_pct": 0.001745,
+          "shares": {
+            "all": 0.5682,
+            "Chemistry": 0.0,
+            "Economics": 2.1739,
+            "Medicine": 0.4545,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "70",
+          "label": "70 optometrists",
+          "sort_order": 56,
+          "laureate_n": 0,
+          "census_pct": 0.011084,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "71",
+          "label": "71 osteopaths",
+          "sort_order": 57,
+          "laureate_n": 1,
+          "census_pct": 0.005601,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "72",
+          "label": "72 personnel and labor relations workers",
+          "sort_order": 58,
+          "laureate_n": 0,
+          "census_pct": 0.018691,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "73",
+          "label": "73 pharmacists",
+          "sort_order": 59,
+          "laureate_n": 9,
+          "census_pct": 0.186171,
+          "shares": {
+            "all": 1.2784,
+            "Chemistry": 1.0811,
+            "Economics": 3.2609,
+            "Medicine": 0.9091,
+            "Physics": 0.9662
+          }
+        },
+        {
+          "id": "74",
+          "label": "74 photographers",
+          "sort_order": 60,
+          "laureate_n": 2,
+          "census_pct": 0.06823,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "75",
+          "label": "75 physicians and surgeons",
+          "sort_order": 61,
+          "laureate_n": 59,
+          "census_pct": 0.595408,
+          "shares": {
+            "all": 8.3807,
+            "Chemistry": 5.4054,
+            "Economics": 6.5217,
+            "Medicine": 13.1818,
+            "Physics": 6.7633
+          }
+        },
+        {
+          "id": "76",
+          "label": "76 radio operators",
+          "sort_order": 62,
+          "laureate_n": 0,
+          "census_pct": 0.010562,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "77",
+          "label": "77 recreation and group workers",
+          "sort_order": 63,
+          "laureate_n": 0,
+          "census_pct": 0.008725,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "78",
+          "label": "78 religious workers",
+          "sort_order": 64,
+          "laureate_n": 0,
+          "census_pct": 0.016259,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "79",
+          "label": "79 social and welfare workers, except group",
+          "sort_order": 65,
+          "laureate_n": 2,
+          "census_pct": 0.018085,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "81",
+          "label": "81 economists",
+          "sort_order": 66,
+          "laureate_n": 0,
+          "census_pct": 0.005057,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "82",
+          "label": "82 psychologists",
+          "sort_order": 67,
+          "laureate_n": 1,
+          "census_pct": 0.001392,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "83",
+          "label": "83 statisticians and actuaries",
+          "sort_order": 68,
+          "laureate_n": 1,
+          "census_pct": 0.008499,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 1.087,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "84",
+          "label": "84 misc social scientists",
+          "sort_order": 69,
+          "laureate_n": 0,
+          "census_pct": 0.002184,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "91",
+          "label": "91 sports instructors and officials",
+          "sort_order": 70,
+          "laureate_n": 0,
+          "census_pct": 0.032643,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "92",
+          "label": "92 surveyors",
+          "sort_order": 71,
+          "laureate_n": 2,
+          "census_pct": 0.03406,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "93",
+          "label": "93 teachers (n.e.c.)",
+          "sort_order": 72,
+          "laureate_n": 29,
+          "census_pct": 0.590592,
+          "shares": {
+            "all": 4.1193,
+            "Chemistry": 4.8649,
+            "Economics": 4.3478,
+            "Medicine": 1.8182,
+            "Physics": 5.7971
+          }
+        },
+        {
+          "id": "94",
+          "label": "94 medical and dental-technicians",
+          "sort_order": 73,
+          "laureate_n": 0,
+          "census_pct": 0.01864,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "95",
+          "label": "95 testing-technicians",
+          "sort_order": 74,
+          "laureate_n": 0,
+          "census_pct": 0.03726,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "96",
+          "label": "96 technicians (nec)",
+          "sort_order": 75,
+          "laureate_n": 0,
+          "census_pct": 0.020213,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "97",
+          "label": "97 therapists and healers (nec)",
+          "sort_order": 76,
+          "laureate_n": 0,
+          "census_pct": 0.01299,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "98",
+          "label": "98 veterinarians",
+          "sort_order": 77,
+          "laureate_n": 2,
+          "census_pct": 0.022333,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.9091,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "99",
+          "label": "99 professional, technical and kindred workers (nec)",
+          "sort_order": 78,
+          "laureate_n": 1,
+          "census_pct": 0.098518,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "100",
+          "label": "100 farmers (owners and tenants)",
+          "sort_order": 79,
+          "laureate_n": 23,
+          "census_pct": 26.70082,
+          "shares": {
+            "all": 3.267,
+            "Chemistry": 3.2432,
+            "Economics": 4.3478,
+            "Medicine": 3.1818,
+            "Physics": 2.8986
+          }
+        },
+        {
+          "id": "123",
+          "label": "123 farm managers",
+          "sort_order": 80,
+          "laureate_n": 0,
+          "census_pct": 0.072227,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "200",
+          "label": "200 buyers and dept heads, store",
+          "sort_order": 81,
+          "laureate_n": 0,
+          "census_pct": 0.072076,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "201",
+          "label": "201 buyers and shippers, farm products",
+          "sort_order": 82,
+          "laureate_n": 4,
+          "census_pct": 0.110365,
+          "shares": {
+            "all": 0.5682,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.9091,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "203",
+          "label": "203 conductors, railroad",
+          "sort_order": 83,
+          "laureate_n": 0,
+          "census_pct": 0.135821,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "204",
+          "label": "204 credit men",
+          "sort_order": 84,
+          "laureate_n": 0,
+          "census_pct": 0.023403,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "205",
+          "label": "205 floormen and floor managers, store",
+          "sort_order": 85,
+          "laureate_n": 1,
+          "census_pct": 0.006202,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "210",
+          "label": "210 inspectors, public administration",
+          "sort_order": 86,
+          "laureate_n": 0,
+          "census_pct": 0.045651,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "230",
+          "label": "230 managers and superintendents, building",
+          "sort_order": 87,
+          "laureate_n": 2,
+          "census_pct": 0.064154,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.5405,
+            "Economics": 1.087,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "240",
+          "label": "240 officers, pilots, pursers and engineers, ship",
+          "sort_order": 88,
+          "laureate_n": 1,
+          "census_pct": 0.13605,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 1.087,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "250",
+          "label": "250 officials and administrators (nec), public administration",
+          "sort_order": 89,
+          "laureate_n": 50,
+          "census_pct": 0.169438,
+          "shares": {
+            "all": 7.1023,
+            "Chemistry": 6.4865,
+            "Economics": 6.5217,
+            "Medicine": 7.2727,
+            "Physics": 7.7295
+          }
+        },
+        {
+          "id": "260",
+          "label": "260 officials, lodge, society, union, etc",
+          "sort_order": 90,
+          "laureate_n": 1,
+          "census_pct": 0.017241,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "270",
+          "label": "270 postmasters",
+          "sort_order": 91,
+          "laureate_n": 0,
+          "census_pct": 0.047474,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "280",
+          "label": "280 purchasing agents and buyers (nec)",
+          "sort_order": 92,
+          "laureate_n": 1,
+          "census_pct": 0.039566,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "290",
+          "label": "290 managers, officials, and proprietors (nec)",
+          "sort_order": 93,
+          "laureate_n": 131,
+          "census_pct": 6.130646,
+          "shares": {
+            "all": 18.608,
+            "Chemistry": 21.6216,
+            "Economics": 19.5652,
+            "Medicine": 16.8182,
+            "Physics": 17.3913
+          }
+        },
+        {
+          "id": "300",
+          "label": "300 agents (nec)",
+          "sort_order": 94,
+          "laureate_n": 0,
+          "census_pct": 0.10912,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "301",
+          "label": "301 attendants and assistants, library",
+          "sort_order": 95,
+          "laureate_n": 0,
+          "census_pct": 0.0044,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "302",
+          "label": "302 attendants, physicians and dentists office",
+          "sort_order": 96,
+          "laureate_n": 0,
+          "census_pct": 0.003956,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "304",
+          "label": "304 baggagemen, transportation",
+          "sort_order": 97,
+          "laureate_n": 0,
+          "census_pct": 0.025956,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "305",
+          "label": "305 bank tellers",
+          "sort_order": 98,
+          "laureate_n": 1,
+          "census_pct": 0.037924,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "310",
+          "label": "310 bookkeepers",
+          "sort_order": 99,
+          "laureate_n": 0,
+          "census_pct": 0.501977,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "320",
+          "label": "320 cashiers",
+          "sort_order": 100,
+          "laureate_n": 0,
+          "census_pct": 0.053264,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "321",
+          "label": "321 collectors, bill and account",
+          "sort_order": 101,
+          "laureate_n": 1,
+          "census_pct": 0.060539,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "322",
+          "label": "322 dispatchers and starters, vehicle",
+          "sort_order": 102,
+          "laureate_n": 0,
+          "census_pct": 0.014637,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "325",
+          "label": "325 express messengers and railway mail clerks",
+          "sort_order": 103,
+          "laureate_n": 0,
+          "census_pct": 0.035276,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "335",
+          "label": "335 mail carriers",
+          "sort_order": 104,
+          "laureate_n": 1,
+          "census_pct": 0.171049,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "340",
+          "label": "340 messengers and office boys",
+          "sort_order": 105,
+          "laureate_n": 0,
+          "census_pct": 0.048877,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "341",
+          "label": "341 office machine operators",
+          "sort_order": 106,
+          "laureate_n": 0,
+          "census_pct": 0.016648,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "342",
+          "label": "342 shipping and receiving clerks",
+          "sort_order": 107,
+          "laureate_n": 0,
+          "census_pct": 0.231399,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "350",
+          "label": "350 stenographers, typists, and secretaries",
+          "sort_order": 108,
+          "laureate_n": 2,
+          "census_pct": 0.109407,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.9662
+          }
+        },
+        {
+          "id": "360",
+          "label": "360 telegraph messengers",
+          "sort_order": 109,
+          "laureate_n": 0,
+          "census_pct": 0.006642,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "365",
+          "label": "365 telegraph operators",
+          "sort_order": 110,
+          "laureate_n": 1,
+          "census_pct": 0.109643,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 1.087,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "370",
+          "label": "370 telephone operators",
+          "sort_order": 111,
+          "laureate_n": 0,
+          "census_pct": 0.0201,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "380",
+          "label": "380 ticket, station, and express agents",
+          "sort_order": 112,
+          "laureate_n": 1,
+          "census_pct": 0.108855,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "390",
+          "label": "390 clerical and kindred workers (n.e.c.)",
+          "sort_order": 113,
+          "laureate_n": 7,
+          "census_pct": 1.54088,
+          "shares": {
+            "all": 0.9943,
+            "Chemistry": 1.6216,
+            "Economics": 1.087,
+            "Medicine": 0.4545,
+            "Physics": 0.9662
+          }
+        },
+        {
+          "id": "400",
+          "label": "400 advertising agents and salesmen",
+          "sort_order": 114,
+          "laureate_n": 2,
+          "census_pct": 0.035388,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.0,
+            "Economics": 2.1739,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "410",
+          "label": "410 auctioneers",
+          "sort_order": 115,
+          "laureate_n": 0,
+          "census_pct": 0.015014,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "420",
+          "label": "420 demonstrators",
+          "sort_order": 116,
+          "laureate_n": 0,
+          "census_pct": 0.002648,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "430",
+          "label": "430 hucksters and peddlers",
+          "sort_order": 117,
+          "laureate_n": 0,
+          "census_pct": 0.216186,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "450",
+          "label": "450 insurance agents and brokers",
+          "sort_order": 118,
+          "laureate_n": 12,
+          "census_pct": 0.293337,
+          "shares": {
+            "all": 1.7045,
+            "Chemistry": 1.6216,
+            "Economics": 4.3478,
+            "Medicine": 0.9091,
+            "Physics": 1.4493
+          }
+        },
+        {
+          "id": "460",
+          "label": "460 newsboys",
+          "sort_order": 119,
+          "laureate_n": 0,
+          "census_pct": 0.020734,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "470",
+          "label": "470 real estate agents and brokers",
+          "sort_order": 120,
+          "laureate_n": 2,
+          "census_pct": 0.197252,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "480",
+          "label": "480 stock and bond salesmen",
+          "sort_order": 121,
+          "laureate_n": 3,
+          "census_pct": 0.023945,
+          "shares": {
+            "all": 0.4261,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.9662
+          }
+        },
+        {
+          "id": "490",
+          "label": "490 salesmen and sales clerks (nec)",
+          "sort_order": 122,
+          "laureate_n": 14,
+          "census_pct": 3.239315,
+          "shares": {
+            "all": 1.9886,
+            "Chemistry": 2.1622,
+            "Economics": 1.087,
+            "Medicine": 1.8182,
+            "Physics": 2.4155
+          }
+        },
+        {
+          "id": "500",
+          "label": "500 bakers",
+          "sort_order": 123,
+          "laureate_n": 3,
+          "census_pct": 0.300831,
+          "shares": {
+            "all": 0.4261,
+            "Chemistry": 1.6216,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "501",
+          "label": "501 blacksmiths",
+          "sort_order": 124,
+          "laureate_n": 0,
+          "census_pct": 1.036767,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "502",
+          "label": "502 bookbinders",
+          "sort_order": 125,
+          "laureate_n": 1,
+          "census_pct": 0.047766,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "503",
+          "label": "503 boilermakers",
+          "sort_order": 126,
+          "laureate_n": 0,
+          "census_pct": 0.101242,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "504",
+          "label": "504 brickmasons, stonemasons, and tile setters",
+          "sort_order": 127,
+          "laureate_n": 3,
+          "census_pct": 0.692162,
+          "shares": {
+            "all": 0.4261,
+            "Chemistry": 1.0811,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "505",
+          "label": "505 cabinetmakers",
+          "sort_order": 128,
+          "laureate_n": 1,
+          "census_pct": 0.336393,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "510",
+          "label": "510 carpenters",
+          "sort_order": 129,
+          "laureate_n": 4,
+          "census_pct": 3.094868,
+          "shares": {
+            "all": 0.5682,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.9091,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "511",
+          "label": "511 cement and concrete finishers",
+          "sort_order": 130,
+          "laureate_n": 0,
+          "census_pct": 0.024854,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "512",
+          "label": "512 compositors and typesetters",
+          "sort_order": 131,
+          "laureate_n": 1,
+          "census_pct": 0.381348,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "513",
+          "label": "513 cranemen,derrickmen, and hoistmen",
+          "sort_order": 132,
+          "laureate_n": 0,
+          "census_pct": 0.082103,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "514",
+          "label": "514 decorators and window dressers",
+          "sort_order": 133,
+          "laureate_n": 0,
+          "census_pct": 0.021462,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "515",
+          "label": "515 electricians",
+          "sort_order": 134,
+          "laureate_n": 0,
+          "census_pct": 0.307738,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "520",
+          "label": "520 electrotypers and stereotypers",
+          "sort_order": 135,
+          "laureate_n": 0,
+          "census_pct": 0.011679,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "521",
+          "label": "521 engravers, except photoengravers",
+          "sort_order": 136,
+          "laureate_n": 0,
+          "census_pct": 0.031217,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "522",
+          "label": "522 excavating, grading, and road machinery operators",
+          "sort_order": 137,
+          "laureate_n": 0,
+          "census_pct": 0.057597,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "523",
+          "label": "523 foremen (nec)",
+          "sort_order": 138,
+          "laureate_n": 2,
+          "census_pct": 0.884173,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 1.0811,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "524",
+          "label": "524 forgemen and hammermen",
+          "sort_order": 139,
+          "laureate_n": 0,
+          "census_pct": 0.021727,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "525",
+          "label": "525 furriers",
+          "sort_order": 140,
+          "laureate_n": 1,
+          "census_pct": 0.016102,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 1.087,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "530",
+          "label": "530 glaziers",
+          "sort_order": 141,
+          "laureate_n": 0,
+          "census_pct": 0.016048,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "531",
+          "label": "531 heat treaters, annealers, temperers",
+          "sort_order": 142,
+          "laureate_n": 0,
+          "census_pct": 0.010785,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "532",
+          "label": "532 inspectors, scalers, and graders log and lumber",
+          "sort_order": 143,
+          "laureate_n": 0,
+          "census_pct": 0.025731,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "533",
+          "label": "533 inspectors (nec)",
+          "sort_order": 144,
+          "laureate_n": 0,
+          "census_pct": 0.119474,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "534",
+          "label": "534 jewelers, watchmakers, goldsmiths, and silversmiths",
+          "sort_order": 145,
+          "laureate_n": 4,
+          "census_pct": 0.16233,
+          "shares": {
+            "all": 0.5682,
+            "Chemistry": 0.0,
+            "Economics": 1.087,
+            "Medicine": 0.4545,
+            "Physics": 0.9662
+          }
+        },
+        {
+          "id": "535",
+          "label": "535 job setters, metal",
+          "sort_order": 146,
+          "laureate_n": 0,
+          "census_pct": 0.011723,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "540",
+          "label": "540 linemen and servicemen, telegraph, telephone, and power",
+          "sort_order": 147,
+          "laureate_n": 1,
+          "census_pct": 0.141951,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "541",
+          "label": "541 locomotive engineers",
+          "sort_order": 148,
+          "laureate_n": 1,
+          "census_pct": 0.17179,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "542",
+          "label": "542 locomotive firemen",
+          "sort_order": 149,
+          "laureate_n": 0,
+          "census_pct": 0.134023,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "543",
+          "label": "543 loom fixers",
+          "sort_order": 150,
+          "laureate_n": 0,
+          "census_pct": 0.030162,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "544",
+          "label": "544 machinists",
+          "sort_order": 151,
+          "laureate_n": 2,
+          "census_pct": 1.118218,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.5405,
+            "Economics": 1.087,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "545",
+          "label": "545 airplane-mechanics and repairmen",
+          "sort_order": 152,
+          "laureate_n": 0,
+          "census_pct": 0.031769,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "550",
+          "label": "550 automobile-mechanics and repairmen",
+          "sort_order": 153,
+          "laureate_n": 3,
+          "census_pct": 0.421752,
+          "shares": {
+            "all": 0.4261,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.9091,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "551",
+          "label": "551 office machine-mechanics and repairmen",
+          "sort_order": 154,
+          "laureate_n": 0,
+          "census_pct": 0.011486,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "552",
+          "label": "552 radio and television-mechanics and repairmen",
+          "sort_order": 155,
+          "laureate_n": 1,
+          "census_pct": 0.073677,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "553",
+          "label": "553 railroad and car shop-mechanics and repairmen",
+          "sort_order": 156,
+          "laureate_n": 0,
+          "census_pct": 0.074986,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "554",
+          "label": "554 mechanics and repairmen (nec)",
+          "sort_order": 157,
+          "laureate_n": 2,
+          "census_pct": 0.633669,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "555",
+          "label": "555 millers, grain, flour, feed, etc",
+          "sort_order": 158,
+          "laureate_n": 0,
+          "census_pct": 0.264405,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "560",
+          "label": "560 millwrights",
+          "sort_order": 159,
+          "laureate_n": 0,
+          "census_pct": 0.113812,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "561",
+          "label": "561 molders, metal",
+          "sort_order": 160,
+          "laureate_n": 0,
+          "census_pct": 0.280101,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "562",
+          "label": "562 motion picture projectionists",
+          "sort_order": 161,
+          "laureate_n": 0,
+          "census_pct": 0.019688,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "563",
+          "label": "563 opticians and lens grinders and polishers",
+          "sort_order": 162,
+          "laureate_n": 0,
+          "census_pct": 0.019761,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "564",
+          "label": "564 painters, construction and maintenance",
+          "sort_order": 163,
+          "laureate_n": 2,
+          "census_pct": 0.841902,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "565",
+          "label": "565 paperhangers",
+          "sort_order": 164,
+          "laureate_n": 0,
+          "census_pct": 0.045913,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "570",
+          "label": "570 pattern and model makers, except paper",
+          "sort_order": 165,
+          "laureate_n": 0,
+          "census_pct": 0.062212,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "571",
+          "label": "571 photoengravers and lithographers",
+          "sort_order": 166,
+          "laureate_n": 0,
+          "census_pct": 0.034525,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "572",
+          "label": "572 piano and organ tuners and repairmen",
+          "sort_order": 167,
+          "laureate_n": 0,
+          "census_pct": 0.015445,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "573",
+          "label": "573 plasterers",
+          "sort_order": 168,
+          "laureate_n": 0,
+          "census_pct": 0.17244,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "574",
+          "label": "574 plumbers and pipe fitters",
+          "sort_order": 169,
+          "laureate_n": 3,
+          "census_pct": 0.358654,
+          "shares": {
+            "all": 0.4261,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.9091,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "575",
+          "label": "575 pressmen and plate printers, printing",
+          "sort_order": 170,
+          "laureate_n": 3,
+          "census_pct": 0.052942,
+          "shares": {
+            "all": 0.4261,
+            "Chemistry": 1.6216,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "580",
+          "label": "580 rollers and roll hands, metal",
+          "sort_order": 171,
+          "laureate_n": 0,
+          "census_pct": 0.052906,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "581",
+          "label": "581 roofers and slaters",
+          "sort_order": 172,
+          "laureate_n": 0,
+          "census_pct": 0.043933,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "582",
+          "label": "582 shoemakers and repairers, except factory",
+          "sort_order": 173,
+          "laureate_n": 1,
+          "census_pct": 0.893532,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "583",
+          "label": "583 stationary engineers",
+          "sort_order": 174,
+          "laureate_n": 0,
+          "census_pct": 0.475588,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "584",
+          "label": "584 stone cutters and stone carvers",
+          "sort_order": 175,
+          "laureate_n": 0,
+          "census_pct": 0.15035,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "585",
+          "label": "585 structural metal workers",
+          "sort_order": 176,
+          "laureate_n": 1,
+          "census_pct": 0.09098,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "590",
+          "label": "590 tailors and tailoresses",
+          "sort_order": 177,
+          "laureate_n": 3,
+          "census_pct": 0.631022,
+          "shares": {
+            "all": 0.4261,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 1.3636,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "591",
+          "label": "591 tinsmiths, coppersmiths, and sheet metal workers",
+          "sort_order": 178,
+          "laureate_n": 0,
+          "census_pct": 0.239881,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "592",
+          "label": "592 tool makers, and die makers and setters",
+          "sort_order": 179,
+          "laureate_n": 1,
+          "census_pct": 0.11215,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "593",
+          "label": "593 upholsterers",
+          "sort_order": 180,
+          "laureate_n": 0,
+          "census_pct": 0.074474,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "594",
+          "label": "594 craftsmen and kindred workers (nec)",
+          "sort_order": 181,
+          "laureate_n": 10,
+          "census_pct": 0.650505,
+          "shares": {
+            "all": 1.4205,
+            "Chemistry": 2.7027,
+            "Economics": 0.0,
+            "Medicine": 1.8182,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "595",
+          "label": "595 members of the armed services",
+          "sort_order": 182,
+          "laureate_n": 0,
+          "census_pct": 0.575522,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "600",
+          "label": "600 auto mechanics apprentice",
+          "sort_order": 183,
+          "laureate_n": 0,
+          "census_pct": 0.003395,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "601",
+          "label": "601 bricklayers and masons apprentice",
+          "sort_order": 184,
+          "laureate_n": 0,
+          "census_pct": 0.008488,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "602",
+          "label": "602 carpenters apprentice",
+          "sort_order": 185,
+          "laureate_n": 0,
+          "census_pct": 0.015234,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "603",
+          "label": "603 electricians apprentice",
+          "sort_order": 186,
+          "laureate_n": 0,
+          "census_pct": 0.005748,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "604",
+          "label": "604 machinists and toolmakers apprentice",
+          "sort_order": 187,
+          "laureate_n": 0,
+          "census_pct": 0.029081,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "605",
+          "label": "605 mechanics, except auto apprentice",
+          "sort_order": 188,
+          "laureate_n": 0,
+          "census_pct": 0.007079,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "610",
+          "label": "610 plumbers and pipe fitters apprentice",
+          "sort_order": 189,
+          "laureate_n": 0,
+          "census_pct": 0.013462,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "611",
+          "label": "611 apprentices, building trades (nec)",
+          "sort_order": 190,
+          "laureate_n": 0,
+          "census_pct": 0.009638,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "612",
+          "label": "612 apprentices, metalworking trades (nec)",
+          "sort_order": 191,
+          "laureate_n": 0,
+          "census_pct": 0.051756,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "613",
+          "label": "613 apprentices, printing  trades",
+          "sort_order": 192,
+          "laureate_n": 0,
+          "census_pct": 0.016079,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "614",
+          "label": "614 apprentices, other specified trades",
+          "sort_order": 193,
+          "laureate_n": 0,
+          "census_pct": 0.031389,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "615",
+          "label": "615 apprentices, trade not specified",
+          "sort_order": 194,
+          "laureate_n": 0,
+          "census_pct": 0.021006,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "620",
+          "label": "620 asbestos and insulation workers",
+          "sort_order": 195,
+          "laureate_n": 0,
+          "census_pct": 0.008716,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "621",
+          "label": "621 attendants, auto service and parking",
+          "sort_order": 196,
+          "laureate_n": 0,
+          "census_pct": 0.132998,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "622",
+          "label": "622 blasters and powdermen",
+          "sort_order": 197,
+          "laureate_n": 0,
+          "census_pct": 0.006404,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "623",
+          "label": "623 boatmen, canalmen, and lock keepers",
+          "sort_order": 198,
+          "laureate_n": 0,
+          "census_pct": 0.187598,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "624",
+          "label": "624 brakemen, railroad",
+          "sort_order": 199,
+          "laureate_n": 0,
+          "census_pct": 0.194393,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "625",
+          "label": "625 bus drivers",
+          "sort_order": 200,
+          "laureate_n": 0,
+          "census_pct": 0.105434,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "630",
+          "label": "630 chainmen, rodmen, and axmen, surveying",
+          "sort_order": 201,
+          "laureate_n": 0,
+          "census_pct": 0.008233,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "631",
+          "label": "631 conductors, bus and street railway",
+          "sort_order": 202,
+          "laureate_n": 0,
+          "census_pct": 0.06616,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "632",
+          "label": "632 deliverymen and routemen",
+          "sort_order": 203,
+          "laureate_n": 0,
+          "census_pct": 0.303051,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "633",
+          "label": "633 dressmakers and seamstresses, except factory",
+          "sort_order": 204,
+          "laureate_n": 0,
+          "census_pct": 0.017028,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "634",
+          "label": "634 dyers",
+          "sort_order": 205,
+          "laureate_n": 0,
+          "census_pct": 0.050747,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "635",
+          "label": "635 filers, grinders, and polishers, metal",
+          "sort_order": 206,
+          "laureate_n": 0,
+          "census_pct": 0.138744,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "640",
+          "label": "640 fruit, nut, and vegetable graders, and packers, except facto",
+          "sort_order": 207,
+          "laureate_n": 0,
+          "census_pct": 0.012798,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "641",
+          "label": "641 furnacemen, smeltermen and pourers",
+          "sort_order": 208,
+          "laureate_n": 0,
+          "census_pct": 0.1204,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "642",
+          "label": "642 heaters, metal",
+          "sort_order": 209,
+          "laureate_n": 0,
+          "census_pct": 0.024277,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "643",
+          "label": "643 laundry and dry cleaning operatives",
+          "sort_order": 210,
+          "laureate_n": 1,
+          "census_pct": 0.138619,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "644",
+          "label": "644 meat cutters, except slaughter and packing house",
+          "sort_order": 211,
+          "laureate_n": 3,
+          "census_pct": 0.421854,
+          "shares": {
+            "all": 0.4261,
+            "Chemistry": 0.0,
+            "Economics": 1.087,
+            "Medicine": 0.9091,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "645",
+          "label": "645 milliners",
+          "sort_order": 212,
+          "laureate_n": 0,
+          "census_pct": 0.008046,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "650",
+          "label": "650 mine operatives and laborers",
+          "sort_order": 213,
+          "laureate_n": 1,
+          "census_pct": 2.123612,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "660",
+          "label": "660 motormen, mine, factory, logging camp, etc",
+          "sort_order": 214,
+          "laureate_n": 0,
+          "census_pct": 0.015654,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "661",
+          "label": "661 motormen, street, subway, and elevated railway",
+          "sort_order": 215,
+          "laureate_n": 0,
+          "census_pct": 0.08059,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "662",
+          "label": "662 oilers and greaser, except auto",
+          "sort_order": 216,
+          "laureate_n": 0,
+          "census_pct": 0.043384,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "670",
+          "label": "670 painters, except construction or maintenance",
+          "sort_order": 217,
+          "laureate_n": 0,
+          "census_pct": 0.15529,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "671",
+          "label": "671 photographic process workers",
+          "sort_order": 218,
+          "laureate_n": 1,
+          "census_pct": 0.011056,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "672",
+          "label": "672 power station operators",
+          "sort_order": 219,
+          "laureate_n": 0,
+          "census_pct": 0.016965,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "673",
+          "label": "673 sailors and deck hands",
+          "sort_order": 220,
+          "laureate_n": 0,
+          "census_pct": 0.538785,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "674",
+          "label": "674 sawyers",
+          "sort_order": 221,
+          "laureate_n": 1,
+          "census_pct": 0.155426,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "675",
+          "label": "675 spinners, textile",
+          "sort_order": 222,
+          "laureate_n": 1,
+          "census_pct": 0.068777,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "680",
+          "label": "680 stationary firemen",
+          "sort_order": 223,
+          "laureate_n": 0,
+          "census_pct": 0.203852,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "681",
+          "label": "681 switchmen, railroad",
+          "sort_order": 224,
+          "laureate_n": 0,
+          "census_pct": 0.088294,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "682",
+          "label": "682 taxicab drivers and chauffeurs",
+          "sort_order": 225,
+          "laureate_n": 0,
+          "census_pct": 0.294685,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "683",
+          "label": "683 truck and tractor drivers",
+          "sort_order": 226,
+          "laureate_n": 2,
+          "census_pct": 1.557874,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.0,
+            "Economics": 1.087,
+            "Medicine": 0.4545,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "684",
+          "label": "684 weavers, textile",
+          "sort_order": 227,
+          "laureate_n": 1,
+          "census_pct": 0.249618,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "685",
+          "label": "685 welders and flame cutters",
+          "sort_order": 228,
+          "laureate_n": 1,
+          "census_pct": 0.12739,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 1.087,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "690",
+          "label": "690 operative and kindred workers (nec)",
+          "sort_order": 229,
+          "laureate_n": 4,
+          "census_pct": 5.6034,
+          "shares": {
+            "all": 0.5682,
+            "Chemistry": 1.0811,
+            "Economics": 0.0,
+            "Medicine": 0.9091,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "700",
+          "label": "700 housekeepers, private household",
+          "sort_order": 230,
+          "laureate_n": 0,
+          "census_pct": 0.00369,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "710",
+          "label": "710 laundresses, private household",
+          "sort_order": 231,
+          "laureate_n": 0,
+          "census_pct": 0.010556,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "720",
+          "label": "720 private household workers (nec)",
+          "sort_order": 232,
+          "laureate_n": 0,
+          "census_pct": 0.281139,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "730",
+          "label": "730 attendants, hospital and other institution",
+          "sort_order": 233,
+          "laureate_n": 0,
+          "census_pct": 0.051929,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "731",
+          "label": "731 attendants, professional and personal service (nec)",
+          "sort_order": 234,
+          "laureate_n": 0,
+          "census_pct": 0.014199,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "732",
+          "label": "732 attendants, recreation and amusement",
+          "sort_order": 235,
+          "laureate_n": 0,
+          "census_pct": 0.02673,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "740",
+          "label": "740 barbers, beauticians, and manicurists",
+          "sort_order": 236,
+          "laureate_n": 0,
+          "census_pct": 0.407523,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "750",
+          "label": "750 bartenders",
+          "sort_order": 237,
+          "laureate_n": 0,
+          "census_pct": 0.214022,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "751",
+          "label": "751 bootblacks",
+          "sort_order": 238,
+          "laureate_n": 0,
+          "census_pct": 0.018752,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "752",
+          "label": "752 boarding and lodging house keepers",
+          "sort_order": 239,
+          "laureate_n": 1,
+          "census_pct": 0.040459,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "753",
+          "label": "753 charwomen and cleaners",
+          "sort_order": 240,
+          "laureate_n": 0,
+          "census_pct": 0.032798,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "754",
+          "label": "754 cooks, except private household",
+          "sort_order": 241,
+          "laureate_n": 0,
+          "census_pct": 0.288879,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "760",
+          "label": "760 counter and fountain workers",
+          "sort_order": 242,
+          "laureate_n": 0,
+          "census_pct": 0.022002,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "761",
+          "label": "761 elevator operators",
+          "sort_order": 243,
+          "laureate_n": 0,
+          "census_pct": 0.057467,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "762",
+          "label": "762 firemen, fire protection",
+          "sort_order": 244,
+          "laureate_n": 0,
+          "census_pct": 0.102107,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "763",
+          "label": "763 guards, watchmen, and doorkeepers",
+          "sort_order": 245,
+          "laureate_n": 0,
+          "census_pct": 0.25907,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "764",
+          "label": "764 housekeepers and stewards, except private household",
+          "sort_order": 246,
+          "laureate_n": 0,
+          "census_pct": 0.039827,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "770",
+          "label": "770 janitors and sextons",
+          "sort_order": 247,
+          "laureate_n": 0,
+          "census_pct": 0.305163,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "771",
+          "label": "771 marshals and constables",
+          "sort_order": 248,
+          "laureate_n": 0,
+          "census_pct": 0.041801,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "772",
+          "label": "772 midwives",
+          "sort_order": 249,
+          "laureate_n": 0,
+          "census_pct": 0.000303,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "773",
+          "label": "773 policemen and detectives",
+          "sort_order": 250,
+          "laureate_n": 0,
+          "census_pct": 0.22875,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "780",
+          "label": "780 porters",
+          "sort_order": 251,
+          "laureate_n": 0,
+          "census_pct": 0.272995,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "781",
+          "label": "781 practical nurses",
+          "sort_order": 252,
+          "laureate_n": 0,
+          "census_pct": 0.010124,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "782",
+          "label": "782 sheriffs and bailiffs",
+          "sort_order": 253,
+          "laureate_n": 1,
+          "census_pct": 0.035777,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 1.087,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "783",
+          "label": "783 ushers, recreation and amusement",
+          "sort_order": 254,
+          "laureate_n": 0,
+          "census_pct": 0.007677,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "784",
+          "label": "784 waiters and waitresses",
+          "sort_order": 255,
+          "laureate_n": 1,
+          "census_pct": 0.260981,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "785",
+          "label": "785 watchmen (crossing) and bridge tenders",
+          "sort_order": 256,
+          "laureate_n": 0,
+          "census_pct": 0.01954,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "790",
+          "label": "790 service workers, except private household (nec)",
+          "sort_order": 257,
+          "laureate_n": 0,
+          "census_pct": 0.144762,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "810",
+          "label": "810 farm foremen",
+          "sort_order": 258,
+          "laureate_n": 0,
+          "census_pct": 0.029747,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "820",
+          "label": "820 farm laborers, wage workers",
+          "sort_order": 259,
+          "laureate_n": 1,
+          "census_pct": 7.831951,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "830",
+          "label": "830 farm laborers, unpaid family workers",
+          "sort_order": 260,
+          "laureate_n": 0,
+          "census_pct": 0.784295,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "840",
+          "label": "840 farm service laborers, self-employed",
+          "sort_order": 261,
+          "laureate_n": 0,
+          "census_pct": 0.023742,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "910",
+          "label": "910 fishermen and oystermen",
+          "sort_order": 262,
+          "laureate_n": 1,
+          "census_pct": 0.215553,
+          "shares": {
+            "all": 0.142,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "920",
+          "label": "920 garage laborers and car washers and greasers",
+          "sort_order": 263,
+          "laureate_n": 0,
+          "census_pct": 0.055519,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "930",
+          "label": "930 gardeners, except farm and groundskeepers",
+          "sort_order": 264,
+          "laureate_n": 2,
+          "census_pct": 0.239316,
+          "shares": {
+            "all": 0.2841,
+            "Chemistry": 0.5405,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.4831
+          }
+        },
+        {
+          "id": "940",
+          "label": "940 longshoremen and stevedores",
+          "sort_order": 265,
+          "laureate_n": 0,
+          "census_pct": 0.126776,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "950",
+          "label": "950 lumbermen, raftsmen, and woodchoppers",
+          "sort_order": 266,
+          "laureate_n": 0,
+          "census_pct": 0.346524,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "960",
+          "label": "960 teamsters",
+          "sort_order": 267,
+          "laureate_n": 0,
+          "census_pct": 0.223156,
+          "shares": {
+            "all": 0.0,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.0,
+            "Physics": 0.0
+          }
+        },
+        {
+          "id": "970",
+          "label": "970 laborers (nec)",
+          "sort_order": 268,
+          "laureate_n": 3,
+          "census_pct": 11.65776,
+          "shares": {
+            "all": 0.4261,
+            "Chemistry": 0.0,
+            "Economics": 0.0,
+            "Medicine": 0.4545,
+            "Physics": 0.9662
+          }
+        }
+      ]
+    }
+  }
+}

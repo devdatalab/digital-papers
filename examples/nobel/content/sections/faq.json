@@ -1,0 +1,120 @@
+{
+  "id": "faq",
+  "number": "6",
+  "title": "Frequently Asked Questions",
+  "blocks": [
+    {
+      "type": "faq",
+      "items": [
+        {
+          "id": "faq-publication",
+          "question": "Is this paper published somewhere?",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "nodes": [
+                {
+                  "t": "text",
+                  "text": "Not yet! The paper is conditionally accepted at the Review of Economics and Statistics. But we think researchers should be publishing open data and exhibits like this "
+                },
+                {
+                  "t": "emph",
+                  "text": "before"
+                },
+                {
+                  "t": "text",
+                  "text": " their papers get published. The kind of visibility we’re promoting here should be essential to the review process. In fact, we did already share an "
+                },
+                {
+                  "t": "link",
+                  "href": "https://devdatalab.github.io/nobel-prizes-appendix/",
+                  "text": "interactive online appendix"
+                },
+                {
+                  "t": "text",
+                  "text": " with reviewers that included the raw data and some of the other exhibits in here."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "nodes": [
+                {
+                  "t": "text",
+                  "text": "Authors might be afraid to do this—what if reviewers find and harp on the one sub-sub-result in an extraneous exhibit and use that as grounds to reject the paper? Hostile review is a risk, but we think authors should get credit for being maximally transparent in their work. We want to get to a world where everyone recognizes that making every detail of your work visible in fact raises the credibility of the research."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "faq-q1",
+          "question": "Isn’t father’s occupation a noisy proxy for household socioeconomic status?",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "nodes": [
+                {
+                  "t": "text",
+                  "text": "We can think of many reasons why this would be true. Business owners (the most common laureate father occupation) can be very rich or very poor (we observe both in the data). A high-SES father can choose an occupation with low average SES (like "
+                },
+                {
+                  "t": "link",
+                  "href": "https://www.nobelprize.org/prizes/physics/2001/wieman/biographical/",
+                  "text": "Carl Wieman"
+                },
+                {
+                  "t": "text",
+                  "text": ", whose highly educated father took a job as a sawyer in Oregon)."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "nodes": [
+                {
+                  "t": "text",
+                  "text": "Father’s occupation is nevertheless widely used as a proxy for SES in economic history papers, because it is one of the few correlates of household SES that is widely available in historical data. It was perhaps most famously used by Long and Ferrie (2013) in their study on "
+                },
+                {
+                  "t": "link",
+                  "href": "https://www.aeaweb.org/articles?id=10.1257%2Faer.103.4.1109",
+                  "text": "Intergenerational Mobility in Great Britain and the U.S. since 1850"
+                },
+                {
+                  "t": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "nodes": [
+                {
+                  "t": "text",
+                  "text": "Almost every social science paper uses some imperfect proxy like this that is correlated with the outcome of interest but is subject to some measurement error. We acknowledge the inevitable uncertainty, but don’t see a strong reason to think that where laureate fathers sit within their occupation SES distribution has changed substantially in either direction, but we can’t rule it out."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "[Example excerpt: the full paper continues beyond the material shown here.]"
+        },
+        {
+          "t": "link",
+          "href": "https://nobel-prizes.devdatalab.org/",
+          "text": " Read the complete digital publication."
+        }
+      ]
+    }
+  ],
+  "footnotes": [],
+  "references": []
+}

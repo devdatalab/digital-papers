@@ -1,0 +1,19 @@
+{
+  "id": "referee-comments-and-responses",
+  "number": "5",
+  "title": "Referee Comments and Responses",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Template: the three journal entries demonstrate how to present submission history. All correspondence is placeholder content. Obtain permission before publishing letters or reports."
+        }
+      ]
+    }
+  ],
+  "footnotes": [],
+  "references": [],
+  "annotations": []
+}

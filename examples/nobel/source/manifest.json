@@ -1,0 +1,32 @@
+[
+	{
+		"id": "introduction",
+		"number": "1",
+		"title": "Introduction"
+	},
+	{
+		"id": "data-and-measurement",
+		"number": "2",
+		"title": "Data and Methods"
+	},
+	{
+		"id": "results",
+		"number": "3",
+		"title": "Results"
+	},
+	{
+		"id": "discussion",
+		"number": "4",
+		"title": "Discussion: Misallocation and Social Costs"
+	},
+	{
+		"id": "referee-comments-and-responses",
+		"number": "5",
+		"title": "Referee Comments and Responses"
+	},
+	{
+		"id": "faq",
+		"number": "6",
+		"title": "Frequently Asked Questions"
+	}
+]

@@ -1,0 +1,63 @@
+{
+  "FigureRankHistograms": [
+    "rank_histograms/rank_histograms.py"
+  ],
+  "FigureBinscatterRanks": [
+    "main_binscatter_ranks/main_binscatter_ranks.py"
+  ],
+  "FigurePermTest": [
+    "parent_field_match/parent_field_perm_test.py"
+  ],
+  "TableMainSpec": [
+    "main_spec/main_spec.py"
+  ],
+  "TableHeterogeneity": [
+    "heterogeneity_spec/heterogeneity_spec.py"
+  ],
+  "TableParentFieldMatch": [
+    "parent_field_match/parent_field_perm_test.py"
+  ],
+  "FigureMostCommonOccup": [
+    "most_common_occupations/most_common_occupations.py"
+  ],
+  "FigureBelowThreshold": [
+    "other_rank_functions/other_rank_functions.py"
+  ],
+  "FigureFieldMatch": [
+    "parent_field_match/parent_field_match_graphs.py"
+  ],
+  "AppendixTable": [
+    "main_robust/main_robust.py",
+    "gender_spec_robust/gender_spec_robust.py",
+    "regional_analysis/regional_analysis.py",
+    "hetero_trends/hetero_trends.py",
+    "gender_analysis/gender_analysis.py",
+    "occ_shares/occ_shares.py",
+    "main_spec/main_spec.py",
+    "manual_data/usa_vs_world_published.json",
+    "manual_data/occupation_field_correspondence.json",
+    "make_all.py: country counts"
+  ],
+  "RankWalkthrough": [
+    "make_all.py: extracted_inputs"
+  ],
+  "OccupationPrizeShareChart": [
+    "generators/occ_prize_shares/occ_prize_shares.py",
+    "occ_shares/occ_shares.py"
+  ],
+  "LandingScrolly / NobelRankScatter": [
+    "generators/extract_viz_data/extract_viz_data.py",
+    "manual_data/laureate_links.json"
+  ],
+  "Raw Data Explorer": [
+    "generators/extract_viz_data/extract_viz_data.py"
+  ],
+  "Occupation Explorer": [
+    "generators/occ_rank_timeseries/occ_rank_timeseries.py",
+    "occ_shares/occ_shares.py",
+    "generators/occ_prize_shares/occ_prize_shares.py"
+  ],
+  "Extended Results": [
+    "generators/extended_results/extended_results.py"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "submissions": [
+    {
+      "id": "submission-1",
+      "journal": "Science",
+      "journalUrl": "https://www.science.org/journal/science",
+      "manuscriptUrl": "",
+      "referees": [
+        {
+          "name": "Referee 1",
+          "vote": "[Recommendation goes here. Ask permission before publishing.]"
+        }
+      ],
+      "preamble": "[Submission overview goes here. This is a template, not a record of an actual submission.]",
+      "editor": "[Editor's letter goes here. Ask permission before publishing.]",
+      "response": "[Author response goes here. Ask permission before publishing.]",
+      "submissionDate": "",
+      "responseDate": ""
+    },
+    {
+      "id": "submission-2",
+      "journal": "Nature",
+      "journalUrl": "https://www.nature.com/",
+      "manuscriptUrl": "",
+      "referees": [
+        {
+          "name": "Referee 1",
+          "vote": "[Recommendation goes here. Ask permission before publishing.]"
+        }
+      ],
+      "preamble": "[Submission overview goes here. This is a template, not a record of an actual submission.]",
+      "editor": "[Editor's letter goes here. Ask permission before publishing.]",
+      "response": "[Author response goes here. Ask permission before publishing.]",
+      "submissionDate": "",
+      "responseDate": ""
+    },
+    {
+      "id": "submission-3",
+      "journal": "Quarterly Journal of Economics",
+      "journalUrl": "https://academic.oup.com/qje",
+      "manuscriptUrl": "",
+      "referees": [
+        {
+          "name": "Referee 1",
+          "vote": "[Recommendation goes here. Ask permission before publishing.]"
+        }
+      ],
+      "preamble": "[Submission overview goes here. This is a template, not a record of an actual submission.]",
+      "editor": "[Editor's letter goes here. Ask permission before publishing.]",
+      "response": "[Author response goes here. Ask permission before publishing.]",
+      "submissionDate": "",
+      "responseDate": ""
+    }
+  ]
+}

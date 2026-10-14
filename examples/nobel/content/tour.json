@@ -1,0 +1,64 @@
+{
+  "steps": [
+    {
+      "id": "welcome",
+      "title": "What should an open scientific paper look like in the AI age?",
+      "features": [
+        {
+          "icon": "results",
+          "text": "You can explore results dynamically"
+        },
+        {
+          "icon": "methods",
+          "text": "You can dig deeper into any part of the methods"
+        },
+        {
+          "icon": "data",
+          "text": "You can explore the raw data"
+        },
+        {
+          "icon": "prompt",
+          "text": "You can replicate and remix it with a prompt"
+        }
+      ],
+      "body": [
+        "This is demonstration project, built on a paper we wrote (that is still under review).",
+        "We think all scientific papers should have these features. We built this site to inspire others to copy and improve it, and to do more open source science."
+      ],
+      "nextLabel": "Take the Tour",
+      "media": null
+    },
+    {
+      "id": "paper",
+      "title": "Read the paper. Interactive exhibits give you more detail than you can fit onto a dead tree.",
+      "body": [],
+      "media": null
+    },
+    {
+      "id": "referees",
+      "title": "Explore placeholder submission pages; obtain permission before publishing real correspondence.",
+      "body": [],
+      "media": null
+    },
+    {
+      "id": "data",
+      "title": "Explore a five-row illustrative data subset, including source evidence",
+      "body": [],
+      "media": null
+    },
+    {
+      "id": "explorers",
+      "title": "Explore different specifications, intermediate data construction steps, and data exploration",
+      "body": [],
+      "media": null
+    },
+    {
+      "id": "replication",
+      "title": "Download the code and data, or just point an LLM at our site and ask some questions.",
+      "body": [
+        "This site and the download packet have LLM instructions that give them everything they need to dive right into the analysis."
+      ],
+      "media": null
+    }
+  ]
+}

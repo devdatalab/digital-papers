@@ -1,0 +1,504 @@
+{
+  "id": "data-and-measurement",
+  "number": "2",
+  "title": "Data and Methods",
+  "label": "sec:methods",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "We collected biographical information on the Nobel laureates from 1901–2023 from a range of historical sources, covering 739 winners in chemistry, physics, physiology, and economics."
+        },
+        {
+          "t": "fnref",
+          "id": "fn1"
+        },
+        {
+          "t": "text",
+          "text": " We exclude the prizes for Peace and for Literature, as accomplishments in these domains are more subjective and can be intentionally awarded to individuals who faced challenging childhood circumstances."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "For each winner, we collected demographic information and parents' occupations."
+        },
+        {
+          "t": "fnref",
+          "id": "fn2"
+        },
+        {
+          "t": "text",
+          "text": " We supplemented the data by contacting living winners directly to request information about their parents. In total, we were able to identify fathers' occupations for 714 out of the 739 laureates, but mothers for only 181; our analysis therefore focuses on father occupation as a measure of childhood socioeconomic status."
+        },
+        {
+          "t": "fnref",
+          "id": "fn3"
+        },
+        {
+          "t": "text",
+          "text": " Appendix B.1 details how we assembled this biographical record."
+        }
+      ]
+    },
+    {
+      "type": "collapsible",
+      "title": "Appendix B.1 · Biographical Data",
+      "collapsed": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "We hand-collected biographical information for every Nobel laureate in physics, chemistry, physiology, and economics. For each laureate, we reviewed multiple sources to identify their birth dates, birth locations, and the occupations of their parents. The availability of parent occupational information was heterogeneous. Many winners described their parents' work in their acceptance speeches or biographies. Parent occupations were also recorded in documents like obituaries, biographies, scientific directories and encyclopedia entries. When we could not find information on father occupation, we reached out to living laureates, a handful of whom responded with information about their parents. We obtained data on father occupations for 714 out of 739 laureates (96.2%), but only 181 mother occupations (25.3%). Mothers' occupations are also generally less informative about laureates' childhood socioeconomic status, because so many women in this era were out of the labor force."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "When laureates moved before the age of six, we assigned them to their location at age six. Results were unchanged if we used other ages as anchors for their home country. When laureates were born to expatriates (i.e. parents living temporarily in countries other than their home country), we assigned them to their parents' home countries, as the home country occupational distributions are likely to be more relevant for determining parental rank. We similarly assigned them to home countries when parents were serving in a foreign service. For example, Ronald Ross (physiology, 1902) was the son of a British general serving in India; at age 8, he moved to the Isle of Wight for school. Our assumption is that his parents' socioeconomic status is better characterized by the average status of an army general in the United Kingdom than that of an army general in India. There are only a handful of cases like these, so they do not have a substantial bearing on our results."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "We construct cohorts of winners by rounding each winner's birth year to the nearest decade (e.g., a winner born in 1893 belongs to the 1890 cohort, whereas a winner born in 1898 belongs to the 1900 cohort). There are six winners born between 1835–1843, all of whom are initially assigned to the 1840 cohort. However, due to the lack of availability of census data during these years, we then map these observations to 1850 instead, the closest available decade."
+            }
+          ]
+        }
+      ],
+      "small": true
+    },
+    {
+      "type": "collapsible",
+      "title": "Appendix B.2 · Occupational Earnings & Education from the U.S. Census",
+      "collapsed": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "To estimate the socioeconomic status of laureates' parents, we aimed to identify the average income and education ranks of people with the same occupation as each laureate's father in the U.S. Census. We used data from the 1850–1970 U.S. population censuses, extracted from IPUMS and proceeded as follows."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "We restricted the census sample to working age (18–65 years old) men, and dropped all individuals who were not in the labor force. We also dropped census observations for which the occupational category variable takes on the following values: \"students\", \"disabled individuals with no reported occupation\", \"other non-occupation\", \"n/a (blank)\". Excluding the unemployed could marginally bias our ranks downward, but the bias should be small, given that (i) the historic U.S. unemployment rate has typically fluctuated between only 5–8%; and (ii) the unemployed are distributed across many different occupations, limiting the degree of bias."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "We matched each laureate's father occupation to the nearest harmonized occupational category ("
+            },
+            {
+              "t": "emph",
+              "text": "occ1950"
+            },
+            {
+              "t": "text",
+              "text": ", created by IPUMS). When fathers held multiple occupations, we assigned the one described as the primary occupation during the laureate's childhood years. Fathers described only as aristocrats or large estate holders, with no more specific occupation reported, were assigned both income and education ranks of 100."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "There is inevitably some measurement error in classifying business owners, as the historical record was often unclear on the scale of the business; as such, a business owner could represent a relatively upper or middle class family. We classified business owners with code 290, which is \"Managers, officials, and proprietors, not otherwise classified.\" This puts business owners, on average, at the 86th education percentile and the 93rd income percentile. Farm owners exist as an "
+            },
+            {
+              "t": "emph",
+              "text": "occ1950"
+            },
+            {
+              "t": "text",
+              "text": " category, but similarly cover a wide range of socioeconomic ranks. To ensure that our assumptions about these occupational ranks were not driving any of our results, we verified that our primary results are similar when we exclude business owners and farmers (Appendix Tables "
+            },
+            {
+              "t": "annotation",
+              "id": "A2"
+            },
+            {
+              "t": "text",
+              "text": " and "
+            },
+            {
+              "t": "annotation",
+              "id": "A3"
+            },
+            {
+              "t": "text",
+              "text": ")."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "Individual and household earnings were available beginning in 1950, and years of education in 1940, so we used these values for all earlier years. We excluded negative or zero earnings values. Literacy is recorded in earlier census years, but is considered less reliable by historians, as collection methodology varied substantially across enumerators "
+            },
+            {
+              "t": "cite",
+              "cmd": "citep",
+              "keys": [
+                "collins2006"
+              ],
+              "refIds": [
+                "collins2006"
+              ],
+              "text": "(Collins and Margo, 2006)"
+            },
+            {
+              "t": "text",
+              "text": ". For census years after 1940/50, we applied a three-census moving average to smooth out fluctuations in occupational income and education from sampling variation and interpolated missing values. These adjustments have little bearing on our results, as they only affect census years after 1940/50, and most Nobel laureates were born earlier."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "We also estimated the population share of each occupation in each decade, which is essential for calculating ranks. To calculate ranks, we assigned individuals an earnings level based on their occupation, and then ordered individuals within each decadal census according to those earnings levels. We then assigned the mean earnings rank within each occupation group, and collapsed the data to occupation-decade level. These earnings ranks were then matched to the Nobel laureates database at the occupation-decade level. We performed a similar exercise for education ranks."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "Since occupational incomes were not observed before 1950, there is no change in the relative ordering of occupations before 1950. However, we observe the share of people with each occupation in all census years, so the ranks of occupations do change continuously over time. For instance, trade workers tended to have relatively high education ranks in 1850, but had lower ranks by 1950, due to the growing number of more educated white collar workers."
+            }
+          ]
+        }
+      ],
+      "small": true
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "We calculated the mean total individual income and education ranks for working-age men in each occupation category in each decade, and assigned these ranks to laureates' birth decades and fathers' occupations."
+        },
+        {
+          "t": "fnref",
+          "id": "fn7"
+        },
+        {
+          "t": "text",
+          "text": " These ranks reflect the average income or education rank that would have been held by an adult male in the given occupation in the birth year of the laureate. Income and educational ranks are highly but imperfectly correlated; some example outliers are members of the clergy and (to a lesser extent) teachers (high education but low income ranks), and tradesmen (high income but low education ranks)."
+        },
+        {
+          "t": "fnref",
+          "id": "fn8"
+        },
+        {
+          "t": "text",
+          "text": " See exhibit "
+        },
+        {
+          "t": "annotation",
+          "id": "A4"
+        },
+        {
+          "t": "text",
+          "text": " for more details and examples."
+        }
+      ]
+    },
+    {
+      "type": "collapsible",
+      "title": "Appendix B.3 · Country-Level GDP per Capita & Population",
+      "collapsed": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "We used country of childhood in two ways in our analysis. For our primary analysis, we used country of childhood to adjust the relative occupational distributions, to reflect the fact that an individual with only some schooling (say, literacy) would occupy a higher education rank in a poor country than in a rich country. Second, for the section on income differences across countries only, we used national GDP per capita to adjust occupational earnings for living standards across countries. This second adjustment reflects the fact that an individual at the 90th percentile of the earnings distribution in India has a much lower global income rank than an individual at the 90th percentile in the United States."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "We used historical estimates of GDP per capita and population for 217 countries from 1830–1970, from "
+            },
+            {
+              "t": "cite",
+              "cmd": "citet",
+              "keys": [
+                "fariss2022"
+              ],
+              "refIds": [
+                "fariss2022"
+              ],
+              "text": "Fariss et al. (2022)"
+            },
+            {
+              "t": "text",
+              "text": ", with adjustments described below."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "emph",
+              "text": "Adjusting for occupation distributions. "
+            },
+            {
+              "t": "text",
+              "text": "The distribution of occupational population shares affects the resulting socioeconomic rank of each occupation, even if the ordering of occupations is unchanged. For example, the percentile rank of a sawyer in the U.S. is much higher in 1850, a time when roughly 44% of the population were farmers, compared to 1950, when that share is down to only 9%. Similarly, countries will have different occupational distributions at different levels of economic development. However, we only had data on the historical occupational distribution of the United States."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "We therefore used the U.S. historical occupational distribution to proxy for the occupational distribution in other countries at different points in time. We assigned each country the U.S. occupational distribution from the decade when its development level (measured by GDP per capita) was nearest to that of the U.S., using minimum absolute distance."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "Consider an example of how we would calculate the earnings rank of an Indian tailor in 1950. First, we identified the U.S. decade in our sample data with the nearest GDP per capita level to that of India in 1950 — this was 1850. In 1850 in the U.S., a tailor had an earnings rank of 84; we assign this rank to the Indian tailor for the primary analysis. By contrast, in the U.S. in 1950, a tailor would have an earnings rank of only 55."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "emph",
+              "text": "Calculating global income ranks. "
+            },
+            {
+              "t": "text",
+              "text": "Our primary analysis focuses on occupational ranks within countries. Since most winners are from the West, this tells us how effective the West is at mobilizing its own talent. In the final part of the results, we instead consider global income ranks, which tell us how effective human society is at mobilizing global talent. Consider again the Indian tailor in 1950 above. The tailor occupied the 84th earnings rank in India, but their global earnings rank was much lower, since India in 1950 was a very poor country."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "We calculate a global earnings rank as follows. First, for each country-decade-occupation group, we scale the occupational income by the GDP per capita ratio of each country with the United States in the same decade. This gives us a real income estimate for each country-decade-occupation group. Second, we create a synthetic global population based on each country's occupation shares (adjusted for development level, as above) and their population. An individual's rank in this synthetic population is that individual's global income rank."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "Let us continue with the example of the Indian tailor above. We have already estimated that the tailor is at the 84th earnings percentile in India in 1950. In 1950, U.S. GDP per capita was approximately 16 times higher than Indian GDP; we therefore multiply the Indian tailor's predicted income by 0.06. After conducting this calculation for every country-occupation-decade, the Indian tailor has a global income rank of 46. This reflects the fact that the tailor is relatively well off in India, but India is relatively poor globally. Appendix Figure "
+            },
+            {
+              "t": "annotation",
+              "id": "A4"
+            },
+            {
+              "t": "text",
+              "text": " summarizes the example."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "For individuals from poor countries, global ranks are systematically lower than national ranks, and vice versa. A U.S. tailor in 1950 would be at the 97th percentile globally. Since most of the Nobel laureates are from rich countries, the average global earnings rank is therefore higher than the average national earnings rank."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "id": "fn1",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "The economics prize has been awarded only since 1969; results are unchanged if the field is excluded."
+        }
+      ]
+    },
+    {
+      "id": "fn2",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "We collected biographical information on laureates from biographies and interviews on the official website of the Nobel Prize, other interviews with laureates, encyclopedia entries, profiles published by winners' academic institutions, and various other biographical sources."
+        }
+      ]
+    },
+    {
+      "id": "fn3",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Mother's occupation is also less predictive of socioeconomic status than fathers, as many educated women were out of the labor force, especially in the earliest years of our sample."
+        }
+      ]
+    },
+    {
+      "id": "fn4",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "For the 12 winners born before 1850, we used occupational data from 1850. Years of education and income are recorded in the population census beginning in 1950 and 1940 respectively; we use 1940 measures for all earlier periods. We mapped fathers' occupations to the 269 unique occupational categories classified in the 1950 census; where there was ambiguity over occupation classification, we tested robustness to alternate coding approaches."
+        }
+      ]
+    },
+    {
+      "id": "fn5",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "The census recorded information on literacy from 1850–1930, but we elected not to use these data, given their substantial inaccuracies (see, for example, "
+        },
+        {
+          "t": "cite",
+          "cmd": "citet",
+          "keys": [
+            "collins2006"
+          ],
+          "refIds": [
+            "collins2006"
+          ],
+          "text": "Collins and Margo (2006)"
+        },
+        {
+          "t": "text",
+          "text": ")."
+        }
+      ]
+    },
+    {
+      "id": "fn7",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "While the earnings and education levels associated with each occupation are held constant for all years before 1940, the ranks change over time because of changes in the distribution of occupations in the country."
+        }
+      ]
+    },
+    {
+      "id": "fn8",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Some occupations have wide income distributions in the data; for instance, in 1850, farmers represented 65% of the American workforce. Most were relatively poor, but some were very rich. The same is true for business owners: the biographical data tells us a father is a business owner, but is often imprecise about the scale of the business. Since we have less certainty about the ranks of fathers in these groups, we run robustness analyses that exclude or use additional biographical information to rank them."
+        }
+      ]
+    },
+    {
+      "id": "fn9",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "The assumption that every country at a given income level has the same occupational distribution is of course imperfect, but it is an improvement over the alternative of using the U.S. distribution for all countries. The falling labor share of farmers is the largest factor in the changing occupational distribution over time, and is a near-universal fact across countries. Since there are few winners from LMICs, and high-income country occupation distributions are similar, alternate adjustments have little bearing on the findings."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "long2013",
+      "key": "long2013",
+      "text": "Long, J., Ferrie, J. (2013). Intergenerational Occupational Mobility in Great Britain and the United States since 1850. American Economic Review.",
+      "url": "https://doi.org/10.1257/aer.103.4.1109"
+    },
+    {
+      "id": "song2020",
+      "key": "song2020",
+      "text": "Song, X., Massey, C., Rolf, K., Ferrie, J., Rothbaum, J., Xie, Y. (2020). Long-term decline in intergenerational mobility in the United States since the 1850s. Proceedings of the National Academy of Sciences.",
+      "url": "https://doi.org/10.1073/pnas.1905094116"
+    },
+    {
+      "id": "long2007",
+      "key": "long2007",
+      "text": "Long, J., Ferrie, J. (2007). The Path to Convergence: Intergenerational Occupational Mobility in Britain and the US in Three Eras. The Economic Journal.",
+      "url": "https://doi.org/10.1111/j.1468-0297.2007.02035.x"
+    },
+    {
+      "id": "collins2006",
+      "key": "collins2006",
+      "text": "Collins, W., Margo, R. (2006). Historical Perspectives on Racial Differences in Schooling in the United States. Handbook of the Economics of Education.",
+      "url": "https://doi.org/10.1016/S1574-0692(06)01003-8"
+    },
+    {
+      "id": "fariss2022",
+      "key": "fariss2022",
+      "text": "Fariss, C. J., Anders, T., Markowitz, J. N., Barnum, M. (2022). New Estimates of Over 500 Years of Historic GDP and Population Data. Journal of Conflict Resolution.",
+      "url": "https://doi.org/10.1177/00220027211054432"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "A3",
+      "title": "The gender gap, under four robustness samples",
+      "subtitle": "Do male and female laureates come from equally advantaged families?",
+      "body": [
+        {
+          "type": "component",
+          "component": "AppendixTable",
+          "props": {
+            "table": "gender_spec_robust",
+            "hideHeading": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "title": "Getting an income or education rank from a father occupation",
+      "subtitle": "",
+      "body": [
+        {
+          "type": "component",
+          "component": "RankWalkthrough"
+        }
+      ]
+    }
+  ]
+}

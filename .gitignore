@@ -1,0 +1,43 @@
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# Generated replication archive (built by scripts/build-replication-zip.mjs)
+/static/downloads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Agents
+/docs/superpowers/*
+
+# Laureate-links API cache (developers regenerate it by running the script)
+/scripts/laureate-links/cache/
+__pycache__/
+
+# Selected paper assets and local reproduction environments
+.paper-assets/
+.venv/
+.cache/
+.restructure.py
+
+# Local verification scratch and logs
+.verify-bundle/
+.*.log

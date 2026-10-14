@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "script": "main_robust",
+    "generated": "2026-07-16T14:16:56.294958+00:00",
+    "n": 735,
+    "rhs_variable": "prize_year_rescaled",
+    "rhs_note": "prize_year - 1901; coefficient = change in rank per year since 1901",
+    "se_type": "HC1",
+    "column_labels": {
+      "income": "National Income Rank",
+      "education": "National Education Rank"
+    },
+    "source_dofile": "a/table_main_spec_robust.do, a/table_main_spec_robust_2.do",
+    "paper_tables": {
+      "a5": "Appendix Table A5",
+      "a6": "Appendix Table A6"
+    }
+  },
+  "data": {
+    "a5": {
+      "A": {
+        "title": "Sample excluding difficult to classify observations",
+        "income": {
+          "column": "med_inctot_rank",
+          "constant": 92.6323,
+          "constant_se": 1.5331,
+          "constant_stars": "***",
+          "coef": -0.072412,
+          "se": 0.02019,
+          "stars": "***",
+          "n": 700,
+          "r2": 0.0165
+        },
+        "education": {
+          "column": "educ_rank",
+          "constant": 94.4243,
+          "constant_se": 1.3055,
+          "constant_stars": "***",
+          "coef": -0.070054,
+          "se": 0.018358,
+          "stars": "***",
+          "n": 700,
+          "r2": 0.0167
+        }
+      },
+      "B": {
+        "title": "Sample excluding aristocrats",
+        "income": {
+          "column": "med_inctot_rank",
+          "constant": 92.1712,
+          "constant_se": 1.571,
+          "constant_stars": "***",
+          "coef": -0.068478,
+          "se": 0.020512,
+          "stars": "***",
+          "n": 704,
+          "r2": 0.0143
+        },
+        "education": {
+          "column": "educ_rank",
+          "constant": 94.013,
+          "constant_se": 1.3397,
+          "constant_stars": "***",
+          "coef": -0.065591,
+          "se": 0.018569,
+          "stars": "***",
+          "n": 704,
+          "r2": 0.0143
+        }
+      },
+      "C": {
+        "title": "Sample excluding business owners and farmers",
+        "income": {
+          "column": "med_inctot_rank",
+          "constant": 93.8269,
+          "constant_se": 1.3775,
+          "constant_stars": "***",
+          "coef": -0.072056,
+          "se": 0.01845,
+          "stars": "***",
+          "n": 559,
+          "r2": 0.021
+        },
+        "education": {
+          "column": "educ_rank",
+          "constant": 97.436,
+          "constant_se": 0.9826,
+          "constant_stars": "***",
+          "coef": -0.067083,
+          "se": 0.015355,
+          "stars": "***",
+          "n": 559,
+          "r2": 0.021
+        }
+      },
+      "D": {
+        "title": "Sample excluding Economics",
+        "income": {
+          "column": "med_inctot_rank",
+          "constant": 92.7863,
+          "constant_se": 1.5375,
+          "constant_stars": "***",
+          "coef": -0.077439,
+          "se": 0.021441,
+          "stars": "***",
+          "n": 621,
+          "r2": 0.0194
+        },
+        "education": {
+          "column": "educ_rank",
+          "constant": 94.6779,
+          "constant_se": 1.3092,
+          "constant_stars": "***",
+          "coef": -0.075462,
+          "se": 0.019608,
+          "stars": "***",
+          "n": 621,
+          "r2": 0.0202
+        }
+      }
+    },
+    "a6": {
+      "A": {
+        "title": "Heterogeneous coding of business owners",
+        "education": {
+          "column": "educ_rank_alt_biz",
+          "constant": 93.9282,
+          "constant_se": 1.3295,
+          "constant_stars": "***",
+          "coef": -0.072985,
+          "se": 0.018456,
+          "stars": "***",
+          "n": 713,
+          "r2": 0.0151
+        },
+        "income": {
+          "column": "inc_rank_alt",
+          "constant": 92.48,
+          "constant_se": 1.5193,
+          "constant_stars": "***",
+          "coef": -0.075648,
+          "se": 0.020065,
+          "stars": "***",
+          "n": 713,
+          "r2": 0.0173
+        }
+      },
+      "B": {
+        "title": "Recoding education according to biographies",
+        "education": {
+          "column": "educ_rank_alt_ed",
+          "constant": 94.0898,
+          "constant_se": 1.3049,
+          "constant_stars": "***",
+          "coef": -0.071099,
+          "se": 0.018237,
+          "stars": "***",
+          "n": 713,
+          "r2": 0.016
+        }
+      },
+      "C": {
+        "title": "Recoding education and heterogeneous business owners",
+        "education": {
+          "column": "educ_rank_alt_both",
+          "constant": 93.8453,
+          "constant_se": 1.3395,
+          "constant_stars": "***",
+          "coef": -0.072256,
+          "se": 0.018467,
+          "stars": "***",
+          "n": 713,
+          "r2": 0.015
+        }
+      }
+    }
+  }
+}

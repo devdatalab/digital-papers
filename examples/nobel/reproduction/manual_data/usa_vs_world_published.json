@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "why": "Preserve the published Table A10 values, which differ from the current replication output.",
+    "upstream": "https://paulnovosad.com/pdf/nobel-prizes.pdf#page=41",
+    "paper_date": "May 2026",
+    "transcribed": "2026-10-07",
+    "method": "Manual transcription verified against the published PDF; no estimates are recomputed."
+  },
+  "title": "Father ranks of Nobel laureates: USA vs. rest of world",
+  "note": "The table shows estimates from OLS regressions of SES ranks of fathers of Nobel laureates on an indicator that takes the value one for laureates who spent their childhood in the United States. Standard errors are reported in parentheses.",
+  "columns": [
+    {
+      "key": "avg_inc",
+      "label": "Average Rank",
+      "sublabel": "National Income Rank"
+    },
+    {
+      "key": "avg_edu",
+      "label": "Average Rank",
+      "sublabel": "National Education Rank"
+    },
+    {
+      "key": "top10_inc",
+      "label": "Top 10% Indicator",
+      "sublabel": "National Income Rank"
+    },
+    {
+      "key": "top10_edu",
+      "label": "Top 10% Indicator",
+      "sublabel": "National Education Rank"
+    },
+    {
+      "key": "top20_inc",
+      "label": "Top 20% Indicator",
+      "sublabel": "National Income Rank"
+    },
+    {
+      "key": "top20_edu",
+      "label": "Top 20% Indicator",
+      "sublabel": "National Education Rank"
+    }
+  ],
+  "rows": [
+    {
+      "label": "Constant",
+      "cells": {
+        "avg_inc": {
+          "main": "88.943",
+          "sub": "(0.793)"
+        },
+        "avg_edu": {
+          "main": "90.628",
+          "sub": "(0.762)"
+        },
+        "top10_inc": {
+          "main": "0.719",
+          "sub": "(0.021)"
+        },
+        "top10_edu": {
+          "main": "0.754",
+          "sub": "(0.020)"
+        },
+        "top20_inc": {
+          "main": "0.840",
+          "sub": "(0.017)"
+        },
+        "top20_edu": {
+          "main": "0.875",
+          "sub": "(0.016)"
+        }
+      }
+    },
+    {
+      "label": "U.S. childhood",
+      "cells": {
+        "avg_inc": {
+          "main": "-4.539***",
+          "sub": "(1.452)"
+        },
+        "avg_edu": {
+          "main": "-3.877***",
+          "sub": "(1.476)"
+        },
+        "top10_inc": {
+          "main": "-0.111***",
+          "sub": "(0.037)"
+        },
+        "top10_edu": {
+          "main": "-0.115***",
+          "sub": "(0.036)"
+        },
+        "top20_inc": {
+          "main": "-0.107***",
+          "sub": "(0.033)"
+        },
+        "top20_edu": {
+          "main": "-0.104***",
+          "sub": "(0.030)"
+        }
+      }
+    },
+    {
+      "label": "Observations",
+      "cells": {
+        "avg_inc": "714",
+        "avg_edu": "714",
+        "top10_inc": "714",
+        "top10_edu": "714",
+        "top20_inc": "714",
+        "top20_edu": "714"
+      }
+    }
+  ]
+}

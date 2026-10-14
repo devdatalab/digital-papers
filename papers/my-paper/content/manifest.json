@@ -1,0 +1,17 @@
+[
+  {
+    "id": "introduction",
+    "number": "1",
+    "title": "Introduction"
+  },
+  {
+    "id": "results",
+    "number": "2",
+    "title": "Results"
+  },
+  {
+    "id": "faq",
+    "number": "3",
+    "title": "Frequently asked questions"
+  }
+]

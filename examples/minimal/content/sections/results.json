@@ -1,0 +1,57 @@
+{
+  "id": "results",
+  "number": "2",
+  "title": "Results",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "These values are fictional. Switch measures in Figure 1, then compare the chart with Table 1. Both use the same reproducible export."
+        }
+      ]
+    },
+    {
+      "type": "figure",
+      "label": "fig:groups",
+      "number": "1",
+      "caption": "Group means in the fictional sample."
+    },
+    {
+      "type": "table",
+      "label": "tab:summary",
+      "number": "1",
+      "caption": "Summary of the fictional sample."
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Cross-references link to their exhibits: "
+        },
+        {
+          "t": "ref",
+          "label": "fig:groups",
+          "text": "Figure 1"
+        },
+        {
+          "t": "text",
+          "text": " and "
+        },
+        {
+          "t": "ref",
+          "label": "tab:summary",
+          "text": "Table 1"
+        },
+        {
+          "t": "text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "footnotes": [],
+  "references": []
+}

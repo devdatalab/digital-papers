@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "script": "gender_spec_robust",
+    "generated": "2026-07-20T13:07:32.370236+00:00",
+    "n_total": 735,
+    "n_female": 28,
+    "rhs_variable": "female",
+    "rhs_note": "coefficient = female mean − male baseline (the Intercept)",
+    "se_type": "HC1",
+    "paper_table": "Appendix Table A8 (tab:gender_robust)",
+    "source_dofile": "a/table_gender_robust.do"
+  },
+  "data": {
+    "A": {
+      "title": "Sample excluding difficult to classify observations",
+      "n": 700,
+      "outcomes": {
+        "med_inctot_rank": {
+          "constant": 87.0377,
+          "constant_se": 0.7305,
+          "coef": 3.826534,
+          "se": 2.725935,
+          "p": 0.160393,
+          "n": 700
+        },
+        "educ_rank": {
+          "constant": 88.975,
+          "constant_se": 0.702,
+          "coef": 4.660262,
+          "se": 2.4445,
+          "p": 0.056595,
+          "n": 700
+        },
+        "top_decile_med_inctot": {
+          "constant": 0.6895,
+          "constant_se": 0.0179,
+          "coef": 0.088328,
+          "se": 0.082091,
+          "p": 0.281937,
+          "n": 700
+        },
+        "top_decile_educ": {
+          "constant": 0.6999,
+          "constant_se": 0.0177,
+          "coef": 0.114963,
+          "se": 0.076926,
+          "p": 0.135054,
+          "n": 700
+        },
+        "top_20pct_med_inctot": {
+          "constant": 0.8128,
+          "constant_se": 0.0151,
+          "coef": 0.039073,
+          "se": 0.070102,
+          "p": 0.577268,
+          "n": 700
+        },
+        "top_20pct_educ": {
+          "constant": 0.844,
+          "constant_se": 0.014,
+          "coef": 0.081944,
+          "se": 0.052381,
+          "p": 0.117728,
+          "n": 700
+        }
+      }
+    },
+    "B": {
+      "title": "Sample excluding aristocrats",
+      "n": 704,
+      "outcomes": {
+        "med_inctot_rank": {
+          "constant": 86.8769,
+          "constant_se": 0.7292,
+          "coef": 2.580937,
+          "se": 2.976184,
+          "p": 0.385834,
+          "n": 704
+        },
+        "educ_rank": {
+          "constant": 88.8512,
+          "constant_se": 0.7007,
+          "coef": 4.751662,
+          "se": 2.364324,
+          "p": 0.044459,
+          "n": 704
+        },
+        "top_decile_med_inctot": {
+          "constant": 0.6849,
+          "constant_se": 0.0179,
+          "coef": 0.065089,
+          "se": 0.083879,
+          "p": 0.437758,
+          "n": 704
+        },
+        "top_decile_educ": {
+          "constant": 0.6967,
+          "constant_se": 0.0177,
+          "coef": 0.124683,
+          "se": 0.074613,
+          "p": 0.094709,
+          "n": 704
+        },
+        "top_20pct_med_inctot": {
+          "constant": 0.8092,
+          "constant_se": 0.0151,
+          "coef": 0.012257,
+          "se": 0.074045,
+          "p": 0.868524,
+          "n": 704
+        },
+        "top_20pct_educ": {
+          "constant": 0.8417,
+          "constant_se": 0.0141,
+          "coef": 0.086855,
+          "se": 0.050727,
+          "p": 0.086856,
+          "n": 704
+        }
+      }
+    },
+    "C": {
+      "title": "Sample excluding business owners and farmers",
+      "n": 559,
+      "outcomes": {
+        "med_inctot_rank": {
+          "constant": 88.2527,
+          "constant_se": 0.7161,
+          "coef": 1.151051,
+          "se": 3.189177,
+          "p": 0.718156,
+          "n": 559
+        },
+        "educ_rank": {
+          "constant": 92.1796,
+          "constant_se": 0.6713,
+          "coef": 2.511735,
+          "se": 2.385552,
+          "p": 0.292389,
+          "n": 559
+        },
+        "top_decile_med_inctot": {
+          "constant": 0.6492,
+          "constant_se": 0.0207,
+          "coef": 0.120075,
+          "se": 0.085328,
+          "p": 0.159362,
+          "n": 559
+        },
+        "top_decile_educ": {
+          "constant": 0.8105,
+          "constant_se": 0.017,
+          "coef": 0.074109,
+          "se": 0.065031,
+          "p": 0.25446,
+          "n": 559
+        },
+        "top_20pct_med_inctot": {
+          "constant": 0.8011,
+          "constant_se": 0.0173,
+          "coef": 0.006567,
+          "se": 0.079344,
+          "p": 0.934042,
+          "n": 559
+        },
+        "top_20pct_educ": {
+          "constant": 0.8856,
+          "constant_se": 0.0138,
+          "coef": 0.075985,
+          "se": 0.040228,
+          "p": 0.058914,
+          "n": 559
+        }
+      }
+    },
+    "D": {
+      "title": "Sample excluding Economics",
+      "n": 621,
+      "outcomes": {
+        "med_inctot_rank": {
+          "constant": 87.0643,
+          "constant_se": 0.7793,
+          "coef": 4.119602,
+          "se": 2.92992,
+          "p": 0.159711,
+          "n": 621
+        },
+        "educ_rank": {
+          "constant": 89.0601,
+          "constant_se": 0.7452,
+          "coef": 5.05677,
+          "se": 2.526963,
+          "p": 0.045379,
+          "n": 621
+        },
+        "top_decile_med_inctot": {
+          "constant": 0.693,
+          "constant_se": 0.0189,
+          "coef": 0.147047,
+          "se": 0.075839,
+          "p": 0.052508,
+          "n": 621
+        },
+        "top_decile_educ": {
+          "constant": 0.703,
+          "constant_se": 0.0187,
+          "coef": 0.13698,
+          "se": 0.075795,
+          "p": 0.070723,
+          "n": 621
+        },
+        "top_20pct_med_inctot": {
+          "constant": 0.8138,
+          "constant_se": 0.016,
+          "coef": 0.026242,
+          "se": 0.075156,
+          "p": 0.726969,
+          "n": 621
+        },
+        "top_20pct_educ": {
+          "constant": 0.8473,
+          "constant_se": 0.0148,
+          "coef": 0.112685,
+          "se": 0.041937,
+          "p": 0.00721,
+          "n": 621
+        }
+      }
+    }
+  }
+}

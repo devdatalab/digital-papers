@@ -1,0 +1,66 @@
+{
+  "scrollCue": "Scroll",
+  "metrics": [
+    "med_inctot_rank",
+    "global_med_inctot_rank"
+  ],
+  "metricLabels": {
+    "med_inctot_rank": "Within-country income rank",
+    "global_med_inctot_rank": "Global income rank"
+  },
+  "steps": [
+    {
+      "id": "intro",
+      "text": "This chart shows every Nobel Prize in physics, chemistry, medicine and economics from 1901 to 2023, arranged by the year it was awarded.",
+      "chart": {
+        "metric": "med_inctot_rank",
+        "color": "none",
+        "focus": null,
+        "controls": "hidden"
+      }
+    },
+    {
+      "id": "dot",
+      "text": "Each dot is one prize winner. This is Jennifer Doudna, who shared the 2020 prize in chemistry for developing CRISPR gene editing.",
+      "chart": {
+        "metric": "med_inctot_rank",
+        "color": "none",
+        "focus": 700,
+        "card": true,
+        "controls": "hidden"
+      }
+    },
+    {
+      "id": "within-country",
+      "text": "The height of each dot shows how well-off the winner's father was, based on his occupation, compared with everyone else in the same country. A dot at 90 means his job paid more than 90% of jobs in that country. More than 65% of laureates grew up in households in the top 10%.",
+      "chart": {
+        "metric": "med_inctot_rank",
+        "color": "category",
+        "focus": null,
+        "highlightFrom": 90,
+        "controls": "display"
+      }
+    },
+    {
+      "id": "global",
+      "text": "When we take country income into account, laureates are even more elite, because there are very few laureates from poor countries.",
+      "chart": {
+        "metric": "global_med_inctot_rank",
+        "color": "category",
+        "focus": null,
+        "controls": "display"
+      }
+    },
+    {
+      "id": "explore",
+      "text": "",
+      "chart": {
+        "color": "category",
+        "focus": null,
+        "controls": "interactive"
+      }
+    }
+  ],
+  "cta": "Proceed to Introduction",
+  "acknowledgment": []
+}

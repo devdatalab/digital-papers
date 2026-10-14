@@ -1,0 +1,608 @@
+{
+  "id": "results",
+  "number": "3",
+  "title": "Results",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "number": "3.1",
+      "text": "Results: Socioeconomic Ranks of Nobel Laureate Childhoods, 1901–2023"
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "The analysis dataset consists of 714 winners from 44 countries over a period of 123 years. About 4% of winners are women, 35% grew up in the U.S., and an additional 12% in the United Kingdom."
+        },
+        {
+          "t": "fnref",
+          "id": "fn1"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Figure "
+        },
+        {
+          "t": "ref",
+          "label": "fig:rank_histograms",
+          "text": "Figure 1"
+        },
+        {
+          "t": "text",
+          "text": " plots the distribution of the father ranks of the laureates. 68% of winners have fathers above the 90ᵗʰ income percentile in their birth country, 71% have fathers above the 90ᵗʰ education percentile, and 84% above the 90ᵗʰ global income percentile. In all three cases, more than half of winners are from the top 5%. The mean laureate has a father at the 87th income percentile, the 89th education percentile, and the 94th global income percentile."
+        }
+      ]
+    },
+    {
+      "type": "figure",
+      "label": "fig:rank_histograms",
+      "number": "1",
+      "caption": "Distribution of Socioeconomic Ranks of Fathers of Nobel Laureates",
+      "source": "father_inc_rank_hist.pdf"
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Panel A of Appendix Figure "
+        },
+        {
+          "t": "annotation",
+          "id": "A5"
+        },
+        {
+          "t": "text",
+          "text": " shows the ten most common occupations held by the fathers of laureates, along with the occupation's census population share. Business owners, professors, physicians, and scientists feature most prominently. Relative to their occupational shares, professors are overrepresented by a factor of 82.4, physicians and engineers by 12.1 each, and business owners by a factor of 2.8."
+        },
+        {
+          "t": "fnref",
+          "id": "fn2"
+        }
+      ]
+    },
+    {
+      "type": "figure",
+      "label": "fig:inc_educ_ranks",
+      "number": "2",
+      "caption": "Average Socioeconomic Ranks of Fathers of Nobel Laureates",
+      "source": "med_inctot_rank_main_lfit.pdf"
+    },
+    {
+      "type": "table",
+      "label": "tab:main_spec",
+      "number": "1",
+      "caption": "Secular Trends in Socioeconomic Ranks of Fathers of Nobel Laureates",
+      "source": "table_main_spec_global_low.tex"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "number": "3.2",
+      "text": "Results: Heterogeneity by Gender, Field and Region"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "number": "3.2.1",
+      "text": "Results: Inequality by Gender"
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Female laureates came from more educated families than male laureates, but the difference estimates are imprecise, given there have been only 28 female winners in the sciences in the 123 years of the Nobel Prize's history (Table "
+        },
+        {
+          "t": "ref",
+          "label": "tab:heterogeneity",
+          "text": "Table 2"
+        },
+        {
+          "t": "text",
+          "text": ", Panel A). The average female laureate has a national education rank that is 4.6 rank points higher than the average male laureate (p=0.05), and is more likely to be from a top-10% or top-20% education family (p=0.13 and p=0.06 respectively). The national income estimates point in the same direction but are not statistically significant."
+        },
+        {
+          "t": "fnref",
+          "id": "fn8"
+        },
+        {
+          "t": "text",
+          "text": " On the global income rank measures, women's ranks are very similar to men's."
+        },
+        {
+          "t": "text",
+          "text": " There are no statistically significant gender differences in the long-run rank trend, but the estimate is imprecise because there are so few female laureates (Appendix Table "
+        },
+        {
+          "t": "annotation",
+          "id": "A7"
+        },
+        {
+          "t": "text",
+          "text": ")."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "label": "tab:heterogeneity",
+      "number": "2",
+      "caption": "Heterogeneity in Socioeconomic Rank of Fathers of Nobel Laureates",
+      "source": "table_heterogeneity.tex"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "number": "3.2.2",
+      "text": "Results: Inequality by Field"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "number": "3.2.3",
+      "text": "Results: Inequality by World Region"
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Table "
+        },
+        {
+          "t": "ref",
+          "label": "tab:heterogeneity",
+          "text": "Table 2"
+        },
+        {
+          "t": "text",
+          "text": "C shows the regional pattern of winners' ranks. Laureates from the U.S. tend to come from less elite backgrounds than winners from Europe and the rest of the world, suggesting more equal access to opportunity in the sciences in the United States. 39% of U.S. laureates come from the bottom 90% of their national income distributions, compared with 27% in the rest of the world, with similar differences for other measures. The regional differences are highly statistically significant. Appendix Table "
+        },
+        {
+          "t": "annotation",
+          "id": "A6"
+        },
+        {
+          "t": "text",
+          "text": " shows regression estimates from just the United States against the rest of the world."
+        },
+        {
+          "t": "fnref",
+          "id": "fn9"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "number": "3.2.4",
+      "text": "Heterogeneity in Time Trends"
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "In Appendix Table "
+        },
+        {
+          "t": "annotation",
+          "id": "A7"
+        },
+        {
+          "t": "text",
+          "text": ", we examine whether the time trends vary by the subgroups examined here. The point estimates suggest some heterogeneity: access to scientific opportunity is rising the most for women; in chemistry and physiology; and in Western Europe. But these differences are imprecise and joint tests of equal trends across subgroups are for the most part not statistically significant."
+        },
+        {
+          "t": "text",
+          "text": " "
+        },
+        {
+          "t": "route",
+          "route": "extended-results",
+          "text": "Explore all subgroup results and trends"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "number": "3.3",
+      "text": "Results: Father Occupation and Scientific Field"
+    },
+    {
+      "type": "figure",
+      "label": "fig:perm_main",
+      "number": "3",
+      "caption": "Parent-Child Field Match Randomization Tests",
+      "source": "perm_test_good_econ_sample.pdf"
+    },
+    {
+      "type": "table",
+      "label": "tab:parent_child_field_match",
+      "number": "3",
+      "caption": "Parent-Child Field Match Randomization Tests",
+      "source": "table_parent_child_field_match.tex"
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "[Example excerpt: the full paper continues beyond the material shown here.]"
+        },
+        {
+          "t": "link",
+          "href": "https://nobel-prizes.devdatalab.org/",
+          "text": " Read the complete digital publication."
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "id": "fn1",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "There are six laureates whose fathers were also Nobel laureates — one of whom (William Lawrence Bragg) shared the prize with his father (William Henry Bragg) — and one winner (Irène Joliot-Curie), whose parents were both laureates."
+        }
+      ]
+    },
+    {
+      "id": "fn2",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "The frequency distribution of father occupations is largely similar across the different prize categories. Appendix Tables "
+        },
+        {
+          "t": "annotation",
+          "id": "A8"
+        },
+        {
+          "t": "text",
+          "text": " and "
+        },
+        {
+          "t": "annotation",
+          "id": "A9"
+        },
+        {
+          "t": "text",
+          "text": " show prize and census share statistics for additional occupation groups. These are broken down by Nobel field in Appendix Table "
+        },
+        {
+          "t": "annotation",
+          "id": "A10"
+        },
+        {
+          "t": "text",
+          "text": ". Notably, there are no high education groups with substantial underrepresentation among the laureates, nor high income groups with substantial overrepresentation."
+        }
+      ]
+    },
+    {
+      "id": "fn8",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Appendix Table "
+        },
+        {
+          "t": "annotation",
+          "id": "A3"
+        },
+        {
+          "t": "text",
+          "text": " shows that these estimates are robust to alternate father coding choices as above. Panel B of Appendix Figure "
+        },
+        {
+          "t": "annotation",
+          "id": "A5"
+        },
+        {
+          "t": "text",
+          "text": " shows the most common father occupations among the set of female laureates."
+        }
+      ]
+    },
+    {
+      "id": "fn9",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Appendix Table "
+        },
+        {
+          "t": "annotation",
+          "id": "A15"
+        },
+        {
+          "t": "text",
+          "text": " shows the list of countries by classification region."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "bell2019",
+      "key": "bell2019",
+      "text": "Bell, A., Chetty, R., Jaravel, X., Petkova, N., Van Reenen, J. (2019). Who Becomes an Inventor in America? The Importance of Exposure to Innovation. The Quarterly Journal of Economics.",
+      "url": "https://doi.org/10.1093/qje/qjy028"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "A2",
+      "title": "Robustness to sample restrictions",
+      "subtitle": "",
+      "body": [
+        {
+          "type": "component",
+          "component": "AppendixTable",
+          "props": {
+            "table": "main_robust",
+            "hideHeading": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "A5",
+      "title": "Most common father occupations",
+      "subtitle": "",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "These are the occupations that show up most often among the fathers of Nobel laureates. The blue bar is the laureates' share; the grey bar is how common the same occupation is in the general working population. The gap between them — shown as a multiplier — is how over-represented that background is."
+        },
+        {
+          "type": "component",
+          "component": "FigureMostCommonOccup"
+        }
+      ]
+    },
+    {
+      "id": "A6",
+      "title": "Father ranks of Nobel laureates: USA vs. rest of world",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "This table shows that U.S.-born laureates tend to come from slightly lower SES backgrounds than laureates born elsewhere."
+        },
+        {
+          "type": "component",
+          "component": "AppendixTable",
+          "props": {
+            "table": "top_pctiles_usa",
+            "hideHeading": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "A7",
+      "title": "Do the trends differ by subgroup?",
+      "subtitle": "Trend slopes estimated separately by gender, field, and region",
+      "body": [
+        {
+          "type": "component",
+          "component": "AppendixTable",
+          "props": {
+            "table": "hetero_trends",
+            "hideHeading": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "A8",
+      "title": "Occupation shares — 10 groups",
+      "subtitle": "Laureate fathers vs. the population across ten broad occupation groups",
+      "body": [
+        {
+          "type": "component",
+          "component": "AppendixTable",
+          "props": {
+            "table": "occ_shares_10",
+            "hideHeading": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "A9",
+      "title": "Occupation shares — 25 groups",
+      "subtitle": "Laureate fathers vs. the population across 25 broad occupation groups",
+      "body": [
+        {
+          "type": "component",
+          "component": "AppendixTable",
+          "props": {
+            "table": "occ_shares_25",
+            "hideHeading": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "A10",
+      "title": "Father occupation across Nobel fields",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "This graph compares the laureate share with a given father occupation to the raw population share with that occupation."
+        },
+        {
+          "type": "component",
+          "component": "OccupationPrizeShareChart",
+          "props": {
+            "compact": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "A11",
+      "title": "Father ranks by birth cohort",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "This is the appendix version of the main trend figure, with the horizontal axis showing the father's birth cohort rather than the year the prize was awarded. We prefer prize year for the primary analysis because, for the most recent birth cohorts, we do not yet observe everyone who may go on to win a Nobel Prize."
+        },
+        {
+          "type": "component",
+          "component": "FigureBinscatterRanks",
+          "props": {
+            "xAxis": "cohort"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A12",
+      "title": "Laureates from below the 80th / 90th percentile",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Rather than average rank, this graph shows the share of laureates whose fathers ranked below the 80th and below the 90th percentiles. A rising line means laureates are increasingly drawn from outside the top of the distribution."
+        },
+        {
+          "type": "component",
+          "component": "FigureBelowThreshold"
+        }
+      ]
+    },
+    {
+      "id": "A13",
+      "title": "Robustness to alternate codings",
+      "subtitle": "",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "This table tests robustness to alternative ways of coding some laureate ranks. For business owners, we adjust ranks based on whether the reported business was small or large. For education, we replace the occupational rank with the direct information reported by the laureate. We prefer the occupational education in the main analysis, because laureates may selectively report their parents' education in their biographies."
+        },
+        {
+          "type": "component",
+          "component": "AppendixTable",
+          "props": {
+            "table": "main_robust_2",
+            "hideHeading": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "A14",
+      "title": "Global rank estimates: robustness to national occupation distribution adjustment",
+      "subtitle": "",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "This table shows that calculating global ranks in a slightly different manner — using the 1950 U.S. occupation distribution for all years — does not materially affect the findings on the trend in laureate global SES ranks."
+        },
+        {
+          "type": "component",
+          "component": "AppendixTable",
+          "props": {
+            "table": "pregdp",
+            "hideHeading": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "A15",
+      "title": "Countries in each region",
+      "body": [
+        {
+          "type": "component",
+          "component": "AppendixTable",
+          "props": {
+            "table": "country_list",
+            "hideHeading": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "A16",
+      "title": "Occupation-field correspondence",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "This table shows the assignments made between occupations and scientific disciplines."
+        },
+        {
+          "type": "component",
+          "component": "AppendixTable",
+          "props": {
+            "table": "occ1950_parent_field_correspondence",
+            "hideHeading": true,
+            "hideNote": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "A17",
+      "title": "Parent-child field match: additional specifications",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "These figures show how the parent-child field match changes under stricter and looser definitions of the field match: for professors only, for non-professors, and for father occupations with weaker topical links."
+        },
+        {
+          "type": "component",
+          "component": "FigurePermTest",
+          "props": {
+            "note": "Grey bars: simulated distribution of parent-child field match shares across 10,000 random reassignments. This shows the expected distribution if laureates are randomly assigned to fields. Dashed line: simulation mean (expected under null). Red line: empirically observed match share. p-value = fraction of simulations ≥ observed.",
+            "panels": [
+              {
+                "key": "good_nonecon_sample",
+                "label": "Good match",
+                "subtitle": "(direct field link)"
+              },
+              {
+                "key": "prof_match_nonecon_sample",
+                "label": "Professors",
+                "subtitle": "(father was a professor)"
+              },
+              {
+                "key": "nonprof_match_nonecon_sample",
+                "label": "Non-professors",
+                "subtitle": "(field-linked, non-professor)"
+              },
+              {
+                "key": "weak_match_nonecon_sample",
+                "label": "Weak match",
+                "subtitle": "(indirect topical link)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "A18",
+      "title": "Parent field vs. laureate field",
+      "body": [
+        {
+          "type": "component",
+          "component": "FigureFieldMatch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "faq",
+  "number": "3",
+  "title": "Frequently asked questions",
+  "blocks": [
+    {
+      "type": "faq",
+      "items": [
+        {
+          "id": "faq-adapt",
+          "question": "How do I replace this paper?",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "nodes": [
+                {
+                  "t": "text",
+                  "text": "Tell your local agent where your manuscript, bibliography and analysis code live. The agent reads those sources and adapts this starter; there is no import program."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "faq-reproduce",
+          "question": "Can readers reproduce the exhibits?",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "nodes": [
+                {
+                  "t": "text",
+                  "text": "Yes. The Replicate or remix page exposes a standard-library Python script and the fictional observations that generate every value shown here."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footnotes": [],
+  "references": []
+}

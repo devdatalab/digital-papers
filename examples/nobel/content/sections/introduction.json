@@ -1,0 +1,939 @@
+{
+  "id": "introduction",
+  "number": "1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "epigraph",
+      "text": "I am, somehow, less interested in the weight and convolutions of Einstein's brain than in the near certainty that people of equal talent have lived and died in cotton fields and sweatshops.",
+      "attribution": "Stephen Jay Gould"
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "The question of who becomes a scientist—and whether societies make the most of their potential scientific talent—has attracted interest for over a century "
+        },
+        {
+          "t": "cite",
+          "cmd": "citep",
+          "keys": [
+            "galton1874",
+            "holland1957",
+            "zuckerman1967",
+            "merton1968",
+            "berry1981",
+            "morgan2022"
+          ],
+          "refIds": [
+            "galton1874",
+            "holland1957",
+            "zuckerman1967",
+            "merton1968",
+            "berry1981",
+            "morgan2022"
+          ],
+          "text": "(Galton, 1874; Holland, 1957; Zuckerman, 1967; Merton, 1968; Berry, 1981; Morgan et al., 2022)"
+        },
+        {
+          "t": "annotation",
+          "id": "A1"
+        },
+        {
+          "t": "text",
+          "text": ". Most quantitative work on access to scientific careers has focused on entry into the sciences or on the overall composition of researchers "
+        },
+        {
+          "t": "cite",
+          "cmd": "citep",
+          "keys": [
+            "morgan2022",
+            "stansbury2023",
+            "airoldi2024",
+            "abramitzky2024",
+            "stansbury2024"
+          ],
+          "refIds": [
+            "morgan2022",
+            "stansbury2023",
+            "airoldi2024",
+            "abramitzky2024",
+            "stansbury2024"
+          ],
+          "text": "(Morgan et al., 2022; Stansbury and Schultz, 2023; Airoldi and Moser, 2024; Abramitzky et al., 2024; Stansbury and Rodriguez, 2024)"
+        },
+        {
+          "t": "text",
+          "text": ". But the social origins of those who reach the very top of the scientific hierarchy—and the frontier of discovery—are less studied."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "In this paper, we propose a parsimonious quantitative measure of access to opportunity in the sciences: the average childhood socioeconomic status (SES) rank of the Nobel laureates in physiology, chemistry, physics, and economics. The laureates are scientists who reached the highest levels of their respective disciplines and produced discoveries of substantial benefit to humankind. In a world where access to opportunity is equal and outlier talent is randomly assigned, the average laureate would have an SES rank of 50. By contrast, in a world where scientific careers are accessible only to children of the top 1%, regardless of their share of top talent, the average laureate childhood SES rank would be above 99. Once we think about this spectrum, it is natural to wonder where our world falls within it."
+        }
+      ]
+    },
+    {
+      "type": "collapsible",
+      "title": "Contributions to the existing literature",
+      "collapsed": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "Our study makes two primary contributions. First, we develop a parsimonious quantitative measure for summarizing and examining changes in access to scientific opportunity over time: the childhood SES rank of top scientific achievers. We focus on the most elite scientists making breakthrough discoveries, for whom misallocation could be most socially consequential "
+            },
+            {
+              "t": "cite",
+              "cmd": "citep",
+              "keys": [
+                "romer1990",
+                "aghion1992",
+                "galor1997",
+                "griffith2004",
+                "akcigit2017"
+              ],
+              "refIds": [
+                "romer1990",
+                "aghion1992",
+                "galor1997",
+                "griffith2004",
+                "akcigit2017"
+              ],
+              "text": "(Romer, 1990; Aghion and Howitt, 1992; Galor and Tsiddon, 1997; Griffith et al., 2004; Akcigit et al., 2017)"
+            },
+            {
+              "t": "text",
+              "text": ". Second, we develop a long time series and provide new evidence that access to scientific opportunity has expanded substantially from the 19th century to the post-war era."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "The study of parental occupations of scientists goes back as far as "
+            },
+            {
+              "t": "cite",
+              "cmd": "citet",
+              "keys": [
+                "galton1874"
+              ],
+              "refIds": [
+                "galton1874"
+              ],
+              "text": "Galton (1874)"
+            },
+            {
+              "t": "text",
+              "text": " and has been of perennial interest. Prior work has shown that scientists' parents are disproportionately likely to have PhDs, white collar jobs, or work as educators or in the sciences "
+            },
+            {
+              "t": "cite",
+              "cmd": "citep",
+              "keys": [
+                "zuckerman1967",
+                "berry1981",
+                "akcigit2017",
+                "morgan2022"
+              ],
+              "refIds": [
+                "zuckerman1967",
+                "berry1981",
+                "akcigit2017",
+                "morgan2022"
+              ],
+              "text": "(Zuckerman, 1967; Berry, 1981; Akcigit et al., 2017; Morgan et al., 2022)"
+            },
+            {
+              "t": "text",
+              "text": "."
+            },
+            {
+              "t": "fnref",
+              "id": "fn3"
+            },
+            {
+              "t": "text",
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "In related work, "
+            },
+            {
+              "t": "cite",
+              "cmd": "citet",
+              "keys": [
+                "stansbury2024"
+              ],
+              "refIds": [
+                "stansbury2024"
+              ],
+              "text": "Stansbury and Rodriguez (2024)"
+            },
+            {
+              "t": "text",
+              "text": " study current relationships between career success in academia (and specifically in economics in "
+            },
+            {
+              "t": "cite",
+              "cmd": "citet",
+              "keys": [
+                "stansbury2023"
+              ],
+              "refIds": [
+                "stansbury2023"
+              ],
+              "text": "Stansbury and Schultz (2023)"
+            },
+            {
+              "t": "text",
+              "text": ") and parental education, finding a substantial class gap, but do not examine changes over time. Several papers study racial and gender gaps in academic advancement and recognition "
+            },
+            {
+              "t": "cite",
+              "cmd": "citep",
+              "keys": [
+                "ginther2011",
+                "ginther2018",
+                "sarsons2021",
+                "hengel2022",
+                "ross2022",
+                "koffi2024"
+              ],
+              "refIds": [
+                "ginther2011",
+                "ginther2018",
+                "sarsons2021",
+                "hengel2022",
+                "ross2022",
+                "koffi2024"
+              ],
+              "text": "(Ginther et al., 2011; Ginther et al., 2018; Sarsons et al., 2021; Hengel, 2022; Ross et al., 2022; Koffi et al., 2024)"
+            },
+            {
+              "t": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "There is a long literature on intergenerational mobility, which has most often focused on measuring average outcomes for children born into poor families "
+            },
+            {
+              "t": "cite",
+              "cmd": "citep",
+              "keys": [
+                "solon1992",
+                "clark2016",
+                "chetty2014",
+                "zimmerman2019",
+                "jia2021"
+              ],
+              "refIds": [
+                "solon1992",
+                "clark2016",
+                "chetty2014",
+                "zimmerman2019",
+                "jia2021"
+              ],
+              "text": "(Solon, 1992; Clark and Del Bono, 2016; Chetty et al., 2014; Zimmerman, 2019; Jia and Li, 2021)"
+            },
+            {
+              "t": "text",
+              "text": ". Access to opportunity in the sciences is particularly important because of the high social value of scientific discovery: identifying and attracting more talented people into the sciences could affect the direction and quantity of research itself "
+            },
+            {
+              "t": "cite",
+              "cmd": "citep",
+              "keys": [
+                "murphy1991",
+                "hsieh2019",
+                "hoogendoorn2013",
+                "freeman2015",
+                "hunt2010",
+                "gaule2013",
+                "koning2021"
+              ],
+              "refIds": [
+                "murphy1991",
+                "hsieh2019",
+                "hoogendoorn2013",
+                "freeman2015",
+                "hunt2010",
+                "gaul2013",
+                "koning2021"
+              ],
+              "text": "(Murphy et al., 1991; Hsieh et al., 2019; Hoogendoorn et al., 2013; Freeman and Huang, 2015; Hunt and Gauthier-Loiselle, 2010; Gaulé and Piacentini, 2013; Koning et al., 2021)"
+            },
+            {
+              "t": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "Several other studies provide useful benchmarks for our findings. In concurrent work, "
+            },
+            {
+              "t": "cite",
+              "cmd": "citet",
+              "keys": [
+                "abramitzky2024"
+              ],
+              "refIds": [
+                "abramitzky2024"
+              ],
+              "text": "Abramitzky et al. (2024)"
+            },
+            {
+              "t": "text",
+              "text": " estimate that U.S. academics at U.S. universities in 1900–69 had an average father SES rank of 72. "
+            },
+            {
+              "t": "cite",
+              "cmd": "citet",
+              "keys": [
+                "airoldi2024"
+              ],
+              "refIds": [
+                "airoldi2024"
+              ],
+              "text": "Airoldi and Moser (2024)"
+            },
+            {
+              "t": "text",
+              "text": " report the median U.S. scientist in 1921 had a 78th percentile father, with the median 'star' scientist (rated among the 15% most successful by their peers) ranking slightly higher. At the 89th percentile, the average Nobel laureate is more elite than these broader groups. Laureates are also from more elite families than inventors; "
+            },
+            {
+              "t": "cite",
+              "cmd": "citet",
+              "keys": [
+                "akcigit2017"
+              ],
+              "refIds": [
+                "akcigit2017"
+              ],
+              "text": "Akcigit et al. (2017)"
+            },
+            {
+              "t": "text",
+              "text": " and "
+            },
+            {
+              "t": "cite",
+              "cmd": "citet",
+              "keys": [
+                "bell2019"
+              ],
+              "refIds": [
+                "bell2019"
+              ],
+              "text": "Bell et al. (2019)"
+            },
+            {
+              "t": "text",
+              "text": " show mean U.S. patent-holder ranks in the 60s and 70s, with little SES gradient in patent importance."
+            },
+            {
+              "t": "fnref",
+              "id": "fn4"
+            },
+            {
+              "t": "text",
+              "text": " Relative to prior work on scientists, to our knowledge ours is the first to measure how their socioeconomic representation has changed from the late 1800s to the present; even in the mobility literature, it is rare to find a 123-year time series with a comparable measure of success or childhood SES over time in a socially important domain."
+            },
+            {
+              "t": "fnref",
+              "id": "fn5"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "Our work also relates to a broader literature connecting childhood and early career circumstances to scientific achievement. "
+            },
+            {
+              "t": "cite",
+              "cmd": "citet",
+              "keys": [
+                "bell2019"
+              ],
+              "refIds": [
+                "bell2019"
+              ],
+              "text": "Bell et al. (2019)"
+            },
+            {
+              "t": "text",
+              "text": " and "
+            },
+            {
+              "t": "cite",
+              "cmd": "citet",
+              "keys": [
+                "aghion2017"
+              ],
+              "refIds": [
+                "aghion2017"
+              ],
+              "text": "Aghion et al. (2017)"
+            },
+            {
+              "t": "text",
+              "text": " study the childhood socioeconomic ranks of U.S. and Finnish inventors, respectively, in a similar quantitative framework to ours, while "
+            },
+            {
+              "t": "cite",
+              "cmd": "citet",
+              "keys": [
+                "kim2021"
+              ],
+              "refIds": [
+                "kim2021"
+              ],
+              "text": "Kim and Moser (2021)"
+            },
+            {
+              "t": "text",
+              "text": " examine the role of motherhood in scientific careers. A related literature studies the networked relationships between scientists who receive major prizes "
+            },
+            {
+              "t": "cite",
+              "cmd": "citep",
+              "keys": [
+                "ma2018",
+                "jin2021"
+              ],
+              "refIds": [
+                "ma2018",
+                "jin2021"
+              ],
+              "text": "(Ma and Uzzi, 2018; Jin et al., 2021)"
+            },
+            {
+              "t": "text",
+              "text": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "[Example excerpt: the full paper continues beyond the material shown here.]"
+        },
+        {
+          "t": "link",
+          "href": "https://nobel-prizes.devdatalab.org/",
+          "text": " Read the complete digital publication."
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "id": "A1",
+      "title": "Galton, English Men of Science (1874)",
+      "subtitle": "The 1874 study that first linked parentage to scientific achievement",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Francis Galton's English Men of Science: Their Nature and Nurture surveyed the fathers and family backgrounds of 180 prominent British scientists, one of the earliest attempts to quantify how scientific talent runs in families.",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "Francis Galton's "
+            },
+            {
+              "t": "emph",
+              "text": "English Men of Science: Their Nature and Nurture"
+            },
+            {
+              "t": "text",
+              "text": " surveyed the fathers and family backgrounds of 180 prominent British scientists, one of the earliest attempts to quantify how scientific talent runs in families."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "src": "annotations/galton-1874.png",
+          "alt": "Scanned page from Galton's English Men of Science (1874)",
+          "caption": "Scanned page from Galton's English Men of Science (1874)."
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "id": "fn3",
+      "nodes": [
+        {
+          "t": "cite",
+          "cmd": "cite",
+          "keys": [
+            "zuckerman1977"
+          ],
+          "refIds": [
+            "zuckerman1977"
+          ],
+          "text": "(Zuckerman, 1977)"
+        },
+        {
+          "t": "text",
+          "text": " notably reports father occupations of the 105 U.S.-resident pre-1972 laureates, similarly finding excess representation of business owners and other high-income careers. There is also work studying the career paths of scientists "
+        },
+        {
+          "t": "cite",
+          "cmd": "citep",
+          "keys": [
+            "holland1957",
+            "hargittai2002",
+            "azoulay2017mobility"
+          ],
+          "refIds": [
+            "holland1957",
+            "hargittai2002",
+            "azoulay2017"
+          ],
+          "text": "(Holland, 1957; Hargittai, 2002; Azoulay et al., 2017)"
+        },
+        {
+          "t": "text",
+          "text": ". Top scientists have on average attended elite colleges and graduate programs, but these are joint signals of privilege and high early ability, which are difficult to disentangle. Focusing on the laureates' childhoods isolates a measure of privilege that they were born with. "
+        },
+        {
+          "t": "cite",
+          "cmd": "citet",
+          "keys": [
+            "agarwal2023"
+          ],
+          "refIds": [
+            "agarwal2023"
+          ],
+          "text": "Agarwal et al. (2023)"
+        },
+        {
+          "t": "text",
+          "text": " show that Math Olympiad winners from poorer countries are less likely to have research careers."
+        }
+      ]
+    },
+    {
+      "id": "fn4",
+      "nodes": [
+        {
+          "t": "cite",
+          "cmd": "citet",
+          "keys": [
+            "akcigit2017"
+          ],
+          "refIds": [
+            "akcigit2017"
+          ],
+          "text": "Akcigit et al. (2017)"
+        },
+        {
+          "t": "text",
+          "text": " report an average parent wage rank of 67 for the average U.S.-born patent holder from the 1940s birth cohort (their Figure 21). "
+        },
+        {
+          "t": "cite",
+          "cmd": "citet",
+          "keys": [
+            "bell2019"
+          ],
+          "refIds": [
+            "bell2019"
+          ],
+          "text": "Bell et al. (2019)"
+        },
+        {
+          "t": "text",
+          "text": " find average parent household earnings rank of 73 among people in the 1980–84 birth cohorts with an invention by 2014, and 74 among the same cohort with a patent in the top 5% of patent citations by 2014 (their Figure 1B)."
+        }
+      ]
+    },
+    {
+      "id": "fn5",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "On intergenerational mobility, see "
+        },
+        {
+          "t": "cite",
+          "cmd": "citet",
+          "keys": [
+            "solon1992"
+          ],
+          "refIds": [
+            "solon1992"
+          ],
+          "text": "Solon (1992)"
+        },
+        {
+          "t": "text",
+          "text": " and "
+        },
+        {
+          "t": "cite",
+          "cmd": "citet",
+          "keys": [
+            "chetty2014"
+          ],
+          "refIds": [
+            "chetty2014"
+          ],
+          "text": "Chetty et al. (2014)"
+        },
+        {
+          "t": "text",
+          "text": ". Studies of long-run changes in intergenerational mobility are uncommon due to data limitations, and often use creative methods like classifying SES based on individuals' names "
+        },
+        {
+          "t": "cite",
+          "cmd": "citep",
+          "keys": [
+            "olivetti2015",
+            "song2020",
+            "chetty2017"
+          ],
+          "refIds": [
+            "olivetti2015",
+            "song2020",
+            "chetty2017"
+          ],
+          "text": "(Olivetti and Paserman, 2015; Song et al., 2020; Chetty et al., 2017)"
+        },
+        {
+          "t": "text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "galton1874",
+      "key": "galton1874",
+      "text": "Galton, F. (1874). English Men of Science: Their Nature and Nurture.",
+      "url": "https://archive.org/details/englishmenscien04galtgoog"
+    },
+    {
+      "id": "holland1957",
+      "key": "holland1957",
+      "text": "Holland, J. (1957). Undergraduate Origins of American Scientists. Science.",
+      "url": "https://doi.org/10.1126/science.126.3271.433"
+    },
+    {
+      "id": "zuckerman1967",
+      "key": "zuckerman1967",
+      "text": "Zuckerman, H. (1967). Nobel Laureates in Science: Patterns of Productivity, Collaboration, and Authorship. American Sociological Review.",
+      "url": "https://doi.org/10.2307/2091086"
+    },
+    {
+      "id": "merton1968",
+      "key": "merton1968",
+      "text": "Merton, R. (1968). The Matthew Effect in Science. Science.",
+      "url": "https://doi.org/10.1126/science.159.3810.56"
+    },
+    {
+      "id": "berry1981",
+      "key": "berry1981",
+      "text": "Berry, C. (1981). The Nobel Scientists and the Origins of Scientific Achievement. The British Journal of Sociology.",
+      "url": "https://doi.org/10.2307/589284"
+    },
+    {
+      "id": "morgan2022",
+      "key": "morgan2022",
+      "text": "Morgan, A., LaBerge, N., Larremore, D., Galesic, M., Brand, J., Clauset, A. (2022). Socioeconomic roots of academic faculty. Nature Human Behaviour.",
+      "url": "https://doi.org/10.1038/s41562-022-01425-4"
+    },
+    {
+      "id": "stansbury2023",
+      "key": "stansbury2023",
+      "text": "Stansbury, A., Schultz, R. (2023). The economics profession's socioeconomic diversity problem. Journal of Economic Perspectives.",
+      "url": "https://doi.org/10.1257/jep.37.4.207"
+    },
+    {
+      "id": "airoldi2024",
+      "key": "airoldi2024",
+      "text": "Airoldi, A., Moser, P. (2024). Inequality in Science: Who Becomes a Star?. Working Paper.",
+      "url": "https://www.nber.org/papers/w33063"
+    },
+    {
+      "id": "abramitzky2024",
+      "key": "abramitzky2024",
+      "text": "Abramitzky, R., Greska, L., Pérez, S., Price, J., Schwarz, C., Waldinger, F. (2024). Climbing the ivory tower: How socio-economic background shapes academia. NBER Working Paper No. 33289.",
+      "url": "https://www.nber.org/papers/w33289"
+    },
+    {
+      "id": "stansbury2024",
+      "key": "stansbury2024",
+      "text": "Stansbury, A., Rodriguez, K. (2024). The Class Gap in Career Progression: Evidence from US academia. Working Paper.",
+      "url": "https://stonecenter.gc.cuny.edu/publications/the-class-gap-in-career-progression-evidence-from-us-academia/"
+    },
+    {
+      "id": "duncan1966",
+      "key": "duncan1966",
+      "text": "Duncan, O. (1966). Methodological Issues in the Analysis of Social Mobility. Social Structure and Mobility in Economic Development.",
+      "url": "https://doi.org/10.4324/9781351306249-2"
+    },
+    {
+      "id": "bjrklund1997",
+      "key": "bjorklund1997",
+      "text": "Björklund, A., Jäntti, M. (1997). Intergenerational Income Mobility in Sweden Compared to the United States. The American Economic Review.",
+      "url": "https://www.jstor.org/stable/2951338"
+    },
+    {
+      "id": "long2013",
+      "key": "long2013",
+      "text": "Long, J., Ferrie, J. (2013). Intergenerational Occupational Mobility in Great Britain and the United States since 1850. American Economic Review.",
+      "url": "https://doi.org/10.1257/aer.103.4.1109"
+    },
+    {
+      "id": "olivetti2015",
+      "key": "olivetti2015",
+      "text": "Olivetti, C., Paserman, M. (2015). In the Name of the Son (and the Daughter): Intergenerational Mobility in the United States, 1850-1940. American Economic Review.",
+      "url": "https://doi.org/10.1257/aer.20130821"
+    },
+    {
+      "id": "song2020",
+      "key": "song2020",
+      "text": "Song, X., Massey, C., Rolf, K., Ferrie, J., Rothbaum, J., Xie, Y. (2020). Long-term decline in intergenerational mobility in the United States since the 1850s. Proceedings of the National Academy of Sciences.",
+      "url": "https://doi.org/10.1073/pnas.1905094116"
+    },
+    {
+      "id": "jcome2025",
+      "key": "jacome2025",
+      "text": "Jácome, E., Kuziemko, I., Naidu, S. (2025). Mobility for all: Representative intergenerational mobility estimates over the twentieth century. Journal of Political Economy.",
+      "url": "https://doi.org/10.1086/732527"
+    },
+    {
+      "id": "romer1990",
+      "key": "romer1990",
+      "text": "Romer, P. (1990). Endogenous Technological Change. Journal of Political Economy.",
+      "url": "https://doi.org/10.1086/261725"
+    },
+    {
+      "id": "aghion1992",
+      "key": "aghion1992",
+      "text": "Aghion, P., Howitt, P. (1992). A Model of Growth Through Creative Destruction. Econometrica.",
+      "url": "https://doi.org/10.2307/2951599"
+    },
+    {
+      "id": "galor1997",
+      "key": "galor1997",
+      "text": "Galor, O., Tsiddon, D. (1997). Technological Progress, Mobility, and Economic Growth. The American Economic Review."
+    },
+    {
+      "id": "griffith2004",
+      "key": "griffith2004",
+      "text": "Griffith, R., Redding, S., Reenen, J. (2004). Mapping the Two Faces of R&D: Productivity Growth in a Panel of OECD Industries. The Review of Economics and Statistics.",
+      "url": "https://doi.org/10.1162/0034653043125194"
+    },
+    {
+      "id": "akcigit2017",
+      "key": "akcigit2017",
+      "text": "Akcigit, U., Grigsby, J., Nicholas, T. (2017). The Rise of American Ingenuity: Innovation and Inventors of the Golden Age. NBER Working Paper No. 29422.",
+      "url": "https://www.nber.org/papers/w23047"
+    },
+    {
+      "id": "ginther2011",
+      "key": "ginther2011",
+      "text": "Ginther, D., Schaffer, W., Schnell, J., Masimore, B., Liu, F., Haak, L., Kington, R. (2011). Race, Ethnicity, and NIH Research Awards. Science.",
+      "url": "https://doi.org/10.1126/science.1196783"
+    },
+    {
+      "id": "ginther2018",
+      "key": "ginther2018",
+      "text": "Ginther, D., Basner, J., Jensen, U., Schnell, J., Kington, R., Schaffer, W. (2018). Publications as predictors of racial and ethnic differences in NIH research awards. PLOS ONE.",
+      "url": "https://doi.org/10.1371/journal.pone.0205929"
+    },
+    {
+      "id": "sarsons2021",
+      "key": "sarsons2021",
+      "text": "Sarsons, H., Gërxhani, K., Reuben, E., Schram, A. (2021). Gender Differences in Recognition for Group Work. Journal of Political Economy.",
+      "url": "https://doi.org/10.1086/711401"
+    },
+    {
+      "id": "hengel2022",
+      "key": "hengel2022",
+      "text": "Hengel, E. (2022). Publishing While Female: Are Women Held to Higher Standards? Evidence from Peer Review. The Economic Journal.",
+      "url": "https://doi.org/10.1093/ej/ueac032"
+    },
+    {
+      "id": "ross2022",
+      "key": "ross2022",
+      "text": "Ross, M., Glennon, B., Murciano-Goroff, R., Berkes, E., Weinberg, B., Lane, J. (2022). Women are credited less in science than men. Nature.",
+      "url": "https://doi.org/10.1038/s41586-022-04966-w"
+    },
+    {
+      "id": "koffi2024",
+      "key": "koffi2024",
+      "text": "Koffi, M., Pongou, R., Wantchekon, L. (2024). Racial Inequality and Publication in Economics. AEA Papers and Proceedings.",
+      "url": "https://doi.org/10.1257/pandp.20241030"
+    },
+    {
+      "id": "solon1992",
+      "key": "solon1992",
+      "text": "Solon, G. (1992). Intergenerational Income Mobility in the United States. The American Economic Review."
+    },
+    {
+      "id": "clark2016",
+      "key": "clark2016",
+      "text": "Clark, D., Del Bono, E. (2016). The Long-Run Effects of Attending an Elite School: Evidence from the United Kingdom. American Economic Journal: Applied Economics.",
+      "url": "https://doi.org/10.1257/app.20130505"
+    },
+    {
+      "id": "chetty2014",
+      "key": "chetty2014",
+      "text": "Chetty, R., Hendren, N., Kline, P., Saez, E. (2014). Where is the Land of Opportunity? The Geography of Intergenerational Mobility in the United States. The Quarterly Journal of Economics.",
+      "url": "https://doi.org/10.1093/qje/qju022"
+    },
+    {
+      "id": "zimmerman2019",
+      "key": "zimmerman2019",
+      "text": "Zimmerman, S. (2019). Elite Colleges and Upward Mobility to Top Jobs and Top Incomes. American Economic Review.",
+      "url": "https://doi.org/10.1257/aer.20171019"
+    },
+    {
+      "id": "jia2021",
+      "key": "jia2021",
+      "text": "Jia, R., Li, H. (2021). Just Above the Exam Cutoff Score: Elite College Admission and Wages in China. Journal of Public Economics.",
+      "url": "https://doi.org/10.1016/j.jpubeco.2021.104371"
+    },
+    {
+      "id": "murphy1991",
+      "key": "murphy1991",
+      "text": "Murphy, K., Shleifer, A., Vishny, R. (1991). The Allocation of Talent: Implications for Growth. The Quarterly Journal of Economics.",
+      "url": "https://doi.org/10.2307/2937945"
+    },
+    {
+      "id": "hsieh2019",
+      "key": "hsieh2019",
+      "text": "Hsieh, C., Hurst, E., Jones, C., Klenow, P. (2019). The Allocation of Talent and U.S. Economic Growth. Econometrica.",
+      "url": "https://doi.org/10.3982/ECTA11427"
+    },
+    {
+      "id": "hoogendoorn2013",
+      "key": "hoogendoorn2013",
+      "text": "Hoogendoorn, S., Oosterbeek, H., van Praag, M. (2013). The Impact of Gender Diversity on the Performance of Business Teams: Evidence from a Field Experiment. Management Science.",
+      "url": "https://doi.org/10.1287/mnsc.1120.1674"
+    },
+    {
+      "id": "freeman2015",
+      "key": "freeman2015",
+      "text": "Freeman, R., Huang, W. (2015). Collaborating with People Like Me: Ethnic Coauthorship within the United States. Journal of Labor Economics.",
+      "url": "https://doi.org/10.1086/678973"
+    },
+    {
+      "id": "hunt2010",
+      "key": "hunt2010",
+      "text": "Hunt, J., Gauthier-Loiselle, M. (2010). How Much Does Immigration Boost Innovation?. American Economic Journal: Macroeconomics.",
+      "url": "https://doi.org/10.1257/mac.2.2.31"
+    },
+    {
+      "id": "gaul2013",
+      "key": "gaule2013",
+      "text": "Gaulé, P., Piacentini, M. (2013). Chinese Graduate Students and U.S. Scientific Productivity. The Review of Economics and Statistics.",
+      "url": "https://doi.org/10.1162/REST_a_00283"
+    },
+    {
+      "id": "koning2021",
+      "key": "koning2021",
+      "text": "Koning, R., Samila, S., Ferguson, J. (2021). Who do we invent for? Patents by women focus more on women's health, but few women get to invent. Science.",
+      "url": "https://doi.org/10.1126/science.aba6990"
+    },
+    {
+      "id": "bell2019",
+      "key": "bell2019",
+      "text": "Bell, A., Chetty, R., Jaravel, X., Petkova, N., Van Reenen, J. (2019). Who Becomes an Inventor in America? The Importance of Exposure to Innovation. The Quarterly Journal of Economics.",
+      "url": "https://doi.org/10.1093/qje/qjy028"
+    },
+    {
+      "id": "aghion2017",
+      "key": "aghion2017",
+      "text": "Aghion, P., Akcigit, U., Hyytinen, A., Toivanen, O. (2017). Social Origins of Inventors. NBER Working Paper No. 24110.",
+      "url": "https://www.nber.org/papers/w24110"
+    },
+    {
+      "id": "kim2021",
+      "key": "kim2021",
+      "text": "Kim, S., Moser, P. (2021). Women in Science. Lessons from the Baby Boom.",
+      "url": "https://www.nber.org/papers/w29436"
+    },
+    {
+      "id": "ma2018",
+      "key": "ma2018",
+      "text": "Ma, Y., Uzzi, B. (2018). Scientific prize network predicts who pushes the boundaries of science. Proceedings of the National Academy of Sciences.",
+      "url": "https://doi.org/10.1073/pnas.1800485115"
+    },
+    {
+      "id": "jin2021",
+      "key": "jin2021",
+      "text": "Jin, C., Ma, Y., Uzzi, B. (2021). Scientific prizes and the extraordinary growth of scientific topics. Nature Communications.",
+      "url": "https://doi.org/10.1038/s41467-021-25712-2"
+    },
+    {
+      "id": "zuckerman1977",
+      "key": "zuckerman1977",
+      "text": "Zuckerman, H. (1977). Scientific Elite: Nobel Laureates in the United States.",
+      "url": "https://books.google.com/books/about/Scientific_Elite.html?id=1u62AAAAIAAJ"
+    },
+    {
+      "id": "hargittai2002",
+      "key": "hargittai2002",
+      "text": "Hargittai, I. (2002). The Road to Stockholm: Nobel Prizes, Science, and Scientists.",
+      "url": "https://books.google.com/books?id=SHhs74OSk34C"
+    },
+    {
+      "id": "azoulay2017",
+      "key": "azoulay2017mobility",
+      "text": "Azoulay, P., Ganguli, I., Zivin, J. (2017). The mobility of elite life scientists: Professional and personal determinants. Research policy.",
+      "url": "https://doi.org/10.1016/j.respol.2017.01.002"
+    },
+    {
+      "id": "agarwal2023",
+      "key": "agarwal2023",
+      "text": "Agarwal, R., Ganguli, I., Gaulé, P., Smith, G. (2023). Why U.S. immigration matters for the global advancement of science. Research Policy.",
+      "url": "https://doi.org/10.1016/j.respol.2022.104659"
+    },
+    {
+      "id": "chetty2017",
+      "key": "chetty2017",
+      "text": "Chetty, R., Grusky, D., Hell, M., Hendren, N., Manduca, R., Narang, J. (2017). The fading American dream: Trends in absolute income mobility since 1940. Science.",
+      "url": "https://doi.org/10.1126/science.aal4617"
+    }
+  ]
+}

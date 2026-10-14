@@ -1,0 +1,25 @@
+{
+	"title": "Access to Opportunity in the Sciences",
+	"subtitle": "Evidence from the Nobel Laureates",
+	"date": "September 2026",
+	"authors": [
+		{
+			"name": "Paul Novosad",
+			"affiliation": "Dartmouth College"
+		},
+		{
+			"name": "Sam Asher",
+			"affiliation": "Imperial College London"
+		},
+		{
+			"name": "Catriona Farquharson",
+			"affiliation": "Harvard University"
+		},
+		{
+			"name": "Eni Iljazi",
+			"affiliation": "UPenn Wharton"
+		}
+	],
+	"abstract": "We study the socioeconomic origins of Nobel laureates in the sciences from 1901–2023, proxied by father occupations. The average laureate grew up in a household at the 87th income and 89th education percentile in their country, and at the 94th percentile globally. Within-country ranks fell over the sample period, suggesting broader access to opportunity in the sciences. Global ranks declined only marginally. U.S.-raised laureates came from more humble backgrounds than those raised elsewhere and female laureates had more educated fathers. Laureates whose fathers were academics, engineers, or physicians disproportionately win prizes in their fathers' fields.",
+	"pdf": "paper/nobel_prizes.pdf"
+}

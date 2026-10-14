@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "script": "most_common_occupations",
+    "generated": "2026-10-07T17:51:34.609747+00:00",
+    "n": 704,
+    "source_dofiles": [
+      "a/graph_most_common_occupations.do",
+      "a/graph_common_occup_ratio.do"
+    ],
+    "note": "top10 sorted by laureate share descending. Census shares sum all OCC1950 codes in each microocc group within each U.S. decade, normalize the complete census distribution, and average equally across 1850–1970. Ratios compare identical occupation groups. stacked adds an Other row = 1 - sum(top10)."
+  },
+  "data": {
+    "top10": [
+      {
+        "rank": 1,
+        "microocc": "Managers",
+        "occ1950": 290,
+        "label": "Business owners",
+        "occ1950_label": "managers, officials, and proprietors (nec)",
+        "count": 131,
+        "nobelists_pct": 18.608,
+        "census_pct": 6.5514,
+        "occ_share_ratio": 2.8403
+      },
+      {
+        "rank": 2,
+        "microocc": "Professors and instructors",
+        "occ1950": 16,
+        "label": "Professors and instructors",
+        "occ1950_label": "engineering-professors and instructors",
+        "count": 85,
+        "nobelists_pct": 12.0739,
+        "census_pct": 0.1465,
+        "occ_share_ratio": 82.4325
+      },
+      {
+        "rank": 3,
+        "microocc": "Health professionals",
+        "occ1950": 75,
+        "label": "Physicians and doctors",
+        "occ1950_label": "physicians and surgeons",
+        "count": 75,
+        "nobelists_pct": 10.6534,
+        "census_pct": 0.8828,
+        "occ_share_ratio": 12.0675
+      },
+      {
+        "rank": 4,
+        "microocc": "Engineers",
+        "occ1950": 48,
+        "label": "Engineers",
+        "occ1950_label": "mining-engineers",
+        "count": 61,
+        "nobelists_pct": 8.6648,
+        "census_pct": 0.7146,
+        "occ_share_ratio": 12.1251
+      },
+      {
+        "rank": 5,
+        "microocc": "Officials, government and non-profit organizations",
+        "occ1950": 250,
+        "label": "Government officials",
+        "occ1950_label": "officials and administratators (nec), public administration",
+        "count": 51,
+        "nobelists_pct": 7.2443,
+        "census_pct": 0.2782,
+        "occ_share_ratio": 26.044
+      },
+      {
+        "rank": 6,
+        "microocc": "Jurists",
+        "occ1950": 55,
+        "label": "Lawyers and judges",
+        "occ1950_label": "lawyers and judges",
+        "count": 31,
+        "nobelists_pct": 4.4034,
+        "census_pct": 0.4491,
+        "occ_share_ratio": 9.8044
+      },
+      {
+        "rank": 7,
+        "microocc": "Elementary and secondary school teachers",
+        "occ1950": 93,
+        "label": "K-12 school teachers",
+        "occ1950_label": "teachers (n.e.c.)",
+        "count": 29,
+        "nobelists_pct": 4.1193,
+        "census_pct": 0.703,
+        "occ_share_ratio": 5.8597
+      },
+      {
+        "rank": 8,
+        "microocc": "Farmers and farm managers",
+        "occ1950": 100,
+        "label": "Farmers and farm managers",
+        "occ1950_label": "farmers (owners and tenants)",
+        "count": 23,
+        "nobelists_pct": 3.267,
+        "census_pct": 22.2042,
+        "occ_share_ratio": 0.1471
+      },
+      {
+        "rank": 9,
+        "microocc": "Natural scientists",
+        "occ1950": 7,
+        "label": "Natural scientists",
+        "occ1950_label": "chemists",
+        "count": 17,
+        "nobelists_pct": 2.4148,
+        "census_pct": 0.1197,
+        "occ_share_ratio": 20.1685
+      },
+      {
+        "rank": 10,
+        "microocc": "Workers in religion",
+        "occ1950": 9,
+        "label": "Workers in religion",
+        "occ1950_label": "clergymen",
+        "count": 17,
+        "nobelists_pct": 2.4148,
+        "census_pct": 0.4514,
+        "occ_share_ratio": 5.3495
+      }
+    ],
+    "stacked": {
+      "rows": [
+        {
+          "rank": 1,
+          "microocc": "Managers",
+          "occ1950": 290,
+          "label": "Business owners",
+          "occ1950_label": "managers, officials, and proprietors (nec)",
+          "count": 131,
+          "nobelists_pct": 18.608,
+          "census_pct": 6.5514,
+          "occ_share_ratio": 2.8403
+        },
+        {
+          "rank": 2,
+          "microocc": "Professors and instructors",
+          "occ1950": 16,
+          "label": "Professors and instructors",
+          "occ1950_label": "engineering-professors and instructors",
+          "count": 85,
+          "nobelists_pct": 12.0739,
+          "census_pct": 0.1465,
+          "occ_share_ratio": 82.4325
+        },
+        {
+          "rank": 3,
+          "microocc": "Health professionals",
+          "occ1950": 75,
+          "label": "Physicians and doctors",
+          "occ1950_label": "physicians and surgeons",
+          "count": 75,
+          "nobelists_pct": 10.6534,
+          "census_pct": 0.8828,
+          "occ_share_ratio": 12.0675
+        },
+        {
+          "rank": 4,
+          "microocc": "Engineers",
+          "occ1950": 48,
+          "label": "Engineers",
+          "occ1950_label": "mining-engineers",
+          "count": 61,
+          "nobelists_pct": 8.6648,
+          "census_pct": 0.7146,
+          "occ_share_ratio": 12.1251
+        },
+        {
+          "rank": 5,
+          "microocc": "Officials, government and non-profit organizations",
+          "occ1950": 250,
+          "label": "Government officials",
+          "occ1950_label": "officials and administratators (nec), public administration",
+          "count": 51,
+          "nobelists_pct": 7.2443,
+          "census_pct": 0.2782,
+          "occ_share_ratio": 26.044
+        },
+        {
+          "rank": 6,
+          "microocc": "Jurists",
+          "occ1950": 55,
+          "label": "Lawyers and judges",
+          "occ1950_label": "lawyers and judges",
+          "count": 31,
+          "nobelists_pct": 4.4034,
+          "census_pct": 0.4491,
+          "occ_share_ratio": 9.8044
+        },
+        {
+          "rank": 7,
+          "microocc": "Elementary and secondary school teachers",
+          "occ1950": 93,
+          "label": "K-12 school teachers",
+          "occ1950_label": "teachers (n.e.c.)",
+          "count": 29,
+          "nobelists_pct": 4.1193,
+          "census_pct": 0.703,
+          "occ_share_ratio": 5.8597
+        },
+        {
+          "rank": 8,
+          "microocc": "Farmers and farm managers",
+          "occ1950": 100,
+          "label": "Farmers and farm managers",
+          "occ1950_label": "farmers (owners and tenants)",
+          "count": 23,
+          "nobelists_pct": 3.267,
+          "census_pct": 22.2042,
+          "occ_share_ratio": 0.1471
+        },
+        {
+          "rank": 9,
+          "microocc": "Natural scientists",
+          "occ1950": 7,
+          "label": "Natural scientists",
+          "occ1950_label": "chemists",
+          "count": 17,
+          "nobelists_pct": 2.4148,
+          "census_pct": 0.1197,
+          "occ_share_ratio": 20.1685
+        },
+        {
+          "rank": 10,
+          "microocc": "Workers in religion",
+          "occ1950": 9,
+          "label": "Workers in religion",
+          "occ1950_label": "clergymen",
+          "count": 17,
+          "nobelists_pct": 2.4148,
+          "census_pct": 0.4514,
+          "occ_share_ratio": 5.3495
+        },
+        {
+          "rank": 11,
+          "microocc": "Other",
+          "occ1950": null,
+          "label": "Other",
+          "occ1950_label": "Other",
+          "count": null,
+          "nobelists_pct": 26.1363,
+          "census_pct": 67.4991,
+          "occ_share_ratio": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1359 @@
+{
+  "meta": {
+    "script": "occ_shares",
+    "table": "occupation_lookup",
+    "n": 269,
+    "generated": "2026-07-16T14:04:08.106305+00:00",
+    "source_dofiles": [
+      "b/prep_occ_shares.do",
+      "a/tables_occ_shares.do"
+    ]
+  },
+  "data": {
+    "0": {
+      "label": "accountants and auditors",
+      "group_10": "Technical professional",
+      "group_25": "Management-related"
+    },
+    "1": {
+      "label": "actors and actresses",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "2": {
+      "label": "airplane pilots and navigators",
+      "group_10": "Technical professional",
+      "group_25": "Technicians and related support"
+    },
+    "3": {
+      "label": "architects",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "4": {
+      "label": "artists and art teachers",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "5": {
+      "label": "athletes",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "6": {
+      "label": "authors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "7": {
+      "label": "chemists",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "8": {
+      "label": "chiropractors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "9": {
+      "label": "clergymen",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "10": {
+      "label": "college presidents and deans",
+      "group_10": "Technical professional",
+      "group_25": "Exec/admin/managerial"
+    },
+    "12": {
+      "label": "agricultural sciences-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "13": {
+      "label": "biological sciences-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "14": {
+      "label": "chemistry-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "15": {
+      "label": "economics-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "16": {
+      "label": "engineering-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "17": {
+      "label": "geology and geophysics-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "18": {
+      "label": "mathematics-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "19": {
+      "label": "medical sciences-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "23": {
+      "label": "physics-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "24": {
+      "label": "psychology-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "25": {
+      "label": "statistics-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "26": {
+      "label": "natural science (nec)-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "27": {
+      "label": "social sciences (nec)-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "28": {
+      "label": "non-scientific subjects-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "29": {
+      "label": "subject not specified-professors and instructors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "31": {
+      "label": "dancers and dancing teachers",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "32": {
+      "label": "dentists",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "33": {
+      "label": "designers",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "34": {
+      "label": "dietitians and nutritionists",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "35": {
+      "label": "draftsmen",
+      "group_10": "Technical professional",
+      "group_25": "Technicians and related support"
+    },
+    "36": {
+      "label": "editors and reporters",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "41": {
+      "label": "aeronautical-engineers",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "42": {
+      "label": "chemical-engineers",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "43": {
+      "label": "civil-engineers",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "44": {
+      "label": "electrical-engineers",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "45": {
+      "label": "industrial-engineers",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "46": {
+      "label": "mechanical-engineers",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "47": {
+      "label": "metallurgical, metallurgists-engineers",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "48": {
+      "label": "mining-engineers",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "49": {
+      "label": "engineers (nec)",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "51": {
+      "label": "entertainers (nec)",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "52": {
+      "label": "farm and home management advisors",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "53": {
+      "label": "foresters and conservationists",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "54": {
+      "label": "funeral directors and embalmers",
+      "group_10": "Technical professional",
+      "group_25": "Exec/admin/managerial"
+    },
+    "55": {
+      "label": "lawyers and judges",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "56": {
+      "label": "librarians",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "57": {
+      "label": "musicians and music teachers",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "58": {
+      "label": "nurses, professional",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "59": {
+      "label": "nurses, student professional",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "61": {
+      "label": "agricultural scientists",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "62": {
+      "label": "biological scientists",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "63": {
+      "label": "geologists and geophysicists",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "67": {
+      "label": "mathematicians",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "68": {
+      "label": "physicists",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "69": {
+      "label": "misc. natural scientists",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "70": {
+      "label": "optometrists",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "71": {
+      "label": "osteopaths",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "72": {
+      "label": "personnel and labor relations workers",
+      "group_10": "Technical professional",
+      "group_25": "Administrative support"
+    },
+    "73": {
+      "label": "pharmacists",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "74": {
+      "label": "photographers",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "75": {
+      "label": "physicians and surgeons",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "76": {
+      "label": "radio operators",
+      "group_10": "Technical professional",
+      "group_25": "Technicians and related support"
+    },
+    "77": {
+      "label": "recreation and group workers",
+      "group_10": "Technical professional",
+      "group_25": "Recreation and hospitality"
+    },
+    "78": {
+      "label": "religious workers",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "79": {
+      "label": "social and welfare workers, except group",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "81": {
+      "label": "economists",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "82": {
+      "label": "psychologists",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "83": {
+      "label": "statisticians and actuaries",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "84": {
+      "label": "misc social scientists",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "91": {
+      "label": "sports instructors and officials",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "92": {
+      "label": "surveyors",
+      "group_10": "Technical professional",
+      "group_25": "Technicians and related support"
+    },
+    "93": {
+      "label": "teachers (n.e.c.)",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "94": {
+      "label": "medical and dental-technicians",
+      "group_10": "Technical professional",
+      "group_25": "Technicians and related support"
+    },
+    "95": {
+      "label": "testing-technicians",
+      "group_10": "Technical professional",
+      "group_25": "Technicians and related support"
+    },
+    "96": {
+      "label": "technicians (nec)",
+      "group_10": "Technical professional",
+      "group_25": "Technicians and related support"
+    },
+    "97": {
+      "label": "therapists and healers (nec)",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "98": {
+      "label": "veterinarians",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "99": {
+      "label": "professional, technical and kindred workers (nec)",
+      "group_10": "Technical professional",
+      "group_25": "Professional specialty"
+    },
+    "100": {
+      "label": "farmers (owners and tenants)",
+      "group_10": "Farm owners, tenants, and managers",
+      "group_25": "Farm operators and managers"
+    },
+    "123": {
+      "label": "farm managers",
+      "group_10": "Farm owners, tenants, and managers",
+      "group_25": "Farm operators and managers"
+    },
+    "200": {
+      "label": "buyers and dept heads, store",
+      "group_10": "Managers, officials, and proprietors",
+      "group_25": "Management-related"
+    },
+    "201": {
+      "label": "buyers and shippers, farm products",
+      "group_10": "Managers, officials, and proprietors",
+      "group_25": "Management-related"
+    },
+    "203": {
+      "label": "conductors, railroad",
+      "group_10": "Managers, officials, and proprietors",
+      "group_25": "Transportation and material moving"
+    },
+    "204": {
+      "label": "credit men",
+      "group_10": "Managers, officials, and proprietors",
+      "group_25": "Management-related"
+    },
+    "205": {
+      "label": "floormen and floor managers, store",
+      "group_10": "Managers, officials, and proprietors",
+      "group_25": "Financial sales and related"
+    },
+    "210": {
+      "label": "inspectors, public administration",
+      "group_10": "Managers, officials, and proprietors",
+      "group_25": "Management-related"
+    },
+    "230": {
+      "label": "managers and superintendents, building",
+      "group_10": "Managers, officials, and proprietors",
+      "group_25": "Exec/admin/managerial"
+    },
+    "240": {
+      "label": "officers, pilots, pursers and engineers, ship",
+      "group_10": "Managers, officials, and proprietors",
+      "group_25": "Transportation and material moving"
+    },
+    "250": {
+      "label": "officials and administrators (nec), public administration",
+      "group_10": "Managers, officials, and proprietors",
+      "group_25": "Exec/admin/managerial"
+    },
+    "260": {
+      "label": "officials, lodge, society, union, etc",
+      "group_10": "Managers, officials, and proprietors",
+      "group_25": "Exec/admin/managerial"
+    },
+    "270": {
+      "label": "postmasters",
+      "group_10": "Managers, officials, and proprietors",
+      "group_25": "Exec/admin/managerial"
+    },
+    "280": {
+      "label": "purchasing agents and buyers (nec)",
+      "group_10": "Managers, officials, and proprietors",
+      "group_25": "Management-related"
+    },
+    "290": {
+      "label": "managers, officials, and proprietors (nec)",
+      "group_10": "Managers, officials, and proprietors",
+      "group_25": "Exec/admin/managerial"
+    },
+    "300": {
+      "label": "agents (nec)",
+      "group_10": "Clerical and kindred",
+      "group_25": "Retail sales"
+    },
+    "301": {
+      "label": "attendants and assistants, library",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "302": {
+      "label": "attendants, physicians and dentists office",
+      "group_10": "Clerical and kindred",
+      "group_25": "Health service support"
+    },
+    "304": {
+      "label": "baggagemen, transportation",
+      "group_10": "Clerical and kindred",
+      "group_25": "Recreation and hospitality"
+    },
+    "305": {
+      "label": "bank tellers",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "310": {
+      "label": "bookkeepers",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "320": {
+      "label": "cashiers",
+      "group_10": "Clerical and kindred",
+      "group_25": "Retail sales"
+    },
+    "321": {
+      "label": "collectors, bill and account",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "322": {
+      "label": "dispatchers and starters, vehicle",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "325": {
+      "label": "express messengers and railway mail clerks",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "335": {
+      "label": "mail carriers",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "340": {
+      "label": "messengers and office boys",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "341": {
+      "label": "office machine operators",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "342": {
+      "label": "shipping and receiving clerks",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "350": {
+      "label": "stenographers, typists, and secretaries",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "360": {
+      "label": "telegraph messengers",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "365": {
+      "label": "telegraph operators",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "370": {
+      "label": "telephone operators",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "380": {
+      "label": "ticket, station, and express agents",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "390": {
+      "label": "clerical and kindred workers (n.e.c.)",
+      "group_10": "Clerical and kindred",
+      "group_25": "Administrative support"
+    },
+    "400": {
+      "label": "advertising agents and salesmen",
+      "group_10": "Sales workers",
+      "group_25": "Financial sales and related"
+    },
+    "410": {
+      "label": "auctioneers",
+      "group_10": "Sales workers",
+      "group_25": "Retail sales"
+    },
+    "420": {
+      "label": "demonstrators",
+      "group_10": "Sales workers",
+      "group_25": "Retail sales"
+    },
+    "430": {
+      "label": "hucksters and peddlers",
+      "group_10": "Sales workers",
+      "group_25": "Retail sales"
+    },
+    "450": {
+      "label": "insurance agents and brokers",
+      "group_10": "Sales workers",
+      "group_25": "Administrative support"
+    },
+    "460": {
+      "label": "newsboys",
+      "group_10": "Sales workers",
+      "group_25": "Retail sales"
+    },
+    "470": {
+      "label": "real estate agents and brokers",
+      "group_10": "Sales workers",
+      "group_25": "Financial sales and related"
+    },
+    "480": {
+      "label": "stock and bond salesmen",
+      "group_10": "Sales workers",
+      "group_25": "Financial sales and related"
+    },
+    "490": {
+      "label": "salesmen and sales clerks (nec)",
+      "group_10": "Sales workers",
+      "group_25": "Retail sales"
+    },
+    "500": {
+      "label": "bakers",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "501": {
+      "label": "blacksmiths",
+      "group_10": "Craftsmen",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "502": {
+      "label": "bookbinders",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "503": {
+      "label": "boilermakers",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "504": {
+      "label": "brickmasons, stonemasons, and tile setters",
+      "group_10": "Craftsmen",
+      "group_25": "Construction trades"
+    },
+    "505": {
+      "label": "cabinetmakers",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "510": {
+      "label": "carpenters",
+      "group_10": "Craftsmen",
+      "group_25": "Construction trades"
+    },
+    "511": {
+      "label": "cement and concrete finishers",
+      "group_10": "Craftsmen",
+      "group_25": "Construction trades"
+    },
+    "512": {
+      "label": "compositors and typesetters",
+      "group_10": "Craftsmen",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "513": {
+      "label": "cranemen,derrickmen, and hoistmen",
+      "group_10": "Craftsmen",
+      "group_25": "Transportation and material moving"
+    },
+    "514": {
+      "label": "decorators and window dressers",
+      "group_10": "Craftsmen",
+      "group_25": "Retail sales"
+    },
+    "515": {
+      "label": "electricians",
+      "group_10": "Craftsmen",
+      "group_25": "Construction trades"
+    },
+    "520": {
+      "label": "electrotypers and stereotypers",
+      "group_10": "Craftsmen",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "521": {
+      "label": "engravers, except photoengravers",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "522": {
+      "label": "excavating, grading, and road machinery operators",
+      "group_10": "Craftsmen",
+      "group_25": "Transportation and material moving"
+    },
+    "523": {
+      "label": "foremen (nec)",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "524": {
+      "label": "forgemen and hammermen",
+      "group_10": "Craftsmen",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "525": {
+      "label": "furriers",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "530": {
+      "label": "glaziers",
+      "group_10": "Craftsmen",
+      "group_25": "Construction trades"
+    },
+    "531": {
+      "label": "heat treaters, annealers, temperers",
+      "group_10": "Craftsmen",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "532": {
+      "label": "inspectors, scalers, and graders log and lumber",
+      "group_10": "Craftsmen",
+      "group_25": "Other agricultural and related"
+    },
+    "533": {
+      "label": "inspectors (nec)",
+      "group_10": "Craftsmen",
+      "group_25": "Administrative support"
+    },
+    "534": {
+      "label": "jewelers, watchmakers, goldsmiths, and silversmiths",
+      "group_10": "Craftsmen",
+      "group_25": "Mechanics and repairers"
+    },
+    "535": {
+      "label": "job setters, metal",
+      "group_10": "Craftsmen",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "540": {
+      "label": "linemen and servicemen, telegraph, telephone, and power",
+      "group_10": "Craftsmen",
+      "group_25": "Mechanics and repairers"
+    },
+    "541": {
+      "label": "locomotive engineers",
+      "group_10": "Craftsmen",
+      "group_25": "Transportation and material moving"
+    },
+    "542": {
+      "label": "locomotive firemen",
+      "group_10": "Craftsmen",
+      "group_25": "Transportation and material moving"
+    },
+    "543": {
+      "label": "loom fixers",
+      "group_10": "Craftsmen",
+      "group_25": "Mechanics and repairers"
+    },
+    "544": {
+      "label": "machinists",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "545": {
+      "label": "airplane-mechanics and repairmen",
+      "group_10": "Craftsmen",
+      "group_25": "Mechanics and repairers"
+    },
+    "550": {
+      "label": "automobile-mechanics and repairmen",
+      "group_10": "Craftsmen",
+      "group_25": "Mechanics and repairers"
+    },
+    "551": {
+      "label": "office machine-mechanics and repairmen",
+      "group_10": "Craftsmen",
+      "group_25": "Mechanics and repairers"
+    },
+    "552": {
+      "label": "radio and television-mechanics and repairmen",
+      "group_10": "Craftsmen",
+      "group_25": "Mechanics and repairers"
+    },
+    "553": {
+      "label": "railroad and car shop-mechanics and repairmen",
+      "group_10": "Craftsmen",
+      "group_25": "Mechanics and repairers"
+    },
+    "554": {
+      "label": "mechanics and repairmen (nec)",
+      "group_10": "Craftsmen",
+      "group_25": "Mechanics and repairers"
+    },
+    "555": {
+      "label": "millers, grain, flour, feed, etc",
+      "group_10": "Craftsmen",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "560": {
+      "label": "millwrights",
+      "group_10": "Craftsmen",
+      "group_25": "Mechanics and repairers"
+    },
+    "561": {
+      "label": "molders, metal",
+      "group_10": "Craftsmen",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "562": {
+      "label": "motion picture projectionists",
+      "group_10": "Craftsmen",
+      "group_25": "Recreation and hospitality"
+    },
+    "563": {
+      "label": "opticians and lens grinders and polishers",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "564": {
+      "label": "painters, construction and maintenance",
+      "group_10": "Craftsmen",
+      "group_25": "Construction trades"
+    },
+    "565": {
+      "label": "paperhangers",
+      "group_10": "Craftsmen",
+      "group_25": "Construction trades"
+    },
+    "570": {
+      "label": "pattern and model makers, except paper",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "571": {
+      "label": "photoengravers and lithographers",
+      "group_10": "Craftsmen",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "572": {
+      "label": "piano and organ tuners and repairmen",
+      "group_10": "Craftsmen",
+      "group_25": "Mechanics and repairers"
+    },
+    "573": {
+      "label": "plasterers",
+      "group_10": "Craftsmen",
+      "group_25": "Construction trades"
+    },
+    "574": {
+      "label": "plumbers and pipe fitters",
+      "group_10": "Craftsmen",
+      "group_25": "Construction trades"
+    },
+    "575": {
+      "label": "pressmen and plate printers, printing",
+      "group_10": "Craftsmen",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "580": {
+      "label": "rollers and roll hands, metal",
+      "group_10": "Craftsmen",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "581": {
+      "label": "roofers and slaters",
+      "group_10": "Craftsmen",
+      "group_25": "Construction trades"
+    },
+    "582": {
+      "label": "shoemakers and repairers, except factory",
+      "group_10": "Craftsmen",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "583": {
+      "label": "stationary engineers",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "584": {
+      "label": "stone cutters and stone carvers",
+      "group_10": "Craftsmen",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "585": {
+      "label": "structural metal workers",
+      "group_10": "Craftsmen",
+      "group_25": "Construction trades"
+    },
+    "590": {
+      "label": "tailors and tailoresses",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "591": {
+      "label": "tinsmiths, coppersmiths, and sheet metal workers",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "592": {
+      "label": "tool makers, and die makers and setters",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "593": {
+      "label": "upholsterers",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "594": {
+      "label": "craftsmen and kindred workers (nec)",
+      "group_10": "Craftsmen",
+      "group_25": "Precision production and craft"
+    },
+    "595": {
+      "label": "members of the armed services",
+      "group_10": "Craftsmen",
+      "group_25": "Fire fighting/police/corrections"
+    },
+    "600": {
+      "label": "auto mechanics apprentice",
+      "group_10": "Operatives",
+      "group_25": "Mechanics and repairers"
+    },
+    "601": {
+      "label": "bricklayers and masons apprentice",
+      "group_10": "Operatives",
+      "group_25": "Construction trades"
+    },
+    "602": {
+      "label": "carpenters apprentice",
+      "group_10": "Operatives",
+      "group_25": "Construction trades"
+    },
+    "603": {
+      "label": "electricians apprentice",
+      "group_10": "Operatives",
+      "group_25": "Construction trades"
+    },
+    "604": {
+      "label": "machinists and toolmakers apprentice",
+      "group_10": "Operatives",
+      "group_25": "Precision production and craft"
+    },
+    "605": {
+      "label": "mechanics, except auto apprentice",
+      "group_10": "Operatives",
+      "group_25": "Mechanics and repairers"
+    },
+    "610": {
+      "label": "plumbers and pipe fitters apprentice",
+      "group_10": "Operatives",
+      "group_25": "Construction trades"
+    },
+    "611": {
+      "label": "apprentices, building trades (nec)",
+      "group_10": "Operatives",
+      "group_25": "Construction trades"
+    },
+    "612": {
+      "label": "apprentices, metalworking trades (nec)",
+      "group_10": "Operatives",
+      "group_25": "Precision production and craft"
+    },
+    "613": {
+      "label": "apprentices, printing  trades",
+      "group_10": "Operatives",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "614": {
+      "label": "apprentices, other specified trades",
+      "group_10": "Operatives",
+      "group_25": "Mechanics and repairers"
+    },
+    "615": {
+      "label": "apprentices, trade not specified",
+      "group_10": "Operatives",
+      "group_25": "Mechanics and repairers"
+    },
+    "620": {
+      "label": "asbestos and insulation workers",
+      "group_10": "Operatives",
+      "group_25": "Construction trades"
+    },
+    "621": {
+      "label": "attendants, auto service and parking",
+      "group_10": "Operatives",
+      "group_25": "Transportation and material moving"
+    },
+    "622": {
+      "label": "blasters and powdermen",
+      "group_10": "Operatives",
+      "group_25": "Extractive/mining"
+    },
+    "623": {
+      "label": "boatmen, canalmen, and lock keepers",
+      "group_10": "Operatives",
+      "group_25": "Transportation and material moving"
+    },
+    "624": {
+      "label": "brakemen, railroad",
+      "group_10": "Operatives",
+      "group_25": "Transportation and material moving"
+    },
+    "625": {
+      "label": "bus drivers",
+      "group_10": "Operatives",
+      "group_25": "Transportation and material moving"
+    },
+    "630": {
+      "label": "chainmen, rodmen, and axmen, surveying",
+      "group_10": "Operatives",
+      "group_25": "Technicians and related support"
+    },
+    "631": {
+      "label": "conductors, bus and street railway",
+      "group_10": "Operatives",
+      "group_25": "Transportation and material moving"
+    },
+    "632": {
+      "label": "deliverymen and routemen",
+      "group_10": "Operatives",
+      "group_25": "Transportation and material moving"
+    },
+    "633": {
+      "label": "dressmakers and seamstresses, except factory",
+      "group_10": "Operatives",
+      "group_25": "Precision production and craft"
+    },
+    "634": {
+      "label": "dyers",
+      "group_10": "Operatives",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "635": {
+      "label": "filers, grinders, and polishers, metal",
+      "group_10": "Operatives",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "640": {
+      "label": "fruit, nut, and vegetable graders, and packers, except facto",
+      "group_10": "Operatives",
+      "group_25": "Other agricultural and related"
+    },
+    "641": {
+      "label": "furnacemen, smeltermen and pourers",
+      "group_10": "Operatives",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "642": {
+      "label": "heaters, metal",
+      "group_10": "Operatives",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "643": {
+      "label": "laundry and dry cleaning operatives",
+      "group_10": "Operatives",
+      "group_25": "Housekeeping/cleaning/laundry"
+    },
+    "644": {
+      "label": "meat cutters, except slaughter and packing house",
+      "group_10": "Operatives",
+      "group_25": "Precision production and craft"
+    },
+    "645": {
+      "label": "milliners",
+      "group_10": "Operatives",
+      "group_25": "Precision production and craft"
+    },
+    "650": {
+      "label": "mine operatives and laborers",
+      "group_10": "Operatives",
+      "group_25": "Extractive/mining"
+    },
+    "660": {
+      "label": "motormen, mine, factory, logging camp, etc",
+      "group_10": "Operatives",
+      "group_25": "Transportation and material moving"
+    },
+    "661": {
+      "label": "motormen, street, subway, and elevated railway",
+      "group_10": "Operatives",
+      "group_25": "Transportation and material moving"
+    },
+    "662": {
+      "label": "oilers and greaser, except auto",
+      "group_10": "Operatives",
+      "group_25": "Mechanics and repairers"
+    },
+    "670": {
+      "label": "painters, except construction or maintenance",
+      "group_10": "Operatives",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "671": {
+      "label": "photographic process workers",
+      "group_10": "Operatives",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "672": {
+      "label": "power station operators",
+      "group_10": "Operatives",
+      "group_25": "Precision production and craft"
+    },
+    "673": {
+      "label": "sailors and deck hands",
+      "group_10": "Operatives",
+      "group_25": "Transportation and material moving"
+    },
+    "674": {
+      "label": "sawyers",
+      "group_10": "Operatives",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "675": {
+      "label": "spinners, textile",
+      "group_10": "Operatives",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "680": {
+      "label": "stationary firemen",
+      "group_10": "Operatives",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "681": {
+      "label": "switchmen, railroad",
+      "group_10": "Operatives",
+      "group_25": "Transportation and material moving"
+    },
+    "682": {
+      "label": "taxicab drivers and chauffeurs",
+      "group_10": "Operatives",
+      "group_25": "Transportation and material moving"
+    },
+    "683": {
+      "label": "truck and tractor drivers",
+      "group_10": "Operatives",
+      "group_25": "Transportation and material moving"
+    },
+    "684": {
+      "label": "weavers, textile",
+      "group_10": "Operatives",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "685": {
+      "label": "welders and flame cutters",
+      "group_10": "Operatives",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "690": {
+      "label": "operative and kindred workers (nec)",
+      "group_10": "Operatives",
+      "group_25": "Machine operators/assemblers/inspectors"
+    },
+    "700": {
+      "label": "housekeepers, private household",
+      "group_10": "Service workers",
+      "group_25": "Housekeeping/cleaning/laundry"
+    },
+    "710": {
+      "label": "laundresses, private household",
+      "group_10": "Service workers",
+      "group_25": "Housekeeping/cleaning/laundry"
+    },
+    "720": {
+      "label": "private household workers (nec)",
+      "group_10": "Service workers",
+      "group_25": "Misc. personal care and services"
+    },
+    "730": {
+      "label": "attendants, hospital and other institution",
+      "group_10": "Service workers",
+      "group_25": "Health service support"
+    },
+    "731": {
+      "label": "attendants, professional and personal service (nec)",
+      "group_10": "Service workers",
+      "group_25": "Misc. personal care and services"
+    },
+    "732": {
+      "label": "attendants, recreation and amusement",
+      "group_10": "Service workers",
+      "group_25": "Recreation and hospitality"
+    },
+    "740": {
+      "label": "barbers, beauticians, and manicurists",
+      "group_10": "Service workers",
+      "group_25": "Personal appearance"
+    },
+    "750": {
+      "label": "bartenders",
+      "group_10": "Service workers",
+      "group_25": "Food preparation and service"
+    },
+    "751": {
+      "label": "bootblacks",
+      "group_10": "Service workers",
+      "group_25": "Housekeeping/cleaning/laundry"
+    },
+    "752": {
+      "label": "boarding and lodging house keepers",
+      "group_10": "Service workers",
+      "group_25": "Housekeeping/cleaning/laundry"
+    },
+    "753": {
+      "label": "charwomen and cleaners",
+      "group_10": "Service workers",
+      "group_25": "Housekeeping/cleaning/laundry"
+    },
+    "754": {
+      "label": "cooks, except private household",
+      "group_10": "Service workers",
+      "group_25": "Food preparation and service"
+    },
+    "760": {
+      "label": "counter and fountain workers",
+      "group_10": "Service workers",
+      "group_25": "Food preparation and service"
+    },
+    "761": {
+      "label": "elevator operators",
+      "group_10": "Service workers",
+      "group_25": "Misc. personal care and services"
+    },
+    "762": {
+      "label": "firemen, fire protection",
+      "group_10": "Service workers",
+      "group_25": "Fire fighting/police/corrections"
+    },
+    "763": {
+      "label": "guards, watchmen, and doorkeepers",
+      "group_10": "Service workers",
+      "group_25": "Guards and guard supervisors"
+    },
+    "764": {
+      "label": "housekeepers and stewards, except private household",
+      "group_10": "Service workers",
+      "group_25": "Housekeeping/cleaning/laundry"
+    },
+    "770": {
+      "label": "janitors and sextons",
+      "group_10": "Service workers",
+      "group_25": "Building and grounds cleaning/maintenance"
+    },
+    "771": {
+      "label": "marshals and constables",
+      "group_10": "Service workers",
+      "group_25": "Fire fighting/police/corrections"
+    },
+    "772": {
+      "label": "midwives",
+      "group_10": "Service workers",
+      "group_25": "Professional specialty"
+    },
+    "773": {
+      "label": "policemen and detectives",
+      "group_10": "Service workers",
+      "group_25": "Fire fighting/police/corrections"
+    },
+    "780": {
+      "label": "porters",
+      "group_10": "Service workers",
+      "group_25": "Recreation and hospitality"
+    },
+    "781": {
+      "label": "practical nurses",
+      "group_10": "Service workers",
+      "group_25": "Technicians and related support"
+    },
+    "782": {
+      "label": "sheriffs and bailiffs",
+      "group_10": "Service workers",
+      "group_25": "Fire fighting/police/corrections"
+    },
+    "783": {
+      "label": "ushers, recreation and amusement",
+      "group_10": "Service workers",
+      "group_25": "Recreation and hospitality"
+    },
+    "784": {
+      "label": "waiters and waitresses",
+      "group_10": "Service workers",
+      "group_25": "Food preparation and service"
+    },
+    "785": {
+      "label": "watchmen (crossing) and bridge tenders",
+      "group_10": "Service workers",
+      "group_25": "Guards and guard supervisors"
+    },
+    "790": {
+      "label": "service workers, except private household (nec)",
+      "group_10": "Service workers",
+      "group_25": "Misc. personal care and services"
+    },
+    "810": {
+      "label": "farm foremen",
+      "group_10": "Farm laborers",
+      "group_25": "Other agricultural and related"
+    },
+    "820": {
+      "label": "farm laborers, wage workers",
+      "group_10": "Farm laborers",
+      "group_25": "Other agricultural and related"
+    },
+    "830": {
+      "label": "farm laborers, unpaid family workers",
+      "group_10": "Farm laborers",
+      "group_25": "Other agricultural and related"
+    },
+    "840": {
+      "label": "farm service laborers, self-employed",
+      "group_10": "Farm laborers",
+      "group_25": "Other agricultural and related"
+    },
+    "910": {
+      "label": "fishermen and oystermen",
+      "group_10": "Laborers",
+      "group_25": "Other agricultural and related"
+    },
+    "920": {
+      "label": "garage laborers and car washers and greasers",
+      "group_10": "Laborers",
+      "group_25": "Transportation and material moving"
+    },
+    "930": {
+      "label": "gardeners, except farm and groundskeepers",
+      "group_10": "Laborers",
+      "group_25": "Building and grounds cleaning/maintenance"
+    },
+    "940": {
+      "label": "longshoremen and stevedores",
+      "group_10": "Laborers",
+      "group_25": "Transportation and material moving"
+    },
+    "950": {
+      "label": "lumbermen, raftsmen, and woodchoppers",
+      "group_10": "Laborers",
+      "group_25": "Other agricultural and related"
+    },
+    "960": {
+      "label": "teamsters",
+      "group_10": "Laborers",
+      "group_25": "Transportation and material moving"
+    },
+    "970": {
+      "label": "laborers (nec)",
+      "group_10": "Laborers",
+      "group_25": "Transportation and material moving"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "section": "data-and-measurement",
+    "source": "source/sections/data-and-measurement.json",
+    "retainedBlocks": 6,
+    "note": "Retained original wording; omitted passages are marked in rendered content."
+  },
+  {
+    "section": "discussion",
+    "source": "source/sections/discussion.json",
+    "retainedBlocks": 2,
+    "note": "Retained original wording; omitted passages are marked in rendered content."
+  },
+  {
+    "section": "faq",
+    "source": "source/sections/faq.json",
+    "retainedBlocks": 1,
+    "note": "Retained original wording; omitted passages are marked in rendered content."
+  },
+  {
+    "section": "introduction",
+    "source": "source/sections/introduction.json",
+    "retainedBlocks": 4,
+    "note": "Retained original wording; omitted passages are marked in rendered content."
+  },
+  {
+    "section": "results",
+    "source": "source/sections/results.json",
+    "retainedBlocks": 19,
+    "note": "Retained original wording; omitted passages are marked in rendered content."
+  }
+]

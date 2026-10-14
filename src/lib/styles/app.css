@@ -1,0 +1,454 @@
+/**
+ * Global styles for the digital publication.
+ *
+ * Why this file exists:
+ *   Establishes the design system for the reading experience. It is layered ON
+ *   TOP of @devdatalab/ddl-charts' ddl-theme.css (imported just before this in
+ *   +layout.svelte): we reuse DDL's design tokens (colours, IBM Plex font stack,
+ *   radii, shadows) as the foundation and add the long-form reading tokens the
+ *   chart theme doesn't cover (a serif body face, darker reading ink, layout
+ *   dimensions). Keep component-specific layout in the Svelte components; keep
+ *   tokens + element typography here.
+ *
+ * Font note: ddl-theme references 'IBM Plex Sans' but doesn't ship it; we load
+ * IBM Plex Sans + Serif in app.html so DDL's intended typography actually renders
+ * and pairs with a matching serif for body text.
+ */
+
+:root {
+	/* Typography — built on DDL's IBM Plex stack. */
+	--font-ui: var(--ddl-font-family, 'IBM Plex Sans', system-ui, sans-serif);
+	--font-serif: 'IBM Plex Serif', Georgia, 'Times New Roman', serif;
+	--font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+	/* Reading-specific palette (darker than the chart theme's light grey). */
+	--ink: #1a1a1a;
+	--ink-soft: #3a3a3a;
+	--muted: var(--ddl-color-text-light, #999);
+	--accent: var(--ddl-color-primary, #1e88e5);
+	/* Distinct from --accent so annotation tags don't read as "just another
+	   citation" — citations already use blue for their link color. */
+	--accent-annotation: #e8871e;
+	/* A third mark, for footnote chips. Each of the three inline marks does a
+	   different thing, so each gets its own hue AND its own shape: citations
+	   navigate out (blue, bare text), annotation tags toggle the side panel
+	   (orange, solid circle), footnote chips jump within the page (violet,
+	   tinted rounded rect). Violet sits far enough from both blue and orange to
+	   stay separable at superscript size, where hue is the weakest signal. */
+	--accent-footnote: #6d28d9;
+	--accent-footnote-tint: rgba(109, 40, 217, 0.11);
+	--accent-footnote-tint-strong: rgba(109, 40, 217, 0.22);
+	/* Highlighter yellow for search: <mark> in result excerpts, and the brief
+	   flash on the block a search hit lands on. */
+	--search-hit: #fdeea0;
+	--rule: #e7e7e4;
+	--rule-strong: #d7d7d2;
+	--bg: var(--ddl-color-background, #fff);
+	--bg-panel: #faf9f6;
+	/* Tint for in-text boxed asides (collapsible blocks such as the Appendix
+	   B.x boxes). A step darker than --bg-panel so they read as distinct from
+	   the running text while nested tables (which use --bg-panel) stay legible. */
+	--bg-inset: #f3f1ea;
+	--bg-inset-hover: #ebe8df;
+
+	/* Layout dimensions. */
+	--header-h: 60px;
+	--nav-w: 210px;
+	/* Aside width is driven at runtime by the asidePanel store (inline
+	   --aside-w on .shell). This is the fallback/default used before hydration;
+	   it scales with the viewport so the pane isn't a lonely sliver on large
+	   monitors (the store re-seeds itself from the viewport in +layout's
+	   onMount, then follows the reader's drags). */
+	--aside-w-default: clamp(340px, 28vw, 640px);
+	--aside-w: var(--aside-w-default);
+	--read-max: 720px;
+	--gutter: 2.5rem;
+	/* Breakpoints (reference only — CSS media queries can't read custom
+	   properties, so the literals below must match): narrow ≤1079px,
+	   mobile ≤719px. */
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: var(--font-serif);
+	font-size: 1.125rem;
+	line-height: 1.7;
+	color: var(--ink);
+	background: var(--bg);
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+a {
+	color: var(--accent);
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+/* Anything UI-chrome uses the sans face. */
+.ui {
+	font-family: var(--font-ui);
+}
+
+/* Filled call-to-action button (e.g. the title page's "Begin reading", the
+   replication download). ddl-theme ships no button utility, so the shared
+   look lives here rather than being re-declared per page. Apply to an <a> or
+   <button>; pages adjust size/spacing locally. */
+.btn {
+	display: inline-block;
+	background: var(--accent);
+	color: #fff;
+	padding: 0.7rem 1.1rem;
+	border: none;
+	border-radius: 6px;
+	font-family: var(--font-ui);
+	font-weight: 600;
+	font-size: 0.95rem;
+	cursor: pointer;
+}
+.btn:hover {
+	text-decoration: none;
+	filter: brightness(0.95);
+}
+
+/* --- Long-form article typography ------------------------------------- */
+
+.prose {
+	font-family: var(--font-serif);
+	color: var(--ink);
+}
+
+.prose p:not(.ddl-branded-subtitle) {
+	margin: 0 0 1.35em;
+}
+
+.prose h2,
+.prose h3:not(.ddl-branded-title) {
+	font-family: var(--font-ui);
+	color: var(--ink);
+	line-height: 1.25;
+	scroll-margin-top: calc(var(--header-h) + 1.5rem);
+}
+
+.prose h2 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin: 2.75rem 0 1rem;
+}
+
+.prose h3:not(.ddl-branded-title) {
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin: 2rem 0 0.75rem;
+	color: var(--ink-soft);
+}
+
+.prose .heading-number {
+	color: var(--muted);
+	font-weight: 500;
+	margin-right: 0.5em;
+	font-variant-numeric: tabular-nums;
+}
+
+/* Epigraph that opens the introduction. */
+.epigraph {
+	margin: 0 0 2.5rem;
+	padding-left: 1.25rem;
+	border-left: 3px solid var(--rule-strong);
+	color: var(--ink-soft);
+	font-style: italic;
+}
+.epigraph .attribution {
+	display: block;
+	margin-top: 0.5rem;
+	font-style: normal;
+	font-family: var(--font-ui);
+	font-size: 0.95rem;
+	color: var(--muted);
+}
+.epigraph .attribution::before {
+	content: '— ';
+}
+
+/* Placeholder block standing in for a figure/table (interactive ddl-charts
+   visualisations will replace these in a later pass). */
+.placeholder {
+	font-family: var(--font-ui);
+	margin: 2rem 0;
+	padding: 1.5rem;
+	border: 1px dashed var(--rule-strong);
+	border-radius: var(--ddl-border-radius, 4px);
+	background: var(--bg-panel);
+}
+.placeholder .label {
+	display: inline-block;
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--accent);
+	margin-bottom: 0.4rem;
+}
+.placeholder .caption {
+	font-size: 0.95rem;
+	line-height: 1.5;
+	color: var(--ink-soft);
+}
+.placeholder .pending {
+	display: block;
+	margin-top: 0.6rem;
+	font-size: 0.8rem;
+	color: var(--muted);
+}
+
+/* Resource links (e.g. the Replication section's code/data links). */
+.prose .links {
+	font-family: var(--font-ui);
+	list-style: none;
+	margin: 1.75rem 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+}
+.prose .links li {
+	margin: 0;
+}
+.prose .links a {
+	display: inline-block;
+	padding: 0.55rem 1rem;
+	border: 1px solid var(--rule-strong);
+	border-radius: var(--ddl-border-radius, 4px);
+	background: var(--bg-panel);
+	font-size: 0.95rem;
+	font-weight: 500;
+	text-decoration: none;
+}
+.prose .links a:hover {
+	border-color: var(--accent);
+}
+
+/* Endnotes (footnotes collected per section). */
+.footnotes {
+	font-family: var(--font-ui);
+	margin-top: 3.5rem;
+	padding-top: 1.25rem;
+	border-top: 1px solid var(--rule);
+	font-size: 0.9rem;
+	line-height: 1.6;
+	color: var(--ink-soft);
+}
+.footnotes h4 {
+	font-size: 0.75rem;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--muted);
+	margin: 0 0 1rem;
+}
+/* The list's numbers are .footnote-marker circles styled like the in-text
+   chips, so a note visibly matches the call-out that led to it. Hence
+   list-style: none + a flex hanging marker rather than an <ol>'s own
+   numbering. Both the marker and trailing .footnote-return arrow jump back up. */
+.footnotes ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.footnotes li {
+	display: flex;
+	gap: 0.6rem;
+	margin-bottom: 0.7rem;
+	scroll-margin-top: calc(var(--header-h) + 1.5rem);
+}
+
+/* Shared look for both ends of a footnote round trip: the superscript chip in
+   the prose (.footnote-ref) and the numbered marker in the Notes list
+   (.footnote-marker). Defined once, here, so the two can't drift apart.
+   Both are circles: fixed width = height (rather than padding) keeps them
+   round, and 1.6em still fits two digits. */
+.footnote-chip {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.6em;
+	height: 1.6em;
+	padding: 0;
+	border-radius: 50%;
+	line-height: 1;
+	background: var(--accent-footnote-tint);
+	color: var(--accent-footnote);
+	font-family: var(--font-ui);
+	font-weight: 700;
+	font-variant-numeric: tabular-nums;
+	text-decoration: none;
+	transition: background var(--ddl-transition-fast, 0.15s ease);
+	scroll-margin-top: calc(var(--header-h) + 1.5rem);
+}
+a.footnote-chip:hover {
+	background: var(--accent-footnote-tint-strong);
+	text-decoration: none;
+}
+.footnote-chip:focus-visible {
+	outline: 2px solid var(--accent-footnote);
+	outline-offset: 2px;
+}
+
+/* Inline in serif body prose — raised, and smaller than the body face. */
+.footnote-ref {
+	font-size: 0.62em;
+	vertical-align: super;
+	margin-left: 0.12em;
+}
+/* Trailing ↩ after each note's text: the familiar "back to text" glyph and
+   an additional link back up to its call-out. */
+.footnote-return {
+	margin-left: 0.3em;
+	color: var(--accent-footnote);
+	font-family: var(--font-ui);
+	text-decoration: none;
+	white-space: nowrap;
+}
+.footnote-return:hover {
+	text-decoration: none;
+	opacity: 0.7;
+}
+.footnote-return:focus-visible {
+	outline: 2px solid var(--accent-footnote);
+	outline-offset: 2px;
+	border-radius: 2px;
+}
+/* Hanging marker in the Notes list — sized to the list's own UI face. The
+   small top margin centres it on the note's first line. */
+.footnote-marker {
+	flex: none;
+	margin-top: 0.08rem;
+	font-size: 0.8rem;
+}
+
+/* Ring whichever chip the reader just landed on, at either end of the trip.
+   Mirrors .annotation-tag:target so the two apparatus marks behave alike. */
+.footnotes li:target .footnote-marker,
+.footnote-ref:target {
+	animation: footnote-chip-flash 1.6s ease-out;
+}
+@keyframes footnote-chip-flash {
+	0%,
+	45% {
+		box-shadow: 0 0 0 2px var(--bg, #fff), 0 0 0 4px var(--accent-footnote);
+	}
+	100% {
+		box-shadow: 0 0 0 2px var(--bg, #fff), 0 0 0 0 rgba(109, 40, 217, 0);
+	}
+}
+@media (prefers-reduced-motion: reduce) {
+	.footnotes li:target .footnote-marker,
+	.footnote-ref:target {
+		animation: none;
+		background: var(--accent-footnote-tint-strong);
+	}
+}
+
+/* --- Chart brand mark: symbol only ------------------------------------- */
+
+/* Chart footers carry the DDL symbol rather than the full wordmark logo.
+   ddl-charts' createChartContainer always injects DDL_LOGO_SVG (wordmark +
+   symbol) into .ddl-branded-mark with no option to swap it, so we hide
+   whatever the span holds and paint the symbol as its background. BrandedFrame
+   emits the same span empty, so this one rule covers both chrome mechanisms.
+   TODO: drop this once ddl-charts exports a symbol-only mark upstream. */
+.ddl-branded-mark {
+	width: 31px;
+	height: 22px;
+	background: url('../assets/ddl-symbol.svg') center / contain no-repeat;
+}
+
+/* Must match ddl-theme.css's `.ddl-branded-mark svg { display: block }` in
+   specificity (0,1,1); app.css loads after the theme, so this wins the tie. */
+.ddl-branded-mark svg {
+	display: none;
+}
+
+/* --- Bare viz chrome (Additional Information pane) --------------------- */
+
+/* Figures and tables in the right-hand pane drop the DDL brand wrapper: the
+   pane's own card supplies the border and heading, so a second bordered
+   container plus a logo around every item is redundant framing. Title,
+   subtitle, source and notes are kept — only the container chrome and the mark
+   go. See $lib/components/brandChrome.ts for how the flag reaches a viz.
+
+   Lives here rather than in a component because both chrome mechanisms emit
+   these same class names: BrandedFrame.svelte declaratively, and ddl-charts'
+   imperative createChartContainer. One rule set covers both.
+
+   Everything is flush left (padding-inline: 0) so the title, chart, source and
+   notes share the pane card's own text margin — the viz reads as part of the
+   card rather than as a box sitting inside it. */
+.ddl-branded-container.ddl-bare {
+	background: none;
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+	/* The wrapper clipped overflow to keep artwork inside its rounded corners.
+	   No corners, nothing to clip. */
+	overflow: visible;
+}
+
+.ddl-branded-container.ddl-bare .ddl-branded-header {
+	padding: 0 0 0.5rem;
+	/* The pane card already rules off its own header; a second rule here reads
+	   as noise at this size. */
+	border-bottom: 0;
+}
+
+.ddl-branded-container.ddl-bare .ddl-branded-body {
+	padding: 0;
+}
+
+.ddl-branded-container.ddl-bare .ddl-branded-footer {
+	padding: 0.5rem 0 0;
+	border-top: 0;
+}
+
+/* Chart notes sit between the body and the source line. Components pad these
+   to clear the frame's inner gutter; bare, they line up with everything else. */
+.ddl-branded-container.ddl-bare .ddl-chart-note {
+	padding: 0.35rem 0 0;
+}
+
+/* Search hit landing: SearchBox navigates to a block and revealBlock adds
+   .search-flash, which removes itself on animationend. The tint is drawn with
+   a spread box-shadow so it bleeds past the text edges without shifting
+   layout. Holds briefly, then fades out over about a second. */
+.search-flash {
+	scroll-margin-top: calc(var(--header-h) + 1.5rem);
+	border-radius: 3px;
+	animation: search-flash 2s ease-out;
+}
+/* revealBlock focuses the hit (tabindex -1) so keyboard and screen-reader
+   users land on it. tabindex -1 elements aren't in the tab order, and the
+   flash already marks the hit, so no focus ring. */
+[tabindex='-1']:focus {
+	outline: none;
+}
+@keyframes search-flash {
+	0%,
+	40% {
+		background-color: var(--search-hit);
+		box-shadow: 0 0 0 0.4rem var(--search-hit);
+	}
+	/* No 100% keyframe: fade back to the element's own background (e.g. a
+	   collapsible panel's inset tint) rather than to transparent. */
+}

@@ -1,0 +1,123 @@
+{
+  "id": "introduction",
+  "number": "1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "Use this section for your original introduction. Citations open a reference preview "
+        },
+        {
+          "t": "cite",
+          "cmd": "citep",
+          "keys": [
+            "example"
+          ],
+          "refIds": [
+            "ref-example"
+          ],
+          "text": "(Example reference)"
+        },
+        {
+          "t": "text",
+          "text": ", and footnotes stay close to the argument "
+        },
+        {
+          "t": "fnref",
+          "id": "note-1"
+        },
+        {
+          "t": "text",
+          "text": ". Open the numbered tag to inspect supplementary context "
+        },
+        {
+          "t": "annotation",
+          "id": "A1"
+        },
+        {
+          "t": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "collapsible",
+      "title": "Technical detail: an expandable appendix",
+      "collapsed": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "nodes": [
+            {
+              "t": "text",
+              "text": "Place original technical material here so readers can choose when to see it. The digital presentation changes the layout; it does not silently rewrite the source text."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "The same exhibit can appear in the main text and an interactive sidebar "
+        },
+        {
+          "t": "annotation",
+          "id": "A2"
+        },
+        {
+          "t": "text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "id": "note-1",
+      "nodes": [
+        {
+          "t": "text",
+          "text": "This is a footnote. Replace it with the exact wording of a source note."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-example",
+      "key": "example",
+      "text": "Example reference. Replace this entry with a reference from your manuscript."
+    }
+  ],
+  "annotations": [
+    {
+      "id": "A1",
+      "title": "A supplementary explanation",
+      "subtitle": "Context without leaving the paper",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "This panel holds additional explanation. Keep new editorial explanations separate from original source prose."
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "title": "Explore the fictional data",
+      "subtitle": "An interactive supplementary exhibit",
+      "body": [
+        {
+          "type": "component",
+          "component": "CompareGroups",
+          "props": {}
+        }
+      ]
+    }
+  ]
+}

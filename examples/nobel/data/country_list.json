@@ -1,0 +1,207 @@
+{
+	"meta": {
+		"n_countries": 44,
+		"n_laureates": 735,
+		"provenance": "Curated from replication/data/nobelists_analysis.csv: each laureate birth country (country_name) with the analysis region bloc (bloc/bloc_string) used in the regional regressions. One laureate per row; laureates = birth-country counts in the analysis sample.",
+		"source": "regional_analysis/regional_analysis.py"
+	},
+	"regions": [
+		{
+			"bloc": "west",
+			"label": "West",
+			"laureates": 649,
+			"countries": [
+				{
+					"country": "USA",
+					"laureates": 260
+				},
+				{
+					"country": "United Kingdom",
+					"laureates": 93
+				},
+				{
+					"country": "Germany",
+					"laureates": 71
+				},
+				{
+					"country": "France",
+					"laureates": 41
+				},
+				{
+					"country": "Japan",
+					"laureates": 25
+				},
+				{
+					"country": "Austria-Hungary",
+					"laureates": 20
+				},
+				{
+					"country": "Canada",
+					"laureates": 20
+				},
+				{
+					"country": "Netherlands",
+					"laureates": 20
+				},
+				{
+					"country": "Sweden",
+					"laureates": 18
+				},
+				{
+					"country": "Switzerland",
+					"laureates": 16
+				},
+				{
+					"country": "Italy",
+					"laureates": 13
+				},
+				{
+					"country": "Australia",
+					"laureates": 9
+				},
+				{
+					"country": "Denmark",
+					"laureates": 8
+				},
+				{
+					"country": "Norway",
+					"laureates": 8
+				},
+				{
+					"country": "Belgium",
+					"laureates": 5
+				},
+				{
+					"country": "Israel",
+					"laureates": 5
+				},
+				{
+					"country": "Austria",
+					"laureates": 4
+				},
+				{
+					"country": "Finland",
+					"laureates": 3
+				},
+				{
+					"country": "Ireland",
+					"laureates": 2
+				},
+				{
+					"country": "New Zealand",
+					"laureates": 2
+				},
+				{
+					"country": "Spain",
+					"laureates": 2
+				},
+				{
+					"country": "Cyprus",
+					"laureates": 1
+				},
+				{
+					"country": "Luxembourg",
+					"laureates": 1
+				},
+				{
+					"country": "Portugal",
+					"laureates": 1
+				},
+				{
+					"country": "Turkey",
+					"laureates": 1
+				}
+			]
+		},
+		{
+			"bloc": "east",
+			"label": "East",
+			"laureates": 57,
+			"countries": [
+				{
+					"country": "Russia",
+					"laureates": 28
+				},
+				{
+					"country": "Poland",
+					"laureates": 16
+				},
+				{
+					"country": "Czechoslovakia",
+					"laureates": 5
+				},
+				{
+					"country": "Hungary",
+					"laureates": 5
+				},
+				{
+					"country": "Romania",
+					"laureates": 2
+				},
+				{
+					"country": "Lithuania",
+					"laureates": 1
+				}
+			]
+		},
+		{
+			"bloc": "south",
+			"label": "Global South",
+			"laureates": 29,
+			"countries": [
+				{
+					"country": "India",
+					"laureates": 7
+				},
+				{
+					"country": "China",
+					"laureates": 6
+				},
+				{
+					"country": "South Africa",
+					"laureates": 5
+				},
+				{
+					"country": "Argentina",
+					"laureates": 2
+				},
+				{
+					"country": "Algeria",
+					"laureates": 1
+				},
+				{
+					"country": "Brazil",
+					"laureates": 1
+				},
+				{
+					"country": "Egypt",
+					"laureates": 1
+				},
+				{
+					"country": "Korea",
+					"laureates": 1
+				},
+				{
+					"country": "Lebanon",
+					"laureates": 1
+				},
+				{
+					"country": "Mexico",
+					"laureates": 1
+				},
+				{
+					"country": "Morocco",
+					"laureates": 1
+				},
+				{
+					"country": "Tunisia",
+					"laureates": 1
+				},
+				{
+					"country": "Venezuela",
+					"laureates": 1
+				}
+			]
+		}
+	]
+}

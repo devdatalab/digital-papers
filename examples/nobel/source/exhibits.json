@@ -1,0 +1,216 @@
+[
+  {
+    "location": "results",
+    "kind": "figure",
+    "label": "fig:rank_histograms",
+    "caption": "Distribution of Socioeconomic Ranks of Fathers of Nobel Laureates"
+  },
+  {
+    "location": "results",
+    "kind": "figure",
+    "label": "fig:inc_educ_ranks",
+    "caption": "Average Socioeconomic Ranks of Fathers of Nobel Laureates"
+  },
+  {
+    "location": "results",
+    "kind": "table",
+    "label": "tab:main_spec",
+    "caption": "Secular Trends in Socioeconomic Ranks of Fathers of Nobel Laureates"
+  },
+  {
+    "location": "results",
+    "kind": "table",
+    "label": "tab:heterogeneity",
+    "caption": "Heterogeneity in Socioeconomic Rank of Fathers of Nobel Laureates"
+  },
+  {
+    "location": "results",
+    "kind": "figure",
+    "label": "fig:perm_main",
+    "caption": "Parent-Child Field Match Randomization Tests"
+  },
+  {
+    "location": "results",
+    "kind": "table",
+    "label": "tab:parent_child_field_match",
+    "caption": "Parent-Child Field Match Randomization Tests"
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A2",
+    "renderer": "AppendixTable",
+    "props": {
+      "table": "main_robust",
+      "hideHeading": true
+    }
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A5",
+    "renderer": "FigureMostCommonOccup",
+    "props": {}
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A6",
+    "renderer": "AppendixTable",
+    "props": {
+      "table": "top_pctiles_usa",
+      "hideHeading": true
+    }
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A7",
+    "renderer": "AppendixTable",
+    "props": {
+      "table": "hetero_trends",
+      "hideHeading": true
+    }
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A8",
+    "renderer": "AppendixTable",
+    "props": {
+      "table": "occ_shares_10",
+      "hideHeading": true
+    }
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A9",
+    "renderer": "AppendixTable",
+    "props": {
+      "table": "occ_shares_25",
+      "hideHeading": true
+    }
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A10",
+    "renderer": "OccupationPrizeShareChart",
+    "props": {
+      "compact": true
+    }
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A11",
+    "renderer": "FigureBinscatterRanks",
+    "props": {
+      "xAxis": "cohort"
+    }
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A12",
+    "renderer": "FigureBelowThreshold",
+    "props": {}
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A13",
+    "renderer": "AppendixTable",
+    "props": {
+      "table": "main_robust_2",
+      "hideHeading": true
+    }
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A14",
+    "renderer": "AppendixTable",
+    "props": {
+      "table": "pregdp",
+      "hideHeading": true
+    }
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A15",
+    "renderer": "AppendixTable",
+    "props": {
+      "table": "country_list",
+      "hideHeading": true
+    }
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A16",
+    "renderer": "AppendixTable",
+    "props": {
+      "table": "occ1950_parent_field_correspondence",
+      "hideHeading": true,
+      "hideNote": true
+    }
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A17",
+    "renderer": "FigurePermTest",
+    "props": {
+      "note": "Grey bars: simulated distribution of parent-child field match shares across 10,000 random reassignments. This shows the expected distribution if laureates are randomly assigned to fields. Dashed line: simulation mean (expected under null). Red line: empirically observed match share. p-value = fraction of simulations ≥ observed.",
+      "panels": [
+        {
+          "key": "good_nonecon_sample",
+          "label": "Good match",
+          "subtitle": "(direct field link)"
+        },
+        {
+          "key": "prof_match_nonecon_sample",
+          "label": "Professors",
+          "subtitle": "(father was a professor)"
+        },
+        {
+          "key": "nonprof_match_nonecon_sample",
+          "label": "Non-professors",
+          "subtitle": "(field-linked, non-professor)"
+        },
+        {
+          "key": "weak_match_nonecon_sample",
+          "label": "Weak match",
+          "subtitle": "(indirect topical link)"
+        }
+      ]
+    }
+  },
+  {
+    "location": "results",
+    "kind": "sidebar",
+    "annotation": "A18",
+    "renderer": "FigureFieldMatch",
+    "props": {}
+  },
+  {
+    "location": "data-and-measurement",
+    "kind": "sidebar",
+    "annotation": "A3",
+    "renderer": "AppendixTable",
+    "props": {
+      "table": "gender_spec_robust",
+      "hideHeading": true
+    }
+  },
+  {
+    "location": "data-and-measurement",
+    "kind": "sidebar",
+    "annotation": "A4",
+    "renderer": "RankWalkthrough",
+    "props": {}
+  }
+]

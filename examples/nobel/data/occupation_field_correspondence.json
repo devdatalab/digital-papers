@@ -1,0 +1,703 @@
+{
+  "meta": {
+    "why": "Published occupation-to-field correspondence for appendix exhibit A16, separate from the occupation-share tables.",
+    "upstream": "https://paulnovosad.com/pdf/nobel-prizes.pdf#page=44",
+    "paper_table": "A13",
+    "method": "Transcribed published labels, counts, fields, and panels; cross-checked field assignments against replication/data/occ1950_sci_field_classification.csv.",
+    "layout": "Left-hand entries followed by right-hand entries within each panel, displayed as one table."
+  },
+  "groups": [
+    {
+      "label": "A. Professors",
+      "rows": [
+        {
+          "code": 16,
+          "occupation": "Engineering-professors and instructors",
+          "n": 6,
+          "field": "Physics"
+        },
+        {
+          "code": 23,
+          "occupation": "Physics-professors and instructors",
+          "n": 5,
+          "field": "Physics"
+        },
+        {
+          "code": 13,
+          "occupation": "Biological sciences-professors and instructors",
+          "n": 11,
+          "field": "Physiology"
+        },
+        {
+          "code": 62,
+          "occupation": "Biological scientists",
+          "n": 7,
+          "field": "Physiology"
+        },
+        {
+          "code": 19,
+          "occupation": "Medical sciences-professors and instructors",
+          "n": 5,
+          "field": "Physiology"
+        },
+        {
+          "code": 14,
+          "occupation": "Chemistry-professors and instructors",
+          "n": 9,
+          "field": "Chemistry"
+        },
+        {
+          "code": 15,
+          "occupation": "Economics-professors and instructors",
+          "n": 2,
+          "field": "Economics"
+        },
+        {
+          "code": 27,
+          "occupation": "Social sciences (nec)-professors and instructors",
+          "n": 9,
+          "field": "Economics"
+        },
+        {
+          "code": 12,
+          "occupation": "Agricultural sciences-professors and instructors",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 10,
+          "occupation": "College presidents and deans",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 17,
+          "occupation": "Geology and geophysics-professors and instructors",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 18,
+          "occupation": "Mathematics-professors and instructors",
+          "n": 5,
+          "field": "No match"
+        },
+        {
+          "code": 69,
+          "occupation": "Misc. natural scientists",
+          "n": 6,
+          "field": "No match"
+        },
+        {
+          "code": 26,
+          "occupation": "Natural science (nec)-professors and instructors",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 28,
+          "occupation": "Non-scientific subjects-professors and instructors",
+          "n": 3,
+          "field": "No match"
+        },
+        {
+          "code": 25,
+          "occupation": "Statistics-professors and instructors",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 29,
+          "occupation": "Subject not specified-professors and instructors",
+          "n": 14,
+          "field": "No match"
+        }
+      ]
+    },
+    {
+      "label": "B. Non-Professor Occupations with Technical Links to Nobel Fields",
+      "rows": [
+        {
+          "code": 41,
+          "occupation": "Aeronautical-engineers",
+          "n": 2,
+          "field": "Physics"
+        },
+        {
+          "code": 43,
+          "occupation": "Civil-engineers",
+          "n": 7,
+          "field": "Physics"
+        },
+        {
+          "code": 44,
+          "occupation": "Electrical-engineers",
+          "n": 14,
+          "field": "Physics"
+        },
+        {
+          "code": 49,
+          "occupation": "Engineers (nec)",
+          "n": 19,
+          "field": "Physics"
+        },
+        {
+          "code": 45,
+          "occupation": "Industrial-engineers",
+          "n": 4,
+          "field": "Physics"
+        },
+        {
+          "code": 46,
+          "occupation": "Mechanical-engineers",
+          "n": 6,
+          "field": "Physics"
+        },
+        {
+          "code": 48,
+          "occupation": "Mining-engineers",
+          "n": 3,
+          "field": "Physics"
+        },
+        {
+          "code": 68,
+          "occupation": "Physicists",
+          "n": 7,
+          "field": "Physics"
+        },
+        {
+          "code": 71,
+          "occupation": "Osteopaths",
+          "n": 1,
+          "field": "Physiology"
+        },
+        {
+          "code": 73,
+          "occupation": "Pharmacists",
+          "n": 9,
+          "field": "Physiology"
+        },
+        {
+          "code": 75,
+          "occupation": "Physicians and surgeons",
+          "n": 60,
+          "field": "Physiology"
+        },
+        {
+          "code": 42,
+          "occupation": "Chemical-engineers",
+          "n": 5,
+          "field": "Chemistry"
+        },
+        {
+          "code": 7,
+          "occupation": "Chemists",
+          "n": 11,
+          "field": "Chemistry"
+        },
+        {
+          "code": 81,
+          "occupation": "Economists",
+          "n": 3,
+          "field": "Economics"
+        }
+      ]
+    },
+    {
+      "label": "C. Occupations that are Topically Adjacent to Nobel Fields",
+      "rows": [
+        {
+          "code": 550,
+          "occupation": "Automobile-mechanics and repairmen",
+          "n": 3,
+          "field": "Physics"
+        },
+        {
+          "code": 63,
+          "occupation": "Geologists and geophysicists",
+          "n": 1,
+          "field": "Physics"
+        },
+        {
+          "code": 541,
+          "occupation": "Locomotive engineers",
+          "n": 1,
+          "field": "Physics"
+        },
+        {
+          "code": 544,
+          "occupation": "Machinists",
+          "n": 1,
+          "field": "Physics"
+        },
+        {
+          "code": 604,
+          "occupation": "Machinists and toolmakers apprentice",
+          "n": 1,
+          "field": "Physics"
+        },
+        {
+          "code": 554,
+          "occupation": "Mechanics and repairmen (nec)",
+          "n": 3,
+          "field": "Physics"
+        },
+        {
+          "code": 32,
+          "occupation": "Dentists",
+          "n": 7,
+          "field": "Physiology"
+        },
+        {
+          "code": 82,
+          "occupation": "Psychologists",
+          "n": 1,
+          "field": "Physiology"
+        },
+        {
+          "code": 98,
+          "occupation": "Veterinarians",
+          "n": 2,
+          "field": "Physiology"
+        },
+        {
+          "code": 671,
+          "occupation": "Photographic process workers",
+          "n": 1,
+          "field": "Chemistry"
+        },
+        {
+          "code": 0,
+          "occupation": "Accountants and auditors",
+          "n": 16,
+          "field": "Economics"
+        },
+        {
+          "code": 305,
+          "occupation": "Bank tellers",
+          "n": 2,
+          "field": "Economics"
+        },
+        {
+          "code": 201,
+          "occupation": "Buyers and shippers, farm products",
+          "n": 6,
+          "field": "Economics"
+        },
+        {
+          "code": 205,
+          "occupation": "Floormen and floor managers, store",
+          "n": 3,
+          "field": "Economics"
+        },
+        {
+          "code": 450,
+          "occupation": "Insurance agents and brokers",
+          "n": 11,
+          "field": "Economics"
+        },
+        {
+          "code": 290,
+          "occupation": "Managers, officials, and proprietors (nec)",
+          "n": 108,
+          "field": "Economics"
+        },
+        {
+          "code": 250,
+          "occupation": "Officials and administrators (nec), public administration",
+          "n": 42,
+          "field": "Economics"
+        },
+        {
+          "code": 280,
+          "occupation": "Purchasing agents and buyers (nec)",
+          "n": 1,
+          "field": "Economics"
+        },
+        {
+          "code": 470,
+          "occupation": "Real estate agents and brokers",
+          "n": 3,
+          "field": "Economics"
+        },
+        {
+          "code": 490,
+          "occupation": "Salesmen and sales clerks (nec)",
+          "n": 17,
+          "field": "Economics"
+        },
+        {
+          "code": 83,
+          "occupation": "Statisticians and actuaries",
+          "n": 1,
+          "field": "Economics"
+        },
+        {
+          "code": 480,
+          "occupation": "Stock and bond salesmen",
+          "n": 4,
+          "field": "Economics"
+        }
+      ]
+    },
+    {
+      "label": "D. Other Occupations",
+      "rows": [
+        {
+          "code": 400,
+          "occupation": "Advertising agents and salesmen",
+          "n": 5,
+          "field": "No match"
+        },
+        {
+          "code": 61,
+          "occupation": "Agricultural scientists",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 2,
+          "occupation": "Airplane pilots and navigators",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 3,
+          "occupation": "Architects",
+          "n": 4,
+          "field": "No match"
+        },
+        {
+          "code": 4,
+          "occupation": "Artists and art teachers",
+          "n": 3,
+          "field": "No match"
+        },
+        {
+          "code": 6,
+          "occupation": "Authors",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 500,
+          "occupation": "Bakers",
+          "n": 3,
+          "field": "No match"
+        },
+        {
+          "code": 504,
+          "occupation": "Brickmasons, stonemasons, and tile setters",
+          "n": 3,
+          "field": "No match"
+        },
+        {
+          "code": 510,
+          "occupation": "Carpenters",
+          "n": 12,
+          "field": "No match"
+        },
+        {
+          "code": 511,
+          "occupation": "Cement and concrete finishers",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 9,
+          "occupation": "Clergymen",
+          "n": 16,
+          "field": "No match"
+        },
+        {
+          "code": 390,
+          "occupation": "Clerical and kindred workers (n.e.c.)",
+          "n": 5,
+          "field": "No match"
+        },
+        {
+          "code": 631,
+          "occupation": "Conductors, bus and street railway",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 594,
+          "occupation": "Craftsmen and kindred workers (nec)",
+          "n": 3,
+          "field": "No match"
+        },
+        {
+          "code": 632,
+          "occupation": "Deliverymen and routemen",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 36,
+          "occupation": "Editors and reporters",
+          "n": 7,
+          "field": "No match"
+        },
+        {
+          "code": 840,
+          "occupation": "Farm service laborers, self-employed",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 100,
+          "occupation": "Farmers (owners and tenants)",
+          "n": 22,
+          "field": "No match"
+        },
+        {
+          "code": 523,
+          "occupation": "Foremen (nec)",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 53,
+          "occupation": "Foresters and conservationists",
+          "n": 4,
+          "field": "No match"
+        },
+        {
+          "code": 525,
+          "occupation": "Furriers",
+          "n": 4,
+          "field": "No match"
+        },
+        {
+          "code": 930,
+          "occupation": "Gardeners, except farm and groundskeepers",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 430,
+          "occupation": "Hucksters and peddlers",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 534,
+          "occupation": "Jewelers, watchmakers, goldsmiths, and silversmiths",
+          "n": 3,
+          "field": "No match"
+        },
+        {
+          "code": 970,
+          "occupation": "Laborers (nec)",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 643,
+          "occupation": "Laundry and dry cleaning operatives",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 55,
+          "occupation": "Lawyers and judges",
+          "n": 29,
+          "field": "No match"
+        },
+        {
+          "code": 230,
+          "occupation": "Managers and superintendents, building",
+          "n": 4,
+          "field": "No match"
+        },
+        {
+          "code": 67,
+          "occupation": "Mathematicians",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 644,
+          "occupation": "Meat cutters, except slaughter and packing house",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 650,
+          "occupation": "Mine operatives and laborers",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 57,
+          "occupation": "Musicians and music teachers",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 240,
+          "occupation": "Officers, pilots, pursers and engineers, ship",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 690,
+          "occupation": "Operative and kindred workers (nec)",
+          "n": 4,
+          "field": "No match"
+        },
+        {
+          "code": 564,
+          "occupation": "Painters, construction and maintenance",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 570,
+          "occupation": "Pattern and model makers, except paper",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 74,
+          "occupation": "Photographers",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 574,
+          "occupation": "Plumbers and pipe fitters",
+          "n": 3,
+          "field": "No match"
+        },
+        {
+          "code": 270,
+          "occupation": "Postmasters",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 575,
+          "occupation": "Pressmen and plate printers, printing",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 99,
+          "occupation": "Professional, technical and kindred workers (nec)",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 674,
+          "occupation": "Sawyers",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 782,
+          "occupation": "Sheriffs and bailiffs",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 582,
+          "occupation": "Shoemakers and repairers, except factory",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 79,
+          "occupation": "Social and welfare workers, except group",
+          "n": 5,
+          "field": "No match"
+        },
+        {
+          "code": 675,
+          "occupation": "Spinners, textile",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 350,
+          "occupation": "Stenographers, typists, and secretaries",
+          "n": 4,
+          "field": "No match"
+        },
+        {
+          "code": 585,
+          "occupation": "Structural metal workers",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 92,
+          "occupation": "Surveyors",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 681,
+          "occupation": "Switchmen, railroad",
+          "n": 3,
+          "field": "No match"
+        },
+        {
+          "code": 590,
+          "occupation": "Tailors and tailoresses",
+          "n": 4,
+          "field": "No match"
+        },
+        {
+          "code": 93,
+          "occupation": "Teachers (n.e.c.)",
+          "n": 31,
+          "field": "No match"
+        },
+        {
+          "code": 365,
+          "occupation": "Telegraph operators",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 370,
+          "occupation": "Telephone operators",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 591,
+          "occupation": "Tinsmiths, coppersmiths, and sheet metal workers",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 683,
+          "occupation": "Truck and tractor drivers",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 784,
+          "occupation": "Waiters and waitresses",
+          "n": 1,
+          "field": "No match"
+        },
+        {
+          "code": 684,
+          "occupation": "Weavers, textile",
+          "n": 2,
+          "field": "No match"
+        },
+        {
+          "code": 685,
+          "occupation": "Welders and flame cutters",
+          "n": 1,
+          "field": "No match"
+        }
+      ]
+    }
+  ]
+}
